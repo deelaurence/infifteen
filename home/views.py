@@ -25,4 +25,4 @@ class Home(TemplateView):
         context = super().get_context_data(**kwargs)
         context['categories'] = len(categories)
         context['category'] = categories_count
-        return context
+        return context 

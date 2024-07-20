@@ -92,6 +92,14 @@ TEMPLATES = [
 WSGI_APPLICATION = '_core.wsgi.application'
 
 
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -156,7 +164,7 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = '/static/'
 # Example of STATICFILES_DIRS if you have static files outside of apps
 STATICFILES_DIRS = [
     BASE_DIR / "static",
