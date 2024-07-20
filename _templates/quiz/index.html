@@ -75,18 +75,18 @@
         <!-- <img src="https://cdn-icons-png.flaticon.com/128/16865/16865619.png" alt="">           -->
         <div>
             <h2 class=" text-4xl  sm:text-6xl  md:text-8xl mb-10 md:mb-16 font-bold" >Leaderboard.</h2>
-            <div class="flex gap-6 font-semibold">
-                <p class="w-8">Rank</p>
+            <div class="flex  font-semibold">
+                <p class="w-8">Rn.</p>
                 <p class="w-1/3">Name</p>
                 <p class="w-1/3">Category</p>
-                <p class="w-1/3">Points</p>
+                <p class="w-1/4">Points</p>
             </div>
             {% for result in leaderboard %}
-            <div class="flex gap-6 border-b-[1px] items-center py-4 border-shade4">
+            <div class="flex  border-b-[1px] items-center py-4 border-shade4">
                 <p class="w-8 text-xs underline ">{{ forloop.counter0|add:1 }} </p>
                 <p class="w-1/3  results-name">{{result.name}}</p>
                 <p class="w-1/3 ">{{result.category|capfirst}}</p>
-                <p class="w-1/3 ">{{result.fair_result}}</p>
+                <p class="w-1/4 ">{{result.fair_result}}</p>
             </div>
             {% endfor %}
 
@@ -344,7 +344,7 @@
         };
             
         //The time
-        const fifteenMinutes = 60 * 0.1;
+        const fifteenMinutes = 60 * 0.15;
         
 
         //Extract names coming from backend
