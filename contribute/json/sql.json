@@ -1,0 +1,798 @@
+[
+    {
+        "question_text": "What does the `LIMIT` clause do in SQL?",
+        "optionA": "The `LIMIT` clause specifies the maximum number of rows to return in a result set.",
+        "optionB": "The `LIMIT` clause sorts the result set by specified columns.",
+        "optionC": "The `LIMIT` clause groups rows that have the same values in specified columns.",
+        "optionD": "The `LIMIT` clause removes duplicate rows from the result set.",
+        "answer": "The `LIMIT` clause specifies the maximum number of rows to return in a result set.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What is the purpose of the `GROUP BY` clause in SQL?",
+        "optionA": "The `GROUP BY` clause groups rows that have the same values in specified columns into summary rows.",
+        "optionB": "The `GROUP BY` clause sorts the result set by specified columns.",
+        "optionC": "The `GROUP BY` clause removes duplicate rows from the result set.",
+        "optionD": "The `GROUP BY` clause filters records based on a condition.",
+        "answer": "The `GROUP BY` clause groups rows that have the same values in specified columns into summary rows.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `COALESCE` function do in SQL?",
+        "optionA": "The `COALESCE` function returns the first non-null value in a list.",
+        "optionB": "The `COALESCE` function returns the sum of a numeric column.",
+        "optionC": "The `COALESCE` function returns the average value of a numeric column.",
+        "optionD": "The `COALESCE` function returns the maximum value in a column.",
+        "answer": "The `COALESCE` function returns the first non-null value in a list.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `CASE` statement do in SQL?",
+        "optionA": "The `CASE` statement goes through conditions and returns a value when the first condition is met.",
+        "optionB": "The `CASE` statement removes duplicate rows from the result set.",
+        "optionC": "The `CASE` statement groups rows that have the same values in specified columns.",
+        "optionD": "The `CASE` statement sorts the result set by specified columns.",
+        "answer": "The `CASE` statement goes through conditions and returns a value when the first condition is met.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What is the purpose of the `EXISTS` keyword in SQL?",
+        "optionA": "The `EXISTS` keyword tests for the existence of any record in a subquery.",
+        "optionB": "The `EXISTS` keyword removes duplicate rows from the result set.",
+        "optionC": "The `EXISTS` keyword groups rows that have the same values in specified columns.",
+        "optionD": "The `EXISTS` keyword sorts the result set by specified columns.",
+        "answer": "The `EXISTS` keyword tests for the existence of any record in a subquery.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `HAVING` clause do in SQL?",
+        "optionA": "The `HAVING` clause filters records that work on summarized `GROUP BY` results.",
+        "optionB": "The `HAVING` clause sorts the result set by specified columns.",
+        "optionC": "The `HAVING` clause removes duplicate rows from the result set.",
+        "optionD": "The `HAVING` clause groups rows that have the same values in specified columns.",
+        "answer": "The `HAVING` clause filters records that work on summarized `GROUP BY` results.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What is the purpose of the `ALL` keyword in SQL?",
+        "optionA": "The `ALL` keyword returns true if all of the subquery values meet the condition.",
+        "optionB": "The `ALL` keyword removes duplicate rows from the result set.",
+        "optionC": "The `ALL` keyword groups rows that have the same values in specified columns.",
+        "optionD": "The `ALL` keyword sorts the result set by specified columns.",
+        "answer": "The `ALL` keyword returns true if all of the subquery values meet the condition.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `ANY` keyword do in SQL?",
+        "optionA": "The `ANY` keyword returns true if any of the subquery values meet the condition.",
+        "optionB": "The `ANY` keyword removes duplicate rows from the result set.",
+        "optionC": "The `ANY` keyword groups rows that have the same values in specified columns.",
+        "optionD": "The `ANY` keyword sorts the result set by specified columns.",
+        "answer": "The `ANY` keyword returns true if any of the subquery values meet the condition.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `UNION ALL` operator do in SQL?",
+        "optionA": "The `UNION ALL` operator combines the result sets of two or more SELECT statements, including duplicates.",
+        "optionB": "The `UNION ALL` operator removes duplicate rows from the result set.",
+        "optionC": "The `UNION ALL` operator groups rows that have the same values in specified columns.",
+        "optionD": "The `UNION ALL` operator sorts the result set by specified columns.",
+        "answer": "The `UNION ALL` operator combines the result sets of two or more SELECT statements, including duplicates.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `CHAR_LENGTH` function do in SQL?",
+        "optionA": "The `CHAR_LENGTH` function returns the length of a string in characters.",
+        "optionB": "The `CHAR_LENGTH` function returns the length of a string in bytes.",
+        "optionC": "The `CHAR_LENGTH` function returns the length of a string in bits.",
+        "optionD": "The `CHAR_LENGTH` function returns the length of a string in words.",
+        "answer": "The `CHAR_LENGTH` function returns the length of a string in characters.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `INSERT INTO` statement do in SQL?",
+        "optionA": "The `INSERT INTO` statement adds new rows to a table.",
+        "optionB": "The `INSERT INTO` statement updates existing rows in a table.",
+        "optionC": "The `INSERT INTO` statement deletes rows from a table.",
+        "optionD": "The `INSERT INTO` statement creates a new table.",
+        "answer": "The `INSERT INTO` statement adds new rows to a table.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `REPLACE` function do in SQL?",
+        "optionA": "The `REPLACE` function replaces all occurrences of a specified string in a column with another string.",
+        "optionB": "The `REPLACE` function updates existing rows in a table.",
+        "optionC": "The `REPLACE` function deletes rows from a table.",
+        "optionD": "The `REPLACE` function creates a new table.",
+        "answer": "The `REPLACE` function replaces all occurrences of a specified string in a column with another string.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `RTRIM` function do in SQL?",
+        "optionA": "The `RTRIM` function removes trailing spaces from a string.",
+        "optionB": "The `RTRIM` function removes leading spaces from a string.",
+        "optionC": "The `RTRIM` function removes all spaces from a string.",
+        "optionD": "The `RTRIM` function removes a specified character from a string.",
+        "answer": "The `RTRIM` function removes trailing spaces from a string.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What is the purpose of the `ROUND` function in SQL?",
+        "optionA": "The `ROUND` function rounds a numeric field to the number of decimals specified.",
+        "optionB": "The `ROUND` function returns the absolute value of a number.",
+        "optionC": "The `ROUND` function returns the largest integer value that is less than or equal to a number.",
+        "optionD": "The `ROUND` function returns the smallest integer value that is greater than or equal to a number.",
+        "answer": "The `ROUND` function rounds a numeric field to the number of decimals specified.",
+        "category": "SQL"
+    },
+    {
+        "question_text": "What does the `CONCAT` function do in SQL?",
+        "optionA": "The `CONCAT` function concatenates two or more strings into a single string.",
+        "optionB": "The `CONCAT` function removes leading spaces from a string.",
+        "optionC": "The `CONCAT` function removes trailing spaces from a string.",
+        "optionD": "The `CONCAT` function replaces all occurrences of a specified string in a column with another string.",
+        "answer": "The `CONCAT` function concatenates two or more strings into a single string."
+    }, 
+    {
+            "question_text": "What is a `JOIN` in SQL?",
+            "optionA": "A `JOIN` combines rows from two or more tables based on a related column.",
+            "optionB": "A `JOIN` deletes rows from two or more tables based on a condition.",
+            "optionC": "A `JOIN` updates rows in two or more tables based on a condition.",
+            "optionD": "A `JOIN` creates a new table by merging two or more existing tables.",
+            "answer": "A `JOIN` combines rows from two or more tables based on a related column.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `LEFT JOIN` clause do in SQL?",
+            "optionA": "The `LEFT JOIN` clause returns all rows from the left table and matching rows from the right table.",
+            "optionB": "The `LEFT JOIN` clause returns only the rows that have matching values in both tables.",
+            "optionC": "The `LEFT JOIN` clause deletes all rows from the left table.",
+            "optionD": "The `LEFT JOIN` clause updates matching rows in the left table.",
+            "answer": "The `LEFT JOIN` clause returns all rows from the left table and matching rows from the right table.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `COUNT` function in SQL?",
+            "optionA": "The `COUNT` function returns the number of rows that match a specified condition.",
+            "optionB": "The `COUNT` function returns the sum of a numeric column.",
+            "optionC": "The `COUNT` function returns the average value of a numeric column.",
+            "optionD": "The `COUNT` function returns the maximum value in a column.",
+            "answer": "The `COUNT` function returns the number of rows that match a specified condition.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `RIGHT JOIN` clause do in SQL?",
+            "optionA": "The `RIGHT JOIN` clause returns all rows from the right table and matching rows from the left table.",
+            "optionB": "The `RIGHT JOIN` clause returns only the rows that have matching values in both tables.",
+            "optionC": "The `RIGHT JOIN` clause deletes all rows from the right table.",
+            "optionD": "The `RIGHT JOIN` clause updates matching rows in the right table.",
+            "answer": "The `RIGHT JOIN` clause returns all rows from the right table and matching rows from the left table.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `ORDER BY` clause in SQL?",
+            "optionA": "The `ORDER BY` clause sorts the result set in ascending or descending order.",
+            "optionB": "The `ORDER BY` clause groups rows that have the same values in specified columns.",
+            "optionC": "The `ORDER BY` clause filters records based on a condition.",
+            "optionD": "The `ORDER BY` clause removes duplicate rows from the result set.",
+            "answer": "The `ORDER BY` clause sorts the result set in ascending or descending order.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `IS NULL` operator in SQL?",
+            "optionA": "The `IS NULL` operator is used to filter records with null values.",
+            "optionB": "The `IS NULL` operator is used to update records with null values.",
+            "optionC": "The `IS NULL` operator is used to delete records with null values.",
+            "optionD": "The `IS NULL` operator is used to group records with null values.",
+            "answer": "The `IS NULL` operator is used to filter records with null values.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `NOT NULL` constraint do in SQL?",
+            "optionA": "The `NOT NULL` constraint ensures that a column cannot have a null value.",
+            "optionB": "The `NOT NULL` constraint ensures that a column has a unique value.",
+            "optionC": "The `NOT NULL` constraint sets a default value for a column.",
+            "optionD": "The `NOT NULL` constraint links two tables together.",
+            "answer": "The `NOT NULL` constraint ensures that a column cannot have a null value.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you create a new table in SQL?",
+            "optionA": "Using the `CREATE TABLE` statement.",
+            "optionB": "Using the `INSERT TABLE` statement.",
+            "optionC": "Using the `NEW TABLE` statement.",
+            "optionD": "Using the `ALTER TABLE` statement.",
+            "answer": "Using the `CREATE TABLE` statement.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is a `subquery` in SQL?",
+            "optionA": "A `subquery` is a query nested inside another query.",
+            "optionB": "A `subquery` is a query that updates records in a table.",
+            "optionC": "A `subquery` is a query that deletes records from a table.",
+            "optionD": "A `subquery` is a query that creates a new table.",
+            "answer": "A `subquery` is a query nested inside another query.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `ALTER TABLE` statement with the `DROP COLUMN` clause do in SQL?",
+            "optionA": "It removes a column from an existing table.",
+            "optionB": "It deletes all rows from a table.",
+            "optionC": "It adds a new column to an existing table.",
+            "optionD": "It renames a column in an existing table.",
+            "answer": "It removes a column from an existing table.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you rename a table in SQL?",
+            "optionA": "Using the `ALTER TABLE` statement with the `RENAME TO` clause.",
+            "optionB": "Using the `UPDATE TABLE` statement with the `RENAME TO` clause.",
+            "optionC": "Using the `MODIFY TABLE` statement with the `RENAME TO` clause.",
+            "optionD": "Using the `CHANGE TABLE` statement with the `RENAME TO` clause.",
+            "answer": "Using the `ALTER TABLE` statement with the `RENAME TO` clause.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `UNIQUE` constraint in SQL?",
+            "optionA": "The `UNIQUE` constraint ensures that all values in a column are different.",
+            "optionB": "The `UNIQUE` constraint ensures that a column cannot have a null value.",
+            "optionC": "The `UNIQUE` constraint sets a default value for a column.",
+            "optionD": "The `UNIQUE` constraint links two tables together.",
+            "answer": "The `UNIQUE` constraint ensures that all values in a column are different.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `DELETE` statement do in SQL?",
+            "optionA": "The `DELETE` statement removes rows from a table based on a condition.",
+            "optionB": "The `DELETE` statement removes a table structure from the database.",
+            "optionC": "The `DELETE` statement updates all rows in a table.",
+            "optionD": "The `DELETE` statement renames a table.",
+            "answer": "The `DELETE` statement removes rows from a table based on a condition.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you remove duplicates from a result set in SQL?",
+            "optionA": "Using the `DISTINCT` keyword in the `SELECT` statement.",
+            "optionB": "Using the `GROUP BY` clause in the `SELECT` statement.",
+            "optionC": "Using the `ORDER BY` clause in the `SELECT` statement.",
+            "optionD": "Using the `WHERE` clause in the `SELECT` statement.",
+            "answer": "Using the `DISTINCT` keyword in the `SELECT` statement.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `ROWNUM` keyword in SQL?",
+            "optionA": "The `ROWNUM` keyword assigns a unique number to each row in the result set.",
+            "optionB": "The `ROWNUM` keyword sorts the result set by specified columns.",
+            "optionC": "The `ROWNUM` keyword groups rows that have the same values in specified columns.",
+            "optionD": "The `ROWNUM` keyword filters records based on a condition.",
+            "answer": "The `ROWNUM` keyword assigns a unique number to each row in the result set.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `FULL OUTER JOIN` clause do in SQL?",
+            "optionA": "The `FULL OUTER JOIN` clause returns all rows when there is a match in one of the tables.",
+            "optionB": "The `FULL OUTER JOIN` clause returns only the rows that have matching values in both tables.",
+            "optionC": "The `FULL OUTER JOIN` clause deletes matching rows from both tables.",
+            "optionD": "The `FULL OUTER JOIN` clause updates matching rows in both tables.",
+            "answer": "The `FULL OUTER JOIN` clause returns all rows when there is a match in one of the tables.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `HAVING` clause in SQL?",
+            "optionA": "The `HAVING` clause filters records that work on aggregated data.",
+            "optionB": "The `HAVING` clause removes duplicate rows from the result set.",
+            "optionC": "The `HAVING` clause sorts the result set by specified columns.",
+            "optionD": "The `HAVING` clause groups rows that have the same values in specified columns.",
+            "answer": "The `HAVING` clause filters records that work on aggregated data.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `TRUNCATE TABLE` statement do in SQL?",
+            "optionA": "The `TRUNCATE TABLE` statement removes all rows from a table without logging individual row deletions.",
+            "optionB": "The `TRUNCATE TABLE` statement removes the table structure from the database.",
+            "optionC": "The `TRUNCATE TABLE` statement updates all rows in a table.",
+            "optionD": "The `TRUNCATE TABLE` statement renames a table.",
+            "answer": "The `TRUNCATE TABLE` statement removes all rows from a table without logging individual row deletions.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `PRIMARY KEY` constraint in SQL?",
+            "optionA": "The `PRIMARY KEY` constraint uniquely identifies each record in a database table.",
+            "optionB": "The `PRIMARY KEY` constraint ensures that a column cannot have a null value.",
+            "optionC": "The `PRIMARY KEY` constraint sets a default value for a column.",
+            "optionD": "The `PRIMARY KEY` constraint links two tables together.",
+            "answer": "The `PRIMARY KEY` constraint uniquely identifies each record in a database table.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `AUTO_INCREMENT` attribute in SQL?",
+            "optionA": "The `AUTO_INCREMENT` attribute automatically generates a unique number for each new record.",
+            "optionB": "The `AUTO_INCREMENT` attribute sets a default value for a column.",
+            "optionC": "The `AUTO_INCREMENT` attribute ensures that a column cannot have a null value.",
+            "optionD": "The `AUTO_INCREMENT` attribute links two tables together.",
+            "answer": "The `AUTO_INCREMENT` attribute automatically generates a unique number for each new record.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `LIKE` operator in SQL?",
+            "optionA": "The `LIKE` operator is used in a `WHERE` clause to search for a specified pattern in a column.",
+            "optionB": "The `LIKE` operator is used to create a new table.",
+            "optionC": "The `LIKE` operator is used to update records in a table.",
+            "optionD": "The `LIKE` operator is used to delete records from a table.",
+            "answer": "The `LIKE` operator is used in a `WHERE` clause to search for a specified pattern in a column.",
+            "category": "SQL"
+        },
+    
+        {
+            "question_text": "What is a primary key in SQL?",
+            "optionA": "A primary key uniquely identifies each record in a table.",
+            "optionB": "A primary key allows duplicate values in a table.",
+            "optionC": "A primary key is used to link two tables together.",
+            "optionD": "A primary key is used to store binary data.",
+            "answer": "A primary key uniquely identifies each record in a table.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is a foreign key in SQL?",
+            "optionA": "A foreign key is a column that creates a relationship between two tables.",
+            "optionB": "A foreign key is used to store unique values in a table.",
+            "optionC": "A foreign key is used to speed up queries on a table.",
+            "optionD": "A foreign key is a primary key of another table.",
+            "answer": "A foreign key is a column that creates a relationship between two tables.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `HAVING` clause in SQL?",
+            "optionA": "The `HAVING` clause filters records after grouping.",
+            "optionB": "The `HAVING` clause filters records before grouping.",
+            "optionC": "The `HAVING` clause sorts records in a result set.",
+            "optionD": "The `HAVING` clause deletes records from a table.",
+            "answer": "The `HAVING` clause filters records after grouping.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the difference between `INNER JOIN` and `OUTER JOIN` in SQL?",
+            "optionA": "`INNER JOIN` returns only matching records, while `OUTER JOIN` returns all records from one or both tables.",
+            "optionB": "`INNER JOIN` returns all records from both tables, while `OUTER JOIN` returns only matching records.",
+            "optionC": "`INNER JOIN` sorts records, while `OUTER JOIN` groups records.",
+            "optionD": "`INNER JOIN` deletes matching records, while `OUTER JOIN` updates matching records.",
+            "answer": "`INNER JOIN` returns only matching records, while `OUTER JOIN` returns all records from one or both tables.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you change the data type of a column in SQL?",
+            "optionA": "Using the `ALTER TABLE` statement with the `ALTER COLUMN` clause.",
+            "optionB": "Using the `MODIFY TABLE` statement with the `CHANGE TYPE` clause.",
+            "optionC": "Using the `UPDATE TABLE` statement with the `MODIFY COLUMN` clause.",
+            "optionD": "Using the `CHANGE TABLE` statement with the `ALTER TYPE` clause.",
+            "answer": "Using the `ALTER TABLE` statement with the `ALTER COLUMN` clause.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `GROUP BY` clause do in SQL?",
+            "optionA": "The `GROUP BY` clause groups rows that have the same values in specified columns.",
+            "optionB": "The `GROUP BY` clause sorts the result set by specified columns.",
+            "optionC": "The `GROUP BY` clause filters records based on a condition.",
+            "optionD": "The `GROUP BY` clause deletes duplicate records from a table.",
+            "answer": "The `GROUP BY` clause groups rows that have the same values in specified columns.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is a `VIEW` in SQL?",
+            "optionA": "A `VIEW` is a virtual table based on the result set of an SQL query.",
+            "optionB": "A `VIEW` is a physical table that stores data.",
+            "optionC": "A `VIEW` is a type of index that speeds up queries.",
+            "optionD": "A `VIEW` is a special type of primary key.",
+            "answer": "A `VIEW` is a virtual table based on the result set of an SQL query.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `TRUNCATE TABLE` statement do in SQL?",
+            "optionA": "The `TRUNCATE TABLE` statement removes all rows from a table without logging individual row deletions.",
+            "optionB": "The `TRUNCATE TABLE` statement removes a table structure from the database.",
+            "optionC": "The `TRUNCATE TABLE` statement renames a table.",
+            "optionD": "The `TRUNCATE TABLE` statement updates all rows in a table.",
+            "answer": "The `TRUNCATE TABLE` statement removes all rows from a table without logging individual row deletions.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you add a comment to an SQL query?",
+            "optionA": "Using `--` for single-line comments and `/* */` for multi-line comments.",
+            "optionB": "Using `#` for single-line comments and `##` for multi-line comments.",
+            "optionC": "Using `//` for single-line comments and `/**/` for multi-line comments.",
+            "optionD": "Using `;` for single-line comments and `::` for multi-line comments.",
+            "answer": "Using `--` for single-line comments and `/* */` for multi-line comments.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `DEFAULT` constraint in SQL?",
+            "optionA": "The `DEFAULT` constraint sets a default value for a column if no value is specified.",
+            "optionB": "The `DEFAULT` constraint ensures that each row has a unique value.",
+            "optionC": "The `DEFAULT` constraint checks the validity of data entered into a column.",
+            "optionD": "The `DEFAULT` constraint links two tables together.",
+            "answer": "The `DEFAULT` constraint sets a default value for a column if no value is specified.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you delete a table in SQL?",
+            "optionA": "Using the `DROP TABLE` statement.",
+            "optionB": "Using the `DELETE TABLE` statement.",
+            "optionC": "Using the `REMOVE TABLE` statement.",
+            "optionD": "Using the `TRUNCATE TABLE` statement.",
+            "answer": "Using the `DROP TABLE` statement.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `INDEX` in SQL?",
+            "optionA": "An `INDEX` is used to speed up the retrieval of rows by using a pointer.",
+            "optionB": "An `INDEX` is used to enforce data integrity.",
+            "optionC": "An `INDEX` is used to link two tables together.",
+            "optionD": "An `INDEX` is used to ensure unique values in a column.",
+            "answer": "An `INDEX` is used to speed up the retrieval of rows by using a pointer.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is a `stored procedure` in SQL?",
+            "optionA": "A `stored procedure` is a set of SQL statements that can be executed as a program.",
+            "optionB": "A `stored procedure` is a type of primary key.",
+            "optionC": "A `stored procedure` is a physical table that stores data.",
+            "optionD": "A `stored procedure` is an index that speeds up queries.",
+            "answer": "A `stored procedure` is a set of SQL statements that can be executed as a program.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `BETWEEN` operator do in SQL?",
+            "optionA": "The `BETWEEN` operator filters the result set within a certain range.",
+            "optionB": "The `BETWEEN` operator sorts the result set by specified columns.",
+            "optionC": "The `BETWEEN` operator groups rows that have the same values in specified columns.",
+            "optionD": "The `BETWEEN` operator deletes rows based on a condition.",
+            "answer": "The `BETWEEN` operator filters the result set within a certain range.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you find the second highest value in a column in SQL?",
+            "optionA": "Using the `ORDER BY` clause with the `LIMIT` clause.",
+            "optionB": "Using the `DISTINCT` keyword with the `LIMIT` clause.",
+            "optionC": "Using the `GROUP BY` clause with the `HAVING` clause.",
+            "optionD": "Using the `MAX` function twice.",
+            "answer": "Using the `ORDER BY` clause with the `LIMIT` clause.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `FOREIGN KEY` constraint in SQL?",
+            "optionA": "The `FOREIGN KEY` constraint links two tables together.",
+            "optionB": "The `FOREIGN KEY` constraint ensures unique values in a column.",
+            "optionC": "The `FOREIGN KEY` constraint speeds up the retrieval of rows.",
+            "optionD": "The `FOREIGN KEY` constraint sets a default value for a column.",
+            "answer": "The `FOREIGN KEY` constraint links two tables together.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `ALTER TABLE` statement do in SQL?",
+            "optionA": "The `ALTER TABLE` statement modifies an existing table.",
+            "optionB": "The `ALTER TABLE` statement creates a new table.",
+            "optionC": "The `ALTER TABLE` statement deletes an existing table.",
+            "optionD": "The `ALTER TABLE` statement renames a table.",
+            "answer": "The `ALTER TABLE` statement modifies an existing table.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you remove a column from an existing table in SQL?",
+            "optionA": "Using the `ALTER TABLE` statement with the `DROP COLUMN` clause.",
+            "optionB": "Using the `DELETE TABLE` statement with the `REMOVE COLUMN` clause.",
+            "optionC": "Using the `MODIFY TABLE` statement with the `DELETE COLUMN` clause.",
+            "optionD": "Using the `UPDATE TABLE` statement with the `REMOVE COLUMN` clause.",
+            "answer": "Using the `ALTER TABLE` statement with the `DROP COLUMN` clause.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `DISTINCT` keyword in SQL?",
+            "optionA": "The `DISTINCT` keyword removes duplicate rows from the result set.",
+            "optionB": "The `DISTINCT` keyword sorts the result set by specified columns.",
+            "optionC": "The `DISTINCT` keyword groups rows that have the same values in specified columns.",
+            "optionD": "The `DISTINCT` keyword filters the result set based on a condition.",
+            "answer": "The `DISTINCT` keyword removes duplicate rows from the result set.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `INNER JOIN` clause do in SQL?",
+            "optionA": "The `INNER JOIN` clause returns rows that have matching values in both tables.",
+            "optionB": "The `INNER JOIN` clause returns all rows from both tables.",
+            "optionC": "The `INNER JOIN` clause deletes matching rows from both tables.",
+            "optionD": "The `INNER JOIN` clause updates matching rows in both tables.",
+            "answer": "The `INNER JOIN` clause returns rows that have matching values in both tables.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the `UNION` operator used for in SQL?",
+            "optionA": "The `UNION` operator combines the result sets of two or more SELECT statements.",
+            "optionB": "The `UNION` operator deletes duplicate rows from a table.",
+            "optionC": "The `UNION` operator updates records in a table.",
+            "optionD": "The `UNION` operator groups rows that have the same values in specified columns.",
+            "answer": "The `UNION` operator combines the result sets of two or more SELECT statements.",
+            "category": "SQL"
+        },
+    
+        {
+            "question_text": "What does the `INSERT INTO` statement do in SQL?",
+            "optionA": "The `INSERT INTO` statement adds new records to a table.",
+            "optionB": "The `INSERT INTO` statement deletes records from a table.",
+            "optionC": "The `INSERT INTO` statement updates existing records in a table.",
+            "optionD": "The `INSERT INTO` statement modifies the table structure.",
+            "answer": "The `INSERT INTO` statement adds new records to a table.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `DISTINCT` keyword in SQL?",
+            "optionA": "The `DISTINCT` keyword returns only unique values in a result set.",
+            "optionB": "The `DISTINCT` keyword sorts the result set in ascending order.",
+            "optionC": "The `DISTINCT` keyword groups records based on a column value.",
+            "optionD": "The `DISTINCT` keyword deletes duplicate records from a table.",
+            "answer": "The `DISTINCT` keyword returns only unique values in a result set.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you add a new column to an existing table in SQL?",
+            "optionA": "Using the `ALTER TABLE` statement.",
+            "optionB": "Using the `MODIFY TABLE` statement.",
+            "optionC": "Using the `UPDATE TABLE` statement.",
+            "optionD": "Using the `CHANGE TABLE` statement.",
+            "answer": "Using the `ALTER TABLE` statement.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `LIMIT` clause do in SQL?",
+            "optionA": "The `LIMIT` clause restricts the number of rows returned in a query result.",
+            "optionB": "The `LIMIT` clause deletes a specified number of rows from a table.",
+            "optionC": "The `LIMIT` clause updates a specified number of rows in a table.",
+            "optionD": "The `LIMIT` clause groups rows into a specified number of groups.",
+            "answer": "The `LIMIT` clause restricts the number of rows returned in a query result.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `ORDER BY` clause in SQL?",
+            "optionA": "The `ORDER BY` clause sorts the result set by one or more columns.",
+            "optionB": "The `ORDER BY` clause filters records based on a condition.",
+            "optionC": "The `ORDER BY` clause groups records into summary rows.",
+            "optionD": "The `ORDER BY` clause deletes duplicate records from a table.",
+            "answer": "The `ORDER BY` clause sorts the result set by one or more columns.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you rename a table in SQL?",
+            "optionA": "Using the `ALTER TABLE` statement with the `RENAME TO` clause.",
+            "optionB": "Using the `MODIFY TABLE` statement with the `RENAME` clause.",
+            "optionC": "Using the `CHANGE TABLE` statement with the `RENAME` clause.",
+            "optionD": "Using the `UPDATE TABLE` statement with the `RENAME TO` clause.",
+            "answer": "Using the `ALTER TABLE` statement with the `RENAME TO` clause.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `UNION` operator in SQL?",
+            "optionA": "The `UNION` operator combines the result sets of two or more `SELECT` statements.",
+            "optionB": "The `UNION` operator deletes duplicate records from two tables.",
+            "optionC": "The `UNION` operator updates records in multiple tables.",
+            "optionD": "The `UNION` operator sorts records in ascending order.",
+            "answer": "The `UNION` operator combines the result sets of two or more `SELECT` statements.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you remove a column from a table in SQL?",
+            "optionA": "Using the `ALTER TABLE` statement with the `DROP COLUMN` clause.",
+            "optionB": "Using the `MODIFY TABLE` statement with the `REMOVE COLUMN` clause.",
+            "optionC": "Using the `CHANGE TABLE` statement with the `DELETE COLUMN` clause.",
+            "optionD": "Using the `UPDATE TABLE` statement with the `ERASE COLUMN` clause.",
+            "answer": "Using the `ALTER TABLE` statement with the `DROP COLUMN` clause.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `COUNT` function do in SQL?",
+            "optionA": "The `COUNT` function returns the number of rows that match a specified condition.",
+            "optionB": "The `COUNT` function returns the sum of all values in a column.",
+            "optionC": "The `COUNT` function returns the average value of a numeric column.",
+            "optionD": "The `COUNT` function returns the highest value in a column.",
+            "answer": "The `COUNT` function returns the number of rows that match a specified condition.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you create a new table in SQL?",
+            "optionA": "Using the `CREATE TABLE` statement.",
+            "optionB": "Using the `MAKE TABLE` statement.",
+            "optionC": "Using the `BUILD TABLE` statement.",
+            "optionD": "Using the `NEW TABLE` statement.",
+            "answer": "Using the `CREATE TABLE` statement.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `AVG` function in SQL?",
+            "optionA": "The `AVG` function returns the average value of a numeric column.",
+            "optionB": "The `AVG` function returns the total sum of a numeric column.",
+            "optionC": "The `AVG` function returns the highest value in a column.",
+            "optionD": "The `AVG` function returns the lowest value in a column.",
+            "answer": "The `AVG` function returns the average value of a numeric column.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `MAX` function do in SQL?",
+            "optionA": "The `MAX` function returns the highest value in a specified column.",
+            "optionB": "The `MAX` function returns the lowest value in a specified column.",
+            "optionC": "The `MAX` function returns the total sum of a numeric column.",
+            "optionD": "The `MAX` function returns the average value of a numeric column.",
+            "answer": "The `MAX` function returns the highest value in a specified column.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is a subquery in SQL?",
+            "optionA": "A subquery is a query nested inside another query.",
+            "optionB": "A subquery is a query that deletes records from a table.",
+            "optionC": "A subquery is a query that updates records in a table.",
+            "optionD": "A subquery is a query that sorts the results of a table.",
+            "answer": "A subquery is a query nested inside another query.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `MIN` function do in SQL?",
+            "optionA": "The `MIN` function returns the lowest value in a specified column.",
+            "optionB": "The `MIN` function returns the highest value in a specified column.",
+            "optionC": "The `MIN` function returns the total sum of a numeric column.",
+            "optionD": "The `MIN` function returns the average value of a numeric column.",
+            "answer": "The `MIN` function returns the lowest value in a specified column.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `IS NULL` operator in SQL?",
+            "optionA": "The `IS NULL` operator checks if a column has a NULL value.",
+            "optionB": "The `IS NULL` operator checks if a column has a non-NULL value.",
+            "optionC": "The `IS NULL` operator updates columns with NULL values.",
+            "optionD": "The `IS NULL` operator deletes rows with NULL values.",
+            "answer": "The `IS NULL` operator checks if a column has a NULL value.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you sort the result set of a query in descending order in SQL?",
+            "optionA": "Using the `ORDER BY` clause with the `DESC` keyword.",
+            "optionB": "Using the `SORT BY` clause with the `DESC` keyword.",
+            "optionC": "Using the `GROUP BY` clause with the `DESC` keyword.",
+            "optionD": "Using the `LIMIT` clause with the `DESC` keyword.",
+            "answer": "Using the `ORDER BY` clause with the `DESC` keyword.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `SUM` function do in SQL?",
+            "optionA": "The `SUM` function returns the total sum of a numeric column.",
+            "optionB": "The `SUM` function returns the average value of a numeric column.",
+            "optionC": "The `SUM` function returns the highest value in a specified column.",
+            "optionD": "The `SUM` function returns the lowest value in a specified column.",
+            "answer": "The `SUM` function returns the total sum of a numeric column.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `LIKE` operator in SQL?",
+            "optionA": "The `LIKE` operator is used to search for a specified pattern in a column.",
+            "optionB": "The `LIKE` operator is used to sort the result set in a specified order.",
+            "optionC": "The `LIKE` operator is used to group rows based on a specified condition.",
+            "optionD": "The `LIKE` operator is used to delete rows based on a specified condition.",
+            "answer": "The `LIKE` operator is used to search for a specified pattern in a column.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you add a constraint to an existing table in SQL?",
+            "optionA": "Using the `ALTER TABLE` statement with the `ADD CONSTRAINT` clause.",
+            "optionB": "Using the `MODIFY TABLE` statement with the `ADD CONSTRAINT` clause.",
+            "optionC": "Using the `CHANGE TABLE` statement with the `ADD CONSTRAINT` clause.",
+            "optionD": "Using the `UPDATE TABLE` statement with the `ADD CONSTRAINT` clause.",
+            "answer": "Using the `ALTER TABLE` statement with the `ADD CONSTRAINT` clause.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `CREATE INDEX` statement do in SQL?",
+            "optionA": "The `CREATE INDEX` statement creates an index on a table to speed up queries.",
+            "optionB": "The `CREATE INDEX` statement creates a new table in the database.",
+            "optionC": "The `CREATE INDEX` statement updates the values of a column.",
+            "optionD": "The `CREATE INDEX` statement deletes an existing index on a table.",
+            "answer": "The `CREATE INDEX` statement creates an index on a table to speed up queries.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `CHECK` constraint in SQL?",
+            "optionA": "The `CHECK` constraint ensures that all values in a column meet a specified condition.",
+            "optionB": "The `CHECK` constraint ensures that each row has a unique value.",
+            "optionC": "The `CHECK` constraint links two tables together.",
+            "optionD": "The `CHECK` constraint updates records in a table based on a condition.",
+            "answer": "The `CHECK` constraint ensures that all values in a column meet a specified condition.",
+            "category": "SQL"
+        },
+    
+        {
+            "question_text": "What is the purpose of the `PRIMARY KEY` constraint in SQL?",
+            "optionA": "The `PRIMARY KEY` constraint uniquely identifies each record in a table.",
+            "optionB": "The `PRIMARY KEY` constraint allows multiple entries in a table.",
+            "optionC": "The `PRIMARY KEY` constraint is used to connect tables using keys.",
+            "optionD": "The `PRIMARY KEY` constraint is used to ensure unique values.",
+            "answer": "The `PRIMARY KEY` constraint uniquely identifies each record in a table.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you retrieve all records from a table named `Customers`?",
+            "optionA": "SELECT * FROM Customers;",
+            "optionB": "GET * FROM Customers;",
+            "optionC": "FETCH * FROM Customers;",
+            "optionD": "RETRIEVE * FROM Customers;",
+            "answer": "SELECT * FROM Customers;",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What does the `JOIN` clause do in SQL?",
+            "optionA": "The `JOIN` clause combines rows from multiple tables using keys.",
+            "optionB": "The `JOIN` clause deletes rows from multiple tables.",
+            "optionC": "The `JOIN` clause sorts the results of a table by a column.",
+            "optionD": "The `JOIN` clause merges tables into a single new table.",
+            "answer": "The `JOIN` clause combines rows from multiple tables using keys.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the function of the `WHERE` clause in SQL?",
+            "optionA": "The `WHERE` clause filters records based on a condition specified.",
+            "optionB": "The `WHERE` clause sorts the records based on a column value.",
+            "optionC": "The `WHERE` clause groups records that have the same values.",
+            "optionD": "The `WHERE` clause limits the number of records returned.",
+            "answer": "The `WHERE` clause filters records based on a condition specified.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the use of the `GROUP BY` clause in SQL?",
+            "optionA": "The `GROUP BY` clause groups rows with the same values into summary rows.",
+            "optionB": "The `GROUP BY` clause deletes groups of rows from a table.",
+            "optionC": "The `GROUP BY` clause is used to create new tables from rows.",
+            "optionD": "The `GROUP BY` clause sorts rows in a table in descending order.",
+            "answer": "The `GROUP BY` clause groups rows with the same values into summary rows.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you update an existing record in a table in SQL?",
+            "optionA": "Using the `UPDATE` statement to modify the record.",
+            "optionB": "Using the `MODIFY` statement to change the record.",
+            "optionC": "Using the `CHANGE` statement to edit the record.",
+            "optionD": "Using the `ALTER` statement to update the record.",
+            "answer": "Using the `UPDATE` statement to modify the record.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the purpose of the `HAVING` clause in SQL?",
+            "optionA": "The `HAVING` clause filters records after grouping them.",
+            "optionB": "The `HAVING` clause sorts records in ascending order.",
+            "optionC": "The `HAVING` clause deletes records from a table.",
+            "optionD": "The `HAVING` clause creates new tables from rows.",
+            "answer": "The `HAVING` clause filters records after grouping them.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is the difference between `INNER JOIN` and `OUTER JOIN` in SQL?",
+            "optionA": "`INNER JOIN` returns matching records, while `OUTER JOIN` includes all records with matches.",
+            "optionB": "`INNER JOIN` deletes matching records, while `OUTER JOIN` updates records.",
+            "optionC": "`INNER JOIN` sorts records in ascending order, while `OUTER JOIN` sorts them.",
+            "optionD": "`INNER JOIN` creates new tables, while `OUTER JOIN` drops tables.",
+            "answer": "`INNER JOIN` returns matching records, while `OUTER JOIN` includes all records with matches.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "How do you delete a record from a table in SQL?",
+            "optionA": "Using the `DELETE` statement to remove the record.",
+            "optionB": "Using the `REMOVE` statement to erase the record.",
+            "optionC": "Using the `DROP` statement to delete the record.",
+            "optionD": "Using the `ERASE` statement to clear the record.",
+            "answer": "Using the `DELETE` statement to remove the record.",
+            "category": "SQL"
+        },
+        {
+            "question_text": "What is a foreign key in SQL?",
+            "optionA": "A foreign key uniquely identifies a row in another table.",
+            "optionB": "A foreign key is a unique identifier for each row in a table.",
+            "optionC": "A foreign key is used to delete records from tables.",
+            "optionD": "A foreign key is used to sort records in tables.",
+            "answer": "A foreign key uniquely identifies a row in another table.",
+            "category": "SQL"
+        }
+    ]
+    
+            

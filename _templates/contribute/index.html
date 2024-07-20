@@ -5,7 +5,11 @@
 {% block title %} Contribute {% endblock %}
 {% block content %}
 <section class="bg-shade5">
-    {% include 'includes/contribute_instructions.html' %}
+    <div class="text-shade2">
+        <h1 class="text-xl font-bold " >Hello, {{name}}.</h1>
+        <p class="text-shade4">Add a question and at least two options.</p>
+        <p class="text-shade4">Select the option you think best answer the question.</p>
+    </div>
         
     <h2 class="text-3xl font-semibold mt-16">Add Question</h2>
     <form  method="post" action="{% url 'contribute' %}" class="question-form *:flex *:flex-col *:gap-1 *:mb-4 ">

@@ -1,0 +1,1282 @@
+[
+    {
+        "question_text": "What is Laravel's `artisan` command to create a new controller?",
+        "optionA": "`php artisan make:controller ControllerName`",
+        "optionB": "`php artisan create:controller ControllerName`",
+        "optionC": "`php artisan generate:controller ControllerName`",
+        "optionD": "`php artisan new:controller ControllerName`",
+        "answer": "`php artisan make:controller ControllerName`",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new Laravel migration file?",
+        "optionA": "By running the command `php artisan make:migration migration_name`.",
+        "optionB": "By manually creating a migration file in the `database/migrations` directory.",
+        "optionC": "By using `php artisan create:migration migration_name`.",
+        "optionD": "By editing the `config/migrations.php` file directly.",
+        "answer": "By running the command `php artisan make:migration migration_name`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan route:list` command do?",
+        "optionA": "Displays a list of all registered routes in the application.",
+        "optionB": "Generates a new route file.",
+        "optionC": "Clears all existing routes.",
+        "optionD": "Updates route configurations from the database.",
+        "answer": "Displays a list of all registered routes in the application.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you define a one-to-many relationship in Eloquent?",
+        "optionA": "By using the `hasMany` method in the model.",
+        "optionB": "By defining a new migration for the relationship.",
+        "optionC": "By using the `belongsTo` method in the model.",
+        "optionD": "By manually writing the SQL query for the relationship.",
+        "answer": "By using the `hasMany` method in the model.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to create a new middleware?",
+        "optionA": "By running the command `php artisan make:middleware MiddlewareName`.",
+        "optionB": "By creating a new PHP file in the `app/Http/Middleware` directory.",
+        "optionC": "By using `php artisan create:middleware MiddlewareName`.",
+        "optionD": "By defining the middleware in the `routes/web.php` file.",
+        "answer": "By running the command `php artisan make:middleware MiddlewareName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `config` directory?",
+        "optionA": "To store configuration files for various application settings.",
+        "optionB": "To manage application routes and middleware.",
+        "optionC": "To handle user authentication and authorization.",
+        "optionD": "To define application logic and controllers.",
+        "answer": "To store configuration files for various application settings.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you generate a new Laravel seeder class?",
+        "optionA": "By running the command `php artisan make:seeder SeederName`.",
+        "optionB": "By manually creating a PHP file in the `database/seeders` directory.",
+        "optionC": "By using `php artisan create:seeder SeederName`.",
+        "optionD": "By defining seeding logic directly in the migration file.",
+        "answer": "By running the command `php artisan make:seeder SeederName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan db:seed` command do?",
+        "optionA": "Executes all seeders to populate the database with test data.",
+        "optionB": "Creates a new seeder class.",
+        "optionC": "Rolls back all database migrations.",
+        "optionD": "Updates database schema changes.",
+        "answer": "Executes all seeders to populate the database with test data.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you define a custom Artisan command?",
+        "optionA": "By creating a new command class in the `app/Console/Commands` directory.",
+        "optionB": "By editing the `config/commands.php` file directly.",
+        "optionC": "By using the `php artisan create:command CommandName` command.",
+        "optionD": "By defining the command logic in the `routes/web.php` file.",
+        "answer": "By creating a new command class in the `app/Console/Commands` directory.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `Eloquent` ORM used for?",
+        "optionA": "To interact with the database using an object-oriented approach.",
+        "optionB": "To handle HTTP requests and responses.",
+        "optionC": "To manage application routing and middleware.",
+        "optionD": "To define and run database migrations.",
+        "answer": "To interact with the database using an object-oriented approach.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to create a new policy?",
+        "optionA": "By running `php artisan make:policy PolicyName`.",
+        "optionB": "By creating a new PHP file in the `app/Policies` directory.",
+        "optionC": "By using `php artisan generate:policy PolicyName`.",
+        "optionD": "By defining the policy in the `config/policies.php` file.",
+        "answer": "By running `php artisan make:policy PolicyName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you configure Laravel's mail settings?",
+        "optionA": "By editing the `.env` file with mail server settings.",
+        "optionB": "By defining settings in the `config/mail.php` file.",
+        "optionC": "By creating a new mail configuration file in the `config` directory.",
+        "optionD": "By setting mail options directly in the `routes/web.php` file.",
+        "answer": "By editing the `.env` file with mail server settings.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `php artisan migrate` command used for?",
+        "optionA": "To apply pending migrations to the database.",
+        "optionB": "To create a new migration file for database schema changes.",
+        "optionC": "To roll back all database migrations.",
+        "optionD": "To clear the database cache.",
+        "answer": "To apply pending migrations to the database.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you enable Laravel's route caching?",
+        "optionA": "By running the command `php artisan route:cache`.",
+        "optionB": "By setting the `ROUTE_CACHE` value in the `.env` file.",
+        "optionC": "By defining routes in the `config/cache.php` file.",
+        "optionD": "By manually editing the `routes/web.php` file.",
+        "answer": "By running the command `php artisan route:cache`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan view:cache` command do?",
+        "optionA": "Caches all views for improved performance.",
+        "optionB": "Clears all cached views from the application.",
+        "optionC": "Creates new view files in the `resources/views` directory.",
+        "optionD": "Updates view configurations in the `config/views.php` file.",
+        "answer": "Caches all views for improved performance.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new middleware class in Laravel?",
+        "optionA": "By using the `php artisan make:middleware MiddlewareName` command.",
+        "optionB": "By manually creating a PHP file in the `app/Http/Middleware` directory.",
+        "optionC": "By using `php artisan create:middleware MiddlewareName`.",
+        "optionD": "By defining middleware logic directly in the `routes/web.php` file.",
+        "answer": "By using the `php artisan make:middleware MiddlewareName` command.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `queue` system used for?",
+        "optionA": "To handle background tasks and deferred processing.",
+        "optionB": "To manage file uploads and storage.",
+        "optionC": "To define and run database migrations.",
+        "optionD": "To configure application routes and middleware.",
+        "answer": "To handle background tasks and deferred processing.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a relationship between two Eloquent models?",
+        "optionA": "By using relationship methods like `belongsTo` and `hasMany` in the models.",
+        "optionB": "By creating custom SQL queries for relationships.",
+        "optionC": "By configuring relationships in the `config/database.php` file.",
+        "optionD": "By defining relationships directly in the migration files.",
+        "answer": "By using relationship methods like `belongsTo` and `hasMany` in the models.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you register a new service provider in Laravel?",
+        "optionA": "By adding it to the `providers` array in the `config/app.php` file.",
+        "optionB": "By creating a new file in the `app/Providers` directory.",
+        "optionC": "By defining it in the `.env` file.",
+        "optionD": "By running the `php artisan register:provider ProviderName` command.",
+        "answer": "By adding it to the `providers` array in the `config/app.php` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `Gates` used for?",
+        "optionA": "To define simple authorization logic.",
+        "optionB": "To handle complex database queries.",
+        "optionC": "To manage application caching.",
+        "optionD": "To handle file storage and uploads.",
+        "answer": "To define simple authorization logic.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you generate a new Laravel factory?",
+        "optionA": "By running the command `php artisan make:factory FactoryName`.",
+        "optionB": "By manually creating a PHP file in the `database/factories` directory.",
+        "optionC": "By using `php artisan generate:factory FactoryName`.",
+        "optionD": "By editing the `config/factories.php` file directly.",
+        "answer": "By running the command `php artisan make:factory FactoryName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `broadcasting` feature?",
+        "optionA": "To enable real-time events and notifications in the application.",
+        "optionB": "To manage file uploads and storage.",
+        "optionC": "To handle background tasks and deferred processing.",
+        "optionD": "To define and run database migrations.",
+        "answer": "To enable real-time events and notifications in the application.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to create a new request class?",
+        "optionA": "By running `php artisan make:request RequestName`.",
+        "optionB": "By manually creating a PHP file in the `app/Http/Requests` directory.",
+        "optionC": "By using `php artisan create:request RequestName`.",
+        "optionD": "By defining the request class directly in the `routes/web.php` file.",
+        "answer": "By running `php artisan make:request RequestName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you validate user input in Laravel?",
+        "optionA": "By using Laravel's built-in validation rules in form requests or controllers.",
+        "optionB": "By manually checking input data in each controller action.",
+        "optionC": "By defining validation logic in the `config/validation.php` file.",
+        "optionD": "By creating custom validation methods in the `routes/web.php` file.",
+        "answer": "By using Laravel's built-in validation rules in form requests or controllers.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `Eloquent` method for defining a many-to-many relationship?",
+        "optionA": "The `belongsToMany` method.",
+        "optionB": "The `hasMany` method.",
+        "optionC": "The `belongsTo` method.",
+        "optionD": "The `hasOne` method.",
+        "answer": "The `belongsToMany` method.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new Laravel event?",
+        "optionA": "By running the command `php artisan make:event EventName`.",
+        "optionB": "By manually creating a PHP file in the `app/Events` directory.",
+        "optionC": "By using `php artisan generate:event EventName`.",
+        "optionD": "By defining the event directly in the `routes/web.php` file.",
+        "answer": "By running the command `php artisan make:event EventName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `validation` feature?",
+        "optionA": "To ensure data meets specific criteria before processing or saving.",
+        "optionB": "To handle database migrations and schema changes.",
+        "optionC": "To define and execute application routes.",
+        "optionD": "To manage user authentication and authorization.",
+        "answer": "To ensure data meets specific criteria before processing or saving.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you use Laravel's `artisan` command to create a new job?",
+        "optionA": "By running `php artisan make:job JobName`.",
+        "optionB": "By manually creating a PHP file in the `app/Jobs` directory.",
+        "optionC": "By using `php artisan create:job JobName`.",
+        "optionD": "By defining the job directly in the `routes/web.php` file.",
+        "answer": "By running `php artisan make:job JobName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `service container` used for?",
+        "optionA": "To manage and resolve class dependencies and perform dependency injection.",
+        "optionB": "To handle routing and middleware configuration.",
+        "optionC": "To manage application caching and configuration.",
+        "optionD": "To define and run database migrations.",
+        "answer": "To manage and resolve class dependencies and perform dependency injection.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a `route` group with a common middleware in Laravel?",
+        "optionA": "By using the `Route::group` method with the `middleware` option.",
+        "optionB": "By defining middleware directly in the `routes/web.php` file.",
+        "optionC": "By creating a new middleware class in the `app/Http/Middleware` directory.",
+        "optionD": "By adding middleware to each individual route separately.",
+        "answer": "By using the `Route::group` method with the `middleware` option.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `php artisan serve` command used for?",
+        "optionA": "To start Laravel's built-in development server.",
+        "optionB": "To apply pending migrations to the database.",
+        "optionC": "To clear application cache.",
+        "optionD": "To generate a new controller.",
+        "answer": "To start Laravel's built-in development server.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to create a new policy?",
+        "optionA": "By running `php artisan make:policy PolicyName`.",
+        "optionB": "By manually creating a PHP file in the `app/Policies` directory.",
+        "optionC": "By using `php artisan create:policy PolicyName`.",
+        "optionD": "By defining the policy in the `config/policies.php` file.",
+        "answer": "By running `php artisan make:policy PolicyName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan cache:clear` command do?",
+        "optionA": "Clears the application cache.",
+        "optionB": "Generates new cache files.",
+        "optionC": "Creates a new cache configuration file.",
+        "optionD": "Updates cache settings in the `config/cache.php` file.",
+        "answer": "Clears the application cache.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you configure Laravel's session settings?",
+        "optionA": "By editing the `config/session.php` file.",
+        "optionB": "By defining session settings in the `.env` file.",
+        "optionC": "By creating a new session configuration file in the `config` directory.",
+        "optionD": "By setting session options directly in the `routes/web.php` file.",
+        "answer": "By editing the `config/session.php` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to generate a new model?",
+        "optionA": "By running `php artisan make:model ModelName`.",
+        "optionB": "By manually creating a PHP file in the `app/Models` directory.",
+        "optionC": "By using `php artisan create:model ModelName`.",
+        "optionD": "By defining the model directly in the `routes/web.php` file.",
+        "answer": "By running `php artisan make:model ModelName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `php artisan migrate:rollback` command used for?",
+        "optionA": "To revert the last batch of database migrations.",
+        "optionB": "To apply all pending migrations.",
+        "optionC": "To generate a new migration file.",
+        "optionD": "To clear all existing migrations from the database.",
+        "answer": "To revert the last batch of database migrations.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to generate a new resource controller?",
+        "optionA": "By running `php artisan make:controller ControllerName --resource`.",
+        "optionB": "By creating a new controller in the `app/Http/Controllers` directory.",
+        "optionC": "By using `php artisan create:controller ControllerName --resource`.",
+        "optionD": "By defining the resource controller directly in the `routes/web.php` file.",
+        "answer": "By running `php artisan make:controller ControllerName --resource`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `Cache` facade?",
+        "optionA": "To provide a simple and unified API for caching operations.",
+        "optionB": "To handle database migrations and schema changes.",
+        "optionC": "To manage user authentication and authorization.",
+        "optionD": "To define and execute application routes.",
+        "answer": "To provide a simple and unified API for caching operations.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you define a custom validation rule in Laravel?",
+        "optionA": "By creating a new validation rule class and registering it.",
+        "optionB": "By defining validation rules directly in the `routes/web.php` file.",
+        "optionC": "By adding custom rules to the `config/validation.php` file.",
+        "optionD": "By editing the built-in validation rules in the `app/Http/Requests` file.",
+        "answer": "By creating a new validation rule class and registering it.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you implement Laravel's `event` system?",
+        "optionA": "By creating event classes and listeners, then registering them.",
+        "optionB": "By defining events directly in the `routes/web.php` file.",
+        "optionC": "By using `php artisan generate:event EventName`.",
+        "optionD": "By editing the `config/events.php` file directly.",
+        "answer": "By creating event classes and listeners, then registering them.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `Blade` templating engine?",
+        "optionA": "To provide a simple and powerful way to generate HTML views.",
+        "optionB": "To handle backend database operations.",
+        "optionC": "To manage application routing and middleware.",
+        "optionD": "To define and execute database migrations.",
+        "answer": "To provide a simple and powerful way to generate HTML views.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a `many-to-many` relationship in Laravel's Eloquent ORM?",
+        "optionA": "By using the `belongsToMany` method in the model.",
+        "optionB": "By defining separate `belongsTo` relationships in both models.",
+        "optionC": "By creating custom SQL queries for the relationship.",
+        "optionD": "By using the `hasMany` method in one model and `belongsTo` in another.",
+        "answer": "By using the `belongsToMany` method in the model.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `php artisan config:cache` command used for?",
+        "optionA": "To cache the configuration files for faster performance.",
+        "optionB": "To generate a new configuration file.",
+        "optionC": "To clear the existing configuration cache.",
+        "optionD": "To update configuration settings in the `.env` file.",
+        "answer": "To cache the configuration files for faster performance.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you implement Laravel's `authorization` policies?",
+        "optionA": "By creating policy classes and defining authorization logic in them.",
+        "optionB": "By configuring authorization settings in the `routes/web.php` file.",
+        "optionC": "By using the `php artisan make:policy PolicyName` command.",
+        "optionD": "By defining authorization rules directly in the `app/Http/Controllers` file.",
+        "answer": "By creating policy classes and defining authorization logic in them.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you use Laravel's `artisan` command to create a new job?",
+        "optionA": "By running `php artisan make:job JobName`.",
+        "optionB": "By creating a new PHP file in the `app/Jobs` directory.",
+        "optionC": "By using `php artisan generate:job JobName`.",
+        "optionD": "By defining the job logic directly in the `routes/web.php` file.",
+        "answer": "By running `php artisan make:job JobName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan optimize` command do?",
+        "optionA": "Caches various framework files to optimize performance.",
+        "optionB": "Generates new optimized files for the application.",
+        "optionC": "Clears all cached files from the application.",
+        "optionD": "Updates application configurations.",
+        "answer": "Caches various framework files to optimize performance.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to generate a new request?",
+        "optionA": "By running `php artisan make:request RequestName`.",
+        "optionB": "By creating a new PHP file in the `app/Http/Requests` directory.",
+        "optionC": "By using `php artisan create:request RequestName`.",
+        "optionD": "By defining request logic directly in the `routes/web.php` file.",
+        "answer": "By running `php artisan make:request RequestName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you set up Laravel's `cache` configuration?",
+        "optionA": "By editing the `config/cache.php` file.",
+        "optionB": "By setting cache options directly in the `.env` file.",
+        "optionC": "By defining cache settings in the `routes/web.php` file.",
+        "optionD": "By using the `php artisan cache:setup` command.",
+        "answer": "By editing the `config/cache.php` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `Redis` used for?",
+        "optionA": "To provide an in-memory data structure store used as a cache or database.",
+        "optionB": "To handle file uploads and storage.",
+        "optionC": "To manage application routing and middleware.",
+        "optionD": "To define and run database migrations.",
+        "answer": "To provide an in-memory data structure store used as a cache or database.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to generate a new event?",
+        "optionA": "By running `php artisan make:event EventName`.",
+        "optionB": "By manually creating a PHP file in the `app/Events` directory.",
+        "optionC": "By using `php artisan create:event EventName`.",
+        "optionD": "By defining the event directly in the `routes/web.php` file.",
+        "answer": "By running `php artisan make:event EventName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `Facades` used for?",
+        "optionA": "To provide a static interface to classes that are available in the service container.",
+        "optionB": "To handle HTTP requests and responses.",
+        "optionC": "To manage application routing and middleware.",
+        "optionD": "To define and run database migrations.",
+        "answer": "To provide a static interface to classes that are available in the service container.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to create a new seeder?",
+        "optionA": "By running `php artisan make:seeder SeederName`.",
+        "optionB": "By manually creating a PHP file in the `database/seeders` directory.",
+        "optionC": "By using `php artisan create:seeder SeederName`.",
+        "optionD": "By defining the seeder logic directly in the migration file.",
+        "answer": "By running `php artisan make:seeder SeederName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `middleware` feature?",
+        "optionA": "To filter HTTP requests entering your application.",
+        "optionB": "To handle database migrations and schema changes.",
+        "optionC": "To manage application routes and controllers.",
+        "optionD": "To define and run seeders for the database.",
+        "answer": "To filter HTTP requests entering your application.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan` command to generate a new controller?",
+        "optionA": "By running `php artisan make:controller ControllerName`.",
+        "optionB": "By creating a new PHP file in the `app/Http/Controllers` directory.",
+        "optionC": "By using `php artisan create:controller ControllerName`.",
+        "optionD": "By defining the controller directly in the `routes/web.php` file.",
+        "answer": "By running `php artisan make:controller ControllerName`.",
+        "category": "Laravel"
+    }
+,
+    {
+        "question_text": "What is Laravel's `Eloquent` ORM?",
+        "optionA": "An object-relational mapping (ORM) system for interacting with databases using PHP models.",
+        "optionB": "A tool for managing frontend assets and compiling CSS and JavaScript.",
+        "optionC": "A system for defining and managing application routes and controllers.",
+        "optionD": "A library for handling HTTP requests and responses.",
+        "answer": "An object-relational mapping (ORM) system for interacting with databases using PHP models.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new migration in Laravel?",
+        "optionA": "By running the command `php artisan make:migration migration_name`.",
+        "optionB": "By manually creating a new PHP file in the `database/migrations` directory.",
+        "optionC": "By using the `composer create-migration migration_name` command.",
+        "optionD": "By defining migration settings in the `config/migrations.php` file.",
+        "answer": "By running the command `php artisan make:migration migration_name`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `middleware` used for?",
+        "optionA": "To filter HTTP requests entering your application and handle security features.",
+        "optionB": "To manage application routing and controller logic.",
+        "optionC": "To define and run database migrations and seeders.",
+        "optionD": "To handle authentication and user management.",
+        "answer": "To filter HTTP requests entering your application and handle security features.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `artisan migrate` command?",
+        "optionA": "To apply pending migrations and update the database schema.",
+        "optionB": "To create new migration files for schema changes.",
+        "optionC": "To seed the database with test data.",
+        "optionD": "To roll back the last batch of migrations.",
+        "answer": "To apply pending migrations and update the database schema.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a route group in Laravel?",
+        "optionA": "By using the `Route::group` method to group routes under a common middleware or prefix.",
+        "optionB": "By defining routes within the `routes/web.php` file with a shared namespace.",
+        "optionC": "By creating a new PHP class for managing route logic.",
+        "optionD": "By configuring route groups in the `config/routes.php` file.",
+        "answer": "By using the `Route::group` method to group routes under a common middleware or prefix.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `service container` used for?",
+        "optionA": "To manage class dependencies and perform dependency injection.",
+        "optionB": "To handle HTTP requests and routing.",
+        "optionC": "To manage file uploads and storage.",
+        "optionD": "To define application configuration settings.",
+        "answer": "To manage class dependencies and perform dependency injection.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you add a custom helper function in Laravel?",
+        "optionA": "By creating a PHP file in the `app/Helpers` directory and including it in the `composer.json` file.",
+        "optionB": "By defining the helper function directly in the `routes/web.php` file.",
+        "optionC": "By creating a new service provider and registering the helper in the `register` method.",
+        "optionD": "By adding the helper function to the `config/app.php` file.",
+        "answer": "By creating a PHP file in the `app/Helpers` directory and including it in the `composer.json` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan queue:work` command do?",
+        "optionA": "Processes jobs in the queue to handle background tasks.",
+        "optionB": "Creates a new job class for queue processing.",
+        "optionC": "Clears the queue of all pending jobs.",
+        "optionD": "Manages queue configuration settings.",
+        "answer": "Processes jobs in the queue to handle background tasks.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `validation` rules?",
+        "optionA": "By defining validation rules in form request classes or directly in controller methods.",
+        "optionB": "By creating custom validation rules in the `config/validation.php` file.",
+        "optionC": "By configuring validation settings in the `database/config.php` file.",
+        "optionD": "By defining validation rules within middleware classes.",
+        "answer": "By defining validation rules in form request classes or directly in controller methods.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `Blade` templating engine?",
+        "optionA": "A templating engine for creating dynamic views and layouts in PHP.",
+        "optionB": "A tool for managing database schemas and migrations.",
+        "optionC": "A library for handling HTTP requests and responses.",
+        "optionD": "A system for managing frontend assets and compilation.",
+        "answer": "A templating engine for creating dynamic views and layouts in PHP.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a new route in Laravel?",
+        "optionA": "By using the `Route::get` or `Route::post` methods in the `routes/web.php` file.",
+        "optionB": "By defining routes in the `config/routes.php` file.",
+        "optionC": "By creating a new controller and registering routes in the `app/Http/Controllers` directory.",
+        "optionD": "By adding routes directly within the middleware classes.",
+        "answer": "By using the `Route::get` or `Route::post` methods in the `routes/web.php` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan db:seed` command do?",
+        "optionA": "Runs database seeders to populate the database with initial or test data.",
+        "optionB": "Generates new migration files for schema changes.",
+        "optionC": "Clears all data from the database.",
+        "optionD": "Creates new model classes for database interactions.",
+        "answer": "Runs database seeders to populate the database with initial or test data.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `middleware` for handling CSRF protection?",
+        "optionA": "`VerifyCsrfToken` middleware that protects against Cross-Site Request Forgery attacks.",
+        "optionB": "`EncryptCookies` middleware that handles encryption of cookie data.",
+        "optionC": "`CheckForMaintenanceMode` middleware that manages application maintenance mode.",
+        "optionD": "`Authenticate` middleware for managing user authentication.",
+        "answer": "`VerifyCsrfToken` middleware that protects against Cross-Site Request Forgery attacks.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you access configuration values in Laravel?",
+        "optionA": "By using the `config` helper function to retrieve values from configuration files.",
+        "optionB": "By querying the database for configuration settings.",
+        "optionC": "By reading values directly from the `.env` file.",
+        "optionD": "By defining configuration settings in the `routes/web.php` file.",
+        "answer": "By using the `config` helper function to retrieve values from configuration files.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `php artisan make:controller` command used for?",
+        "optionA": "To create a new controller class for handling HTTP requests.",
+        "optionB": "To generate a new migration file for database schema changes.",
+        "optionC": "To create a new model class for interacting with the database.",
+        "optionD": "To generate a new middleware class for request handling.",
+        "answer": "To create a new controller class for handling HTTP requests.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `request` object used for?",
+        "optionA": "To handle and manage HTTP requests and their associated data.",
+        "optionB": "To configure application routes and middleware.",
+        "optionC": "To perform database migrations and updates.",
+        "optionD": "To manage file storage and uploads.",
+        "answer": "To handle and manage HTTP requests and their associated data.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new model in Laravel?",
+        "optionA": "By running the command `php artisan make:model ModelName`.",
+        "optionB": "By manually creating a new PHP class file in the `app/Models` directory.",
+        "optionC": "By using the `composer create-model ModelName` command.",
+        "optionD": "By defining the model directly in the `config/models.php` file.",
+        "answer": "By running the command `php artisan make:model ModelName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `app` directory?",
+        "optionA": "To store application-specific code such as controllers, models, and middleware.",
+        "optionB": "To hold configuration files for application settings.",
+        "optionC": "To manage routes and their associated controllers.",
+        "optionD": "To store database migration and seeder files.",
+        "answer": "To store application-specific code such as controllers, models, and middleware.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you handle file uploads in Laravel?",
+        "optionA": "By using the `Storage` facade to manage file uploads and storage.",
+        "optionB": "By manually handling file uploads in controller methods.",
+        "optionC": "By configuring file upload settings in the `config/filesystems.php` file.",
+        "optionD": "By defining file upload logic in middleware classes.",
+        "answer": "By using the `Storage` facade to manage file uploads and storage.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `php artisan route:list` command used for?",
+        "optionA": "To display a list of all registered routes and their associated methods.",
+        "optionB": "To generate a new route file for application routing.",
+        "optionC": "To clear all route caches from the application.",
+        "optionD": "To create a new route group for organizing routes.",
+        "answer": "To display a list of all registered routes and their associated methods.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you enable Laravel's debug mode?",
+        "optionA": "By setting the `APP_DEBUG` value to `true` in the `.env` file.",
+        "optionB": "By configuring the `debug` setting in the `config/app.php` file.",
+        "optionC": "By running the command `php artisan debug:enable`.",
+        "optionD": "By adding `debug` to the `config/debug.php` file.",
+        "answer": "By setting the `APP_DEBUG` value to `true` in the `.env` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `artisan` command used for?",
+        "optionA": "To perform various administrative tasks and run commands related to application development.",
+        "optionB": "To manage database connections and configuration.",
+        "optionC": "To handle frontend asset compilation and minification.",
+        "optionD": "To define application routes and controllers.",
+        "answer": "To perform various administrative tasks and run commands related to application development.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan config:cache` command do?",
+        "optionA": "Caches the application configuration files for improved performance.",
+        "optionB": "Clears all cached files from the application.",
+        "optionC": "Creates a new configuration file for application settings.",
+        "optionD": "Generates a new cache file for routes and middleware.",
+        "answer": "Caches the application configuration files for improved performance.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `view` function used for?",
+        "optionA": "To return a view file from a controller or route.",
+        "optionB": "To define application routes and their associated controllers.",
+        "optionC": "To handle database migrations and updates.",
+        "optionD": "To manage HTTP requests and responses.",
+        "answer": "To return a view file from a controller or route.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a new seeder in Laravel?",
+        "optionA": "By running the command `php artisan make:seeder SeederName`.",
+        "optionB": "By manually creating a new PHP class file in the `database/seeders` directory.",
+        "optionC": "By using the `composer create-seeder SeederName` command.",
+        "optionD": "By defining the seeder directly in the `config/seeders.php` file.",
+        "answer": "By running the command `php artisan make:seeder SeederName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `cache` facade used for?",
+        "optionA": "To interact with and manage cache storage for improved application performance.",
+        "optionB": "To handle HTTP request and response caching.",
+        "optionC": "To manage frontend asset caching and minification.",
+        "optionD": "To define cache settings in the `config/cache.php` file.",
+        "answer": "To interact with and manage cache storage for improved application performance.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a custom validation rule in Laravel?",
+        "optionA": "By creating a custom rule class and registering it in the `AppServiceProvider`.",
+        "optionB": "By defining the validation rule in the `config/validation.php` file.",
+        "optionC": "By adding the custom rule to the `rules` array in a form request class.",
+        "optionD": "By specifying the custom rule directly in the controller method.",
+        "answer": "By creating a custom rule class and registering it in the `AppServiceProvider`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `resource controllers`?",
+        "optionA": "To provide a set of RESTful actions for managing resources in a controller.",
+        "optionB": "To handle file uploads and storage in the application.",
+        "optionC": "To define application routes and middleware configurations.",
+        "optionD": "To manage application settings and configuration files.",
+        "answer": "To provide a set of RESTful actions for managing resources in a controller.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you generate a new form request class in Laravel?",
+        "optionA": "By running the command `php artisan make:request RequestName`.",
+        "optionB": "By manually creating a new PHP class file in the `app/Http/Requests` directory.",
+        "optionC": "By using the `composer create-request RequestName` command.",
+        "optionD": "By defining the request class directly in the `config/requests.php` file.",
+        "answer": "By running the command `php artisan make:request RequestName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan route:cache` command do?",
+        "optionA": "Caches the application's routes for faster route registration.",
+        "optionB": "Generates a new route file for application routing.",
+        "optionC": "Clears all route caches from the application.",
+        "optionD": "Creates a new route group for organizing routes.",
+        "answer": "Caches the application's routes for faster route registration.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `notification` system?",
+        "optionA": "By using the `Notification` facade to send notifications through various channels.",
+        "optionB": "By configuring notification settings in the `config/notifications.php` file.",
+        "optionC": "By manually sending notifications using PHP mail functions.",
+        "optionD": "By creating a new notification class in the `app/Notifications` directory.",
+        "answer": "By using the `Notification` facade to send notifications through various channels.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `query builder` used for?",
+        "optionA": "To construct database queries using a fluent, chainable interface.",
+        "optionB": "To handle HTTP requests and responses.",
+        "optionC": "To manage file uploads and storage.",
+        "optionD": "To define application routes and middleware.",
+        "answer": "To construct database queries using a fluent, chainable interface.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a new event in Laravel?",
+        "optionA": "By running the command `php artisan make:event EventName`.",
+        "optionB": "By creating a new PHP class file in the `app/Events` directory.",
+        "optionC": "By using the `composer create-event EventName` command.",
+        "optionD": "By defining the event directly in the `config/events.php` file.",
+        "answer": "By running the command `php artisan make:event EventName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `Jobs` system?",
+        "optionA": "To handle background tasks and deferred processing using queues.",
+        "optionB": "To manage user authentication and authorization.",
+        "optionC": "To define and run database migrations.",
+        "optionD": "To handle HTTP requests and routing.",
+        "answer": "To handle background tasks and deferred processing using queues.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new middleware in Laravel?",
+        "optionA": "By running the command `php artisan make:middleware MiddlewareName`.",
+        "optionB": "By manually creating a new PHP class file in the `app/Http/Middleware` directory.",
+        "optionC": "By using the `composer create-middleware MiddlewareName` command.",
+        "optionD": "By defining middleware logic directly in the `routes/web.php` file.",
+        "answer": "By running the command `php artisan make:middleware MiddlewareName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `php artisan optimize` command used for?",
+        "optionA": "To cache and optimize various parts of the application for improved performance.",
+        "optionB": "To clear all application caches and temporary files.",
+        "optionC": "To create a new configuration file for application settings.",
+        "optionD": "To generate a new migration file for database schema changes.",
+        "answer": "To cache and optimize various parts of the application for improved performance.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan queue:failed` command do?",
+        "optionA": "Displays a list of failed queue jobs for troubleshooting.",
+        "optionB": "Clears all failed jobs from the queue.",
+        "optionC": "Creates a new job class for queue processing.",
+        "optionD": "Runs pending jobs in the queue.",
+        "answer": "Displays a list of failed queue jobs for troubleshooting.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define custom route constraints in Laravel?",
+        "optionA": "By using route parameter constraints in the route definitions.",
+        "optionB": "By defining constraints in the `config/routes.php` file.",
+        "optionC": "By creating custom middleware for route validation.",
+        "optionD": "By managing constraints directly in the `routes/web.php` file.",
+        "answer": "By using route parameter constraints in the route definitions.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `make:provider` command?",
+        "optionA": "To generate a new service provider class for application services.",
+        "optionB": "To create a new middleware class for handling requests.",
+        "optionC": "To define a new database seeder class.",
+        "optionD": "To generate a new model class for database interactions.",
+        "answer": "To generate a new service provider class for application services.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you manage application configuration settings in Laravel?",
+        "optionA": "By editing the configuration files located in the `config` directory.",
+        "optionB": "By defining settings directly in the `.env` file.",
+        "optionC": "By using the `php artisan config:cache` command to update settings.",
+        "optionD": "By configuring settings in the `routes/web.php` file.",
+        "answer": "By editing the configuration files located in the `config` directory.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan key:generate` command do?",
+        "optionA": "Generates a new application key and updates the `.env` file.",
+        "optionB": "Creates a new encryption key for securing data.",
+        "optionC": "Clears the existing application key.",
+        "optionD": "Updates the application configuration settings.",
+        "answer": "Generates a new application key and updates the `.env` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you access session data in Laravel?",
+        "optionA": "By using the `session` helper function to get or set session data.",
+        "optionB": "By querying the database for session information.",
+        "optionC": "By configuring session settings in the `config/session.php` file.",
+        "optionD": "By defining session data in the `routes/web.php` file.",
+        "answer": "By using the `session` helper function to get or set session data.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `artisan` command for generating a new policy?",
+        "optionA": "`php artisan make:policy PolicyName`",
+        "optionB": "`php artisan create:policy PolicyName`",
+        "optionC": "`php artisan policy:create PolicyName`",
+        "optionD": "`php artisan generate:policy PolicyName`",
+        "answer": "`php artisan make:policy PolicyName`",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `event` system used for?",
+        "optionA": "To handle and dispatch events to listeners for various application actions.",
+        "optionB": "To manage application routes and middleware.",
+        "optionC": "To perform database migrations and updates.",
+        "optionD": "To handle file uploads and storage.",
+        "answer": "To handle and dispatch events to listeners for various application actions.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new Laravel job class?",
+        "optionA": "By running the command `php artisan make:job JobName`.",
+        "optionB": "By manually creating a new PHP class file in the `app/Jobs` directory.",
+        "optionC": "By using the `composer create-job JobName` command.",
+        "optionD": "By defining the job directly in the `config/jobs.php` file.",
+        "answer": "By running the command `php artisan make:job JobName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `broadcasting` feature used for?",
+        "optionA": "To broadcast real-time events to the client side using WebSockets.",
+        "optionB": "To manage file uploads and storage in the application.",
+        "optionC": "To handle HTTP request and response caching.",
+        "optionD": "To define and run database migrations.",
+        "answer": "To broadcast real-time events to the client side using WebSockets.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `route` helper function?",
+        "optionA": "To generate URLs or redirects to named routes in the application.",
+        "optionB": "To define new routes in the `routes/web.php` file.",
+        "optionC": "To manage route middleware and constraints.",
+        "optionD": "To configure route settings in the `config/routes.php` file.",
+        "answer": "To generate URLs or redirects to named routes in the application.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `facades`?",
+        "optionA": "To provide a static interface to classes within the service container.",
+        "optionB": "To handle HTTP request and response caching.",
+        "optionC": "To manage file uploads and storage in the application.",
+        "optionD": "To define and run database migrations.",
+        "answer": "To provide a static interface to classes within the service container.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a custom validation rule in Laravel?",
+        "optionA": "By creating a custom rule class and registering it in the `AppServiceProvider`.",
+        "optionB": "By defining the custom rule in the `config/validation.php` file.",
+        "optionC": "By adding the custom rule to the `rules` array in a form request class.",
+        "optionD": "By specifying the custom rule directly in the controller method.",
+        "answer": "By creating a custom rule class and registering it in the `AppServiceProvider`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan migrate:refresh` command do?",
+        "optionA": "Rolls back all migrations and re-applies them.",
+        "optionB": "Creates new migration files for schema changes.",
+        "optionC": "Clears all data from the database.",
+        "optionD": "Generates a new migration class for schema updates.",
+        "answer": "Rolls back all migrations and re-applies them.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a new `event listener` in Laravel?",
+        "optionA": "By running the command `php artisan make:listener ListenerName`.",
+        "optionB": "By manually creating a new PHP class file in the `app/Listeners` directory.",
+        "optionC": "By using the `composer create-listener ListenerName` command.",
+        "optionD": "By defining the listener directly in the `config/events.php` file.",
+        "answer": "By running the command `php artisan make:listener ListenerName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `request` object used for?",
+        "optionA": "To handle and manage HTTP requests and their associated data.",
+        "optionB": "To configure application routes and middleware.",
+        "optionC": "To perform database migrations and updates.",
+        "optionD": "To manage file storage and uploads.",
+        "answer": "To handle and manage HTTP requests and their associated data.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you enable Laravel's `debug` mode?",
+        "optionA": "By setting the `APP_DEBUG` value to `true` in the `.env` file.",
+        "optionB": "By configuring the `debug` setting in the `config/app.php` file.",
+        "optionC": "By running the command `php artisan debug:enable`.",
+        "optionD": "By adding `debug` to the `config/debug.php` file.",
+        "answer": "By setting the `APP_DEBUG` value to `true` in the `.env` file.",
+        "category": "Laravel"
+    }
+,
+    {
+        "question_text": "What is Laravel?",
+        "optionA": "A PHP framework for web application development.",
+        "optionB": "A sophisticated JavaScript library designed for building interactive user interfaces.",
+        "optionC": "An advanced database management system providing robust data handling capabilities.",
+        "optionD": "A powerful web server technology specifically tailored for hosting PHP-based applications.",
+        "answer": "A PHP framework for web application development.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new Laravel project?",
+        "optionA": "Using the command `composer create-project --prefer-dist laravel/laravel project-name`.",
+        "optionB": "By cloning the Laravel repository from GitHub and setting up dependencies manually.",
+        "optionC": "By downloading the latest Laravel release from the official website and setting it up.",
+        "optionD": "By running `php artisan new project-name` after installing Laravel via Composer.",
+        "answer": "Using the command `composer create-project --prefer-dist laravel/laravel project-name`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is a Laravel migration?",
+        "optionA": "A mechanism to handle the version control of your database schema and make it easy to update.",
+        "optionB": "A method designed for managing file uploads within the Laravel framework effectively.",
+        "optionC": "A tool for defining application routes and their corresponding handlers.",
+        "optionD": "A feature for sending and managing email notifications throughout the application.",
+        "answer": "A mechanism to handle the version control of your database schema and make it easy to update.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you run Laravel migrations?",
+        "optionA": "By executing the command `php artisan migrate` in your terminal.",
+        "optionB": "By using the `composer migrate` command which triggers migration processes.",
+        "optionC": "By running `php artisan db:migrate` to apply migration changes.",
+        "optionD": "By using a custom command to execute migration scripts directly from your database configuration.",
+        "answer": "By executing the command `php artisan migrate` in your terminal.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Eloquent ORM in Laravel?",
+        "optionA": "An elegant object-relational mapping tool that simplifies database interactions.",
+        "optionB": "A comprehensive library that handles HTTP requests and responses efficiently.",
+        "optionC": "A package specifically designed for managing user authentication and authorization.",
+        "optionD": "A system for routing and handling HTTP requests within the Laravel application.",
+        "answer": "An elegant object-relational mapping tool that simplifies database interactions.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you define a route in Laravel?",
+        "optionA": "By adding route definitions to the `routes/web.php` file.",
+        "optionB": "By specifying routes in the `routes/api.php` file for API-related functionality.",
+        "optionC": "By configuring routes directly in the `config/routes.php` configuration file.",
+        "optionD": "By using the `Route` class in controllers to directly map URLs to actions.",
+        "answer": "By adding route definitions to the `routes/web.php` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's Blade templating engine?",
+        "optionA": "A lightweight and powerful templating engine used to render views with dynamic content.",
+        "optionB": "A sophisticated tool designed for handling database migrations and schema management.",
+        "optionC": "A package that simplifies the process of managing HTTP requests and responses.",
+        "optionD": "A class that provides functionality for defining middleware and route handling.",
+        "answer": "A lightweight and powerful templating engine used to render views with dynamic content.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you access configuration values in Laravel?",
+        "optionA": "By utilizing the `config()` helper function available in the Laravel framework.",
+        "optionB": "By directly querying the `Config` class to retrieve configuration settings.",
+        "optionC": "By manually reading values from the `.env` environment configuration file.",
+        "optionD": "By using the `app()` function to access various application configurations.",
+        "answer": "By utilizing the `config()` helper function available in the Laravel framework.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's Artisan command-line tool?",
+        "optionA": "A versatile command-line interface for managing various Laravel operations and tasks.",
+        "optionB": "An advanced database management system providing robust schema handling capabilities.",
+        "optionC": "A tool for handling file uploads and storage within the Laravel application.",
+        "optionD": "A system for managing user authentication and authorization processes.",
+        "answer": "A versatile command-line interface for managing various Laravel operations and tasks.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How can you create a new controller in Laravel?",
+        "optionA": "By executing `php artisan make:controller ControllerName` command in your terminal.",
+        "optionB": "By manually creating a PHP class file within the `app/Http/Controllers` directory.",
+        "optionC": "By running `composer create-controller ControllerName` command.",
+        "optionD": "By editing the `routes/web.php` file to include controller logic.",
+        "answer": "By executing `php artisan make:controller ControllerName` command in your terminal.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's dependency injection?",
+        "optionA": "A design pattern for managing class dependencies and facilitating easier testing.",
+        "optionB": "A method for handling file uploads and managing uploaded files efficiently.",
+        "optionC": "A tool used to handle database migrations and schema updates.",
+        "optionD": "A system for routing HTTP requests and handling responses.",
+        "answer": "A design pattern for managing class dependencies and facilitating easier testing.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What are Laravel's middleware used for?",
+        "optionA": "To filter and modify HTTP requests and responses before they reach their destination.",
+        "optionB": "To manage file uploads and ensure secure file handling.",
+        "optionC": "To handle database schema changes and migrations.",
+        "optionD": "To define and manage application routes and controllers.",
+        "answer": "To filter and modify HTTP requests and responses before they reach their destination.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `migrate:rollback` command?",
+        "optionA": "To revert the most recent database migration and undo changes.",
+        "optionB": "To apply new migrations and update the database schema.",
+        "optionC": "To seed the database with initial or test data.",
+        "optionD": "To create a new migration file for future schema changes.",
+        "answer": "To revert the most recent database migration and undo changes.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `artisan db:seed` command?",
+        "optionA": "To populate the database with predefined test or default data.",
+        "optionB": "To apply pending database migrations and schema updates.",
+        "optionC": "To create new database tables and structures as needed.",
+        "optionD": "To optimize and clean up the database schema and data.",
+        "answer": "To populate the database with predefined test or default data.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `AppServiceProvider` in Laravel?",
+        "optionA": "A service provider responsible for registering application services and bindings.",
+        "optionB": "A tool used to manage and handle application routing and middleware.",
+        "optionC": "A class designed for managing user authentication and authorization.",
+        "optionD": "A system for configuring and managing file storage operations.",
+        "answer": "A service provider responsible for registering application services and bindings.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you handle file uploads in Laravel?",
+        "optionA": "By using the `Storage` facade and file upload methods for managing files.",
+        "optionB": "By manually handling file operations using native PHP functions.",
+        "optionC": "By utilizing the `File` facade to perform all necessary storage operations.",
+        "optionD": "By configuring file uploads directly in the `.env` configuration file.",
+        "answer": "By using the `Storage` facade and file upload methods for managing files.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is a Laravel `Job`?",
+        "optionA": "A class representing a queued task or background job to be processed asynchronously.",
+        "optionB": "A tool for managing HTTP requests and routing within the application.",
+        "optionC": "A mechanism for handling file storage and uploads.",
+        "optionD": "A system for defining and managing application configurations.",
+        "answer": "A class representing a queued task or background job to be processed asynchronously.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you use Laravel's `artisan route:list` command?",
+        "optionA": "To display a list of all registered routes and their corresponding information.",
+        "optionB": "To configure new routes and update existing route definitions.",
+        "optionC": "To handle middleware and route-related functionality within the application.",
+        "optionD": "To manage route caching and optimization processes.",
+        "answer": "To display a list of all registered routes and their corresponding information.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `config` directory used for?",
+        "optionA": "To store application configuration files for various services and settings.",
+        "optionB": "To manage database migrations and schema updates.",
+        "optionC": "To define and handle application routes and controllers.",
+        "optionD": "To store and manage middleware and request handling processes.",
+        "answer": "To store application configuration files for various services and settings.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you handle user authentication in Laravel?",
+        "optionA": "By using Laravel's built-in authentication system and features.",
+        "optionB": "By implementing a custom authentication system from scratch.",
+        "optionC": "By integrating third-party authentication services manually.",
+        "optionD": "By managing authentication through direct database queries and sessions.",
+        "answer": "By using Laravel's built-in authentication system and features.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the purpose of Laravel's `Route::resource` method?",
+        "optionA": "To define a resourceful controller with standard CRUD operations automatically.",
+        "optionB": "To manage and handle file uploads and storage operations efficiently.",
+        "optionC": "To configure and manage application routing and middleware settings.",
+        "optionD": "To create and manage database migrations and schema updates.",
+        "answer": "To define a resourceful controller with standard CRUD operations automatically.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a new Laravel seeder?",
+        "optionA": "By running the command `php artisan make:seeder SeederName`.",
+        "optionB": "By manually creating a PHP class file in the `database/seeders` directory.",
+        "optionC": "By using the `composer create-seeder SeederName` command.",
+        "optionD": "By configuring seeding logic directly in the `DatabaseSeeder` class.",
+        "answer": "By running the command `php artisan make:seeder SeederName`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `artisan serve` command used for?",
+        "optionA": "To start a local development server for the Laravel application.",
+        "optionB": "To deploy the application to a production environment.",
+        "optionC": "To run background jobs and queued tasks.",
+        "optionD": "To manage and configure application services and dependencies.",
+        "answer": "To start a local development server for the Laravel application.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you access session data in Laravel?",
+        "optionA": "By using the `session()` helper function or `Session` facade.",
+        "optionB": "By directly querying the session storage database.",
+        "optionC": "By reading session data from the `.env` configuration file.",
+        "optionD": "By managing session data through HTTP request and response headers.",
+        "answer": "By using the `session()` helper function or `Session` facade.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `web` middleware group in Laravel used for?",
+        "optionA": "To apply middleware related to web functionality, such as session and CSRF protection.",
+        "optionB": "To handle API-related middleware and request processing.",
+        "optionC": "To manage file storage and upload operations.",
+        "optionD": "To define and configure application routing and URL handling.",
+        "answer": "To apply middleware related to web functionality, such as session and CSRF protection.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan cache:clear` command do?",
+        "optionA": "Clears the application cache to ensure that updated configurations are applied.",
+        "optionB": "Creates a new cache file to store application data.",
+        "optionC": "Updates the cache settings in the application configuration file.",
+        "optionD": "Manages the cache storage and expiration policies for the application.",
+        "answer": "Clears the application cache to ensure that updated configurations are applied.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a database relationship in Laravel models?",
+        "optionA": "By using Eloquent relationship methods such as `hasOne`, `hasMany`, and `belongsTo`.",
+        "optionB": "By configuring relationships directly in the database schema and migrations.",
+        "optionC": "By manually defining relationship logic in the model's PHP class methods.",
+        "optionD": "By managing relationships through custom database queries and joins.",
+        "answer": "By using Eloquent relationship methods such as `hasOne`, `hasMany`, and `belongsTo`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `env` function used for?",
+        "optionA": "To retrieve environment variables from the `.env` file.",
+        "optionB": "To manage application routes and controllers.",
+        "optionC": "To handle database migrations and schema updates.",
+        "optionD": "To manage file storage and upload operations.",
+        "answer": "To retrieve environment variables from the `.env` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you create a custom validation rule in Laravel?",
+        "optionA": "By using the `php artisan make:rule RuleName` command to generate a custom validation rule class.",
+        "optionB": "By defining validation logic directly in the controller or form request class.",
+        "optionC": "By extending existing validation rules in the `config/validation.php` file.",
+        "optionD": "By configuring validation rules through middleware and route definitions.",
+        "answer": "By using the `php artisan make:rule RuleName` command to generate a custom validation rule class.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `event` system used for?",
+        "optionA": "To implement an observer pattern for handling events and their corresponding listeners.",
+        "optionB": "To manage routing and middleware for HTTP requests and responses.",
+        "optionC": "To handle file uploads and manage storage operations.",
+        "optionD": "To define and configure application services and dependencies.",
+        "answer": "To implement an observer pattern for handling events and their corresponding listeners.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you register a new service provider in Laravel?",
+        "optionA": "By adding it to the `providers` array in the `config/app.php` file.",
+        "optionB": "By creating a new PHP class file within the `app/Providers` directory.",
+        "optionC": "By defining the service provider in the `routes/web.php` file.",
+        "optionD": "By configuring the service provider directly in the `.env` file.",
+        "answer": "By adding it to the `providers` array in the `config/app.php` file.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is the `php artisan make:job` command used for?",
+        "optionA": "To create a new job class for handling background tasks and queued jobs.",
+        "optionB": "To generate a new controller class for managing application logic.",
+        "optionC": "To create a new middleware class for request and response handling.",
+        "optionD": "To generate a new seeder class for populating the database with data.",
+        "answer": "To create a new job class for handling background tasks and queued jobs.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "How do you define a route parameter in Laravel?",
+        "optionA": "By including curly braces in the route URI, e.g., `/user/{id}`.",
+        "optionB": "By specifying parameters as query strings in the route configuration.",
+        "optionC": "By using middleware to pass route parameters.",
+        "optionD": "By adding parameters directly within the controller method definition.",
+        "answer": "By including curly braces in the route URI, e.g., `/user/{id}`.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What does the `php artisan make:seeder` command do?",
+        "optionA": "Generates a new seeder class for database population.",
+        "optionB": "Creates a new migration file for schema changes.",
+        "optionC": "Generates a new model class for database interactions.",
+        "optionD": "Creates a new request class for handling form validation.",
+        "answer": "Generates a new seeder class for database population.",
+        "category": "Laravel"
+    },
+    {
+        "question_text": "What is Laravel's `Auth` facade used for?",
+        "optionA": "To manage user authentication and authorization processes.",
+        "optionB": "To handle file storage and upload operations.",
+        "optionC": "To manage database migrations and schema updates.",
+        "optionD": "To define and configure application routes and controllers.",
+        "answer": "To manage user authentication and authorization processes.",
+        "category": "Laravel"
+    }
+]

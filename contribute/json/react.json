@@ -1,0 +1,1553 @@
+[
+    {
+        "question_text": "What is the purpose of `useReducer` in React?",
+        "optionA": "To manage more complex state logic than `useState`.",
+        "optionB": "To handle side effects in functional components.",
+        "optionC": "To optimize component rendering performance.",
+        "optionD": "To apply conditional styling based on state.",
+        "answer": "To manage more complex state logic than `useState`.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you provide global state management in React?",
+        "optionA": "By using the Context API.",
+        "optionB": "By managing state within individual components.",
+        "optionC": "By applying dynamic styles based on state.",
+        "optionD": "By using local state hooks.",
+        "answer": "By using the Context API.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is Redux used for in a React application?",
+        "optionA": "To manage global state across the application.",
+        "optionB": "To handle side effects in functional components.",
+        "optionC": "To apply conditional rendering based on state.",
+        "optionD": "To manage routing within the application.",
+        "answer": "To manage global state across the application.",
+        "category": "React"
+    },
+    {
+        "question_text": "What are Redux middleware used for?",
+        "optionA": "To extend Redux's capabilities by handling asynchronous actions and side effects.",
+        "optionB": "To manage local component state.",
+        "optionC": "To optimize component rendering performance.",
+        "optionD": "To apply dynamic styling based on props.",
+        "answer": "To extend Redux's capabilities by handling asynchronous actions and side effects.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `useContext` work in React?",
+        "optionA": "It allows components to access values from a Context Provider.",
+        "optionB": "It manages local component state.",
+        "optionC": "It optimizes component rendering performance.",
+        "optionD": "It handles form validations.",
+        "answer": "It allows components to access values from a Context Provider.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of the `createStore` function in Redux?",
+        "optionA": "To create a Redux store that holds the application's state.",
+        "optionB": "To handle asynchronous actions.",
+        "optionC": "To manage component state.",
+        "optionD": "To apply conditional rendering based on state.",
+        "answer": "To create a Redux store that holds the application's state.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does the `useReducer` hook differ from `useState`?",
+        "optionA": "It is used for managing complex state logic with actions and reducers.",
+        "optionB": "It manages local component state in a simpler way.",
+        "optionC": "It handles side effects like data fetching.",
+        "optionD": "It optimizes rendering performance.",
+        "answer": "It is used for managing complex state logic with actions and reducers.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `Provider` in the Context API?",
+        "optionA": "A component that supplies the context value to its children.",
+        "optionB": "A hook for managing component state.",
+        "optionC": "A middleware for handling side effects.",
+        "optionD": "A tool for applying conditional rendering.",
+        "answer": "A component that supplies the context value to its children.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the `useSelector` hook used for in Redux?",
+        "optionA": "To access values from the Redux store.",
+        "optionB": "To handle asynchronous actions.",
+        "optionC": "To create Redux actions.",
+        "optionD": "To manage component state.",
+        "answer": "To access values from the Redux store.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does the `useDispatch` hook do in Redux?",
+        "optionA": "It provides a way to dispatch actions to the Redux store.",
+        "optionB": "It manages local component state.",
+        "optionC": "It handles asynchronous data fetching.",
+        "optionD": "It optimizes component rendering performance.",
+        "answer": "It provides a way to dispatch actions to the Redux store.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `Redux Thunk` help in Redux applications?",
+        "optionA": "By allowing action creators to return functions for handling asynchronous operations.",
+        "optionB": "By managing local state within components.",
+        "optionC": "By optimizing component rendering performance.",
+        "optionD": "By applying conditional styling based on state.",
+        "answer": "By allowing action creators to return functions for handling asynchronous operations.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `combineReducers` in Redux?",
+        "optionA": "To combine multiple reducers into a single reducer function.",
+        "optionB": "To manage local component state.",
+        "optionC": "To handle asynchronous actions.",
+        "optionD": "To optimize component performance.",
+        "answer": "To combine multiple reducers into a single reducer function.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you use `useContext` with a custom Context?",
+        "optionA": "By calling `useContext` with the context object created by `React.createContext`.",
+        "optionB": "By managing state directly within the context provider.",
+        "optionC": "By using it to handle routing within components.",
+        "optionD": "By optimizing rendering performance.",
+        "answer": "By calling `useContext` with the context object created by `React.createContext`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of the `reducer` function in Redux?",
+        "optionA": "To specify how the state changes in response to actions.",
+        "optionB": "To handle side effects like data fetching.",
+        "optionC": "To manage component local state.",
+        "optionD": "To apply conditional rendering based on state.",
+        "answer": "To specify how the state changes in response to actions.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you handle asynchronous data fetching in Redux?",
+        "optionA": "By using middleware like `Redux Thunk` or `Redux Saga`.",
+        "optionB": "By managing state within the component’s `useState` hook.",
+        "optionC": "By applying conditional rendering based on props.",
+        "optionD": "By using `useEffect` in functional components.",
+        "answer": "By using middleware like `Redux Thunk` or `Redux Saga`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does the `dispatch` function do in Redux?",
+        "optionA": "It sends actions to the Redux store to update the state.",
+        "optionB": "It manages local component state.",
+        "optionC": "It handles asynchronous operations.",
+        "optionD": "It optimizes component rendering performance.",
+        "answer": "It sends actions to the Redux store to update the state.",
+        "category": "React"
+    },
+    {
+        "question_text": "What role does `combineReducers` play in Redux?",
+        "optionA": "It combines multiple reducer functions into a single reducer function.",
+        "optionB": "It handles asynchronous actions.",
+        "optionC": "It manages local component state.",
+        "optionD": "It applies conditional rendering based on state.",
+        "answer": "It combines multiple reducer functions into a single reducer function.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `React-Redux` connect React components to Redux?",
+        "optionA": "By using the `connect` function to map state and dispatch to props.",
+        "optionB": "By managing state within individual components.",
+        "optionC": "By applying dynamic styles based on state.",
+        "optionD": "By handling side effects with middleware.",
+        "answer": "By using the `connect` function to map state and dispatch to props.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the main benefit of using `useReducer` over `useState`?",
+        "optionA": "It provides a more structured way to manage complex state logic with actions and reducers.",
+        "optionB": "It handles side effects more efficiently.",
+        "optionC": "It optimizes component rendering performance.",
+        "optionD": "It applies conditional styling based on state.",
+        "answer": "It provides a more structured way to manage complex state logic with actions and reducers.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `createSlice` in Redux Toolkit?",
+        "optionA": "To simplify the process of writing reducers and actions.",
+        "optionB": "To handle side effects in functional components.",
+        "optionC": "To manage component state.",
+        "optionD": "To apply conditional styling based on state.",
+        "answer": "To simplify the process of writing reducers and actions.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `configureStore` do in Redux Toolkit?",
+        "optionA": "It sets up the Redux store with default middleware and configuration.",
+        "optionB": "It handles asynchronous actions.",
+        "optionC": "It manages component state.",
+        "optionD": "It optimizes rendering performance.",
+        "answer": "It sets up the Redux store with default middleware and configuration.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you use `createAsyncThunk` in Redux Toolkit?",
+        "optionA": "To create thunk actions that handle asynchronous logic.",
+        "optionB": "To manage local component state.",
+        "optionC": "To apply conditional rendering based on props.",
+        "optionD": "To handle synchronous actions.",
+        "answer": "To create thunk actions that handle asynchronous logic.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useMemo` used for in state management?",
+        "optionA": "To memoize values and prevent unnecessary re-renders.",
+        "optionB": "To handle asynchronous data fetching.",
+        "optionC": "To manage local component state.",
+        "optionD": "To apply dynamic styling based on state.",
+        "answer": "To memoize values and prevent unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you handle state updates in a nested component tree?",
+        "optionA": "By using context to provide state and handlers to deeper components.",
+        "optionB": "By managing state within each individual component.",
+        "optionC": "By applying conditional styling based on state.",
+        "optionD": "By using `useEffect` to manage side effects.",
+        "answer": "By using context to provide state and handlers to deeper components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useContext` do with a context object?",
+        "optionA": "It allows components to access the current value of the context.",
+        "optionB": "It manages state within the component.",
+        "optionC": "It handles side effects and data fetching.",
+        "optionD": "It optimizes performance by memoizing values.",
+        "answer": "It allows components to access the current value of the context.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the role of `context` in the Context API?",
+        "optionA": "To hold and provide a value to components through the `Provider`.",
+        "optionB": "To manage local state in functional components.",
+        "optionC": "To handle side effects and asynchronous operations.",
+        "optionD": "To optimize component rendering performance.",
+        "answer": "To hold and provide a value to components through the `Provider`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useCallback` used for in state management?",
+        "optionA": "To memoize callback functions and prevent unnecessary re-renders.",
+        "optionB": "To manage state within functional components.",
+        "optionC": "To handle side effects and data fetching.",
+        "optionD": "To apply conditional rendering based on state.",
+        "answer": "To memoize callback functions and prevent unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useReducer` provide compared to `useState`?",
+        "optionA": "A more structured approach to manage complex state logic with actions and reducers.",
+        "optionB": "A simpler way to handle state updates.",
+        "optionC": "An optimized method for asynchronous data fetching.",
+        "optionD": "A mechanism for applying dynamic styles.",
+        "answer": "A more structured approach to manage complex state logic with actions and reducers.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `useDispatch` in Redux?",
+        "optionA": "To send actions to the Redux store to update the state.",
+        "optionB": "To manage local component state.",
+        "optionC": "To handle asynchronous data fetching.",
+        "optionD": "To optimize component rendering performance.",
+        "answer": "To send actions to the Redux store to update the state.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `createSlice` do in Redux Toolkit?",
+        "optionA": "Simplifies creating actions and reducers in Redux.",
+        "optionB": "Manages component local state.",
+        "optionC": "Handles side effects and asynchronous operations.",
+        "optionD": "Optimizes rendering performance.",
+        "answer": "Simplifies creating actions and reducers in Redux.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you use Redux for state management in a React app?",
+        "optionA": "By creating a store, reducers, and actions, and connecting components.",
+        "optionB": "By managing state within functional components using hooks.",
+        "optionC": "By applying conditional styling based on props.",
+        "optionD": "By using the Context API for global state.",
+        "answer": "By creating a store, reducers, and actions, and connecting components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useSelector` used for in Redux?",
+        "optionA": "To access the Redux store's state in functional components.",
+        "optionB": "To dispatch actions to the Redux store.",
+        "optionC": "To manage local component state.",
+        "optionD": "To handle asynchronous data fetching.",
+        "answer": "To access the Redux store's state in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you use `useMemo` effectively in React?",
+        "optionA": "By memoizing expensive calculations to prevent unnecessary re-renders.",
+        "optionB": "By managing local state within functional components.",
+        "optionC": "By applying conditional rendering based on state.",
+        "optionD": "By handling side effects with `useEffect`.",
+        "answer": "By memoizing expensive calculations to prevent unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useContext` return?",
+        "optionA": "The current value of the context.",
+        "optionB": "A function to dispatch actions.",
+        "optionC": "A method for handling asynchronous operations.",
+        "optionD": "A way to manage local state.",
+        "answer": "The current value of the context.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `Provider` in the Context API used for?",
+        "optionA": "To pass the context value down the component tree.",
+        "optionB": "To manage local state in functional components.",
+        "optionC": "To handle side effects like data fetching.",
+        "optionD": "To optimize rendering performance.",
+        "answer": "To pass the context value down the component tree.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you manage state with Redux Toolkit?",
+        "optionA": "By creating slices with `createSlice` and configuring the store with `configureStore`.",
+        "optionB": "By using `useState` and `useEffect` hooks.",
+        "optionC": "By handling routing and navigation.",
+        "optionD": "By applying conditional styling based on props.",
+        "answer": "By creating slices with `createSlice` and configuring the store with `configureStore`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the main benefit of using `createAsyncThunk` in Redux Toolkit?",
+        "optionA": "To handle asynchronous logic in Redux actions.",
+        "optionB": "To manage local component state.",
+        "optionC": "To apply dynamic styles based on state.",
+        "optionD": "To handle side effects with middleware.",
+        "answer": "To handle asynchronous logic in Redux actions.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useRef` used for in state management?",
+        "optionA": "To persist values across renders without causing re-renders.",
+        "optionB": "To manage local component state.",
+        "optionC": "To handle side effects and data fetching.",
+        "optionD": "To optimize performance with memoization.",
+        "answer": "To persist values across renders without causing re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `useContext` improve state management?",
+        "optionA": "By allowing components to consume context values directly.",
+        "optionB": "By managing local component state more efficiently.",
+        "optionC": "By handling side effects and data fetching.",
+        "optionD": "By optimizing performance with memoization.",
+        "answer": "By allowing components to consume context values directly.",
+        "category": "React"
+    },
+    {
+        "question_text": "What role does `React-Redux` play in state management?",
+        "optionA": "It provides bindings for integrating Redux with React components.",
+        "optionB": "It manages local component state and effects.",
+        "optionC": "It optimizes performance with memoization.",
+        "optionD": "It applies conditional rendering based on props.",
+        "answer": "It provides bindings for integrating Redux with React components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `useDispatch` in Redux?",
+        "optionA": "To dispatch actions to the Redux store.",
+        "optionB": "To manage local component state.",
+        "optionC": "To handle asynchronous operations.",
+        "optionD": "To optimize rendering performance.",
+        "answer": "To dispatch actions to the Redux store.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `createSlice` in Redux Toolkit simplify?",
+        "optionA": "The process of writing reducers and actions.",
+        "optionB": "Managing local state within components.",
+        "optionC": "Handling asynchronous data fetching.",
+        "optionD": "Applying conditional rendering based on state.",
+        "answer": "The process of writing reducers and actions.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you handle global state updates in a React app?",
+        "optionA": "By using state management libraries like Redux or Context API.",
+        "optionB": "By managing state within individual components.",
+        "optionC": "By applying dynamic styles based on state.",
+        "optionD": "By using local state hooks.",
+        "answer": "By using state management libraries like Redux or Context API.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `useReducer` handle state updates?",
+        "optionA": "By dispatching actions to a reducer function that updates the state.",
+        "optionB": "By directly updating state values within the component.",
+        "optionC": "By managing side effects like data fetching.",
+        "optionD": "By optimizing rendering performance.",
+        "answer": "By dispatching actions to a reducer function that updates the state.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useMemo` used for in state management?",
+        "optionA": "To optimize performance by memoizing values and avoiding unnecessary re-renders.",
+        "optionB": "To handle side effects and asynchronous operations.",
+        "optionC": "To manage local component state.",
+        "optionD": "To apply conditional styling based on state.",
+        "answer": "To optimize performance by memoizing values and avoiding unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the main advantage of using `createAsyncThunk`?",
+        "optionA": "To simplify asynchronous logic in Redux actions.",
+        "optionB": "To manage local component state.",
+        "optionC": "To handle synchronous actions more effectively.",
+        "optionD": "To optimize performance with memoization.",
+        "answer": "To simplify asynchronous logic in Redux actions.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `Provider` do in the Context API?",
+        "optionA": "It supplies the context value to all components within its subtree.",
+        "optionB": "It manages local state within the component.",
+        "optionC": "It handles side effects and asynchronous operations.",
+        "optionD": "It optimizes component performance.",
+        "answer": "It supplies the context value to all components within its subtree.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useContext` used for?",
+        "optionA": "To access context values provided by a `Provider`.",
+        "optionB": "To manage local state in components.",
+        "optionC": "To handle side effects and asynchronous operations.",
+        "optionD": "To optimize component rendering performance.",
+        "answer": "To access context values provided by a `Provider`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the role of `combineReducers` in Redux?",
+        "optionA": "To combine multiple reducers into a single reducer function.",
+        "optionB": "To handle side effects and asynchronous operations.",
+        "optionC": "To manage local component state.",
+        "optionD": "To apply dynamic styling based on state.",
+        "answer": "To combine multiple reducers into a single reducer function.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useRef` allow you to do?",
+        "optionA": "To persist mutable values between renders without causing re-renders.",
+        "optionB": "To manage local component state.",
+        "optionC": "To handle side effects and data fetching.",
+        "optionD": "To optimize performance with memoization.",
+        "answer": "To persist mutable values between renders without causing re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `useReducer` benefit complex state management?",
+        "optionA": "By providing a way to manage state with actions and reducers for better structure.",
+        "optionB": "By simplifying local state management.",
+        "optionC": "By handling side effects more effectively.",
+        "optionD": "By optimizing rendering performance.",
+        "answer": "By providing a way to manage state with actions and reducers for better structure.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the main use of `useSelector` in Redux?",
+        "optionA": "To access the Redux store’s state in a functional component.",
+        "optionB": "To dispatch actions to the Redux store.",
+        "optionC": "To manage local component state.",
+        "optionD": "To handle asynchronous data fetching.",
+        "answer": "To access the Redux store’s state in a functional component.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useCallback` do?",
+        "optionA": "It memoizes callback functions to prevent unnecessary re-renders.",
+        "optionB": "It manages local component state.",
+        "optionC": "It handles side effects and data fetching.",
+        "optionD": "It applies dynamic styling based on state.",
+        "answer": "It memoizes callback functions to prevent unnecessary re-renders.",
+        "category": "React"
+    }
+,
+    {
+        "question_text": "What is the purpose of the `useState` hook in React?",
+        "optionA": "To manage the state in functional components.",
+        "optionB": "To handle asynchronous operations.",
+        "optionC": "To perform side effects after rendering.",
+        "optionD": "To optimize component re-rendering.",
+        "answer": "To manage the state in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `React.memo` help in performance optimization?",
+        "optionA": "By memoizing a component to avoid unnecessary re-renders.",
+        "optionB": "By managing component state with hooks.",
+        "optionC": "By handling routing within the component.",
+        "optionD": "By applying conditional styling based on state.",
+        "answer": "By memoizing a component to avoid unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a React fragment?",
+        "optionA": "A way to group multiple elements without adding extra nodes to the DOM.",
+        "optionB": "A component that handles routing.",
+        "optionC": "A technique for applying dynamic styles.",
+        "optionD": "A hook for managing component state.",
+        "answer": "A way to group multiple elements without adding extra nodes to the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does the `useRef` hook do in React?",
+        "optionA": "It provides a way to access and manage DOM elements.",
+        "optionB": "It manages component lifecycle events.",
+        "optionC": "It handles form validation.",
+        "optionD": "It performs side effects in functional components.",
+        "answer": "It provides a way to access and manage DOM elements.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `React.StrictMode` used for?",
+        "optionA": "To highlight potential problems in an application during development.",
+        "optionB": "To manage component internal state.",
+        "optionC": "To handle routing and navigation.",
+        "optionD": "To apply conditional styling based on props.",
+        "answer": "To highlight potential problems in an application during development.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does the `useCallback` hook achieve?",
+        "optionA": "It memoizes a callback function to prevent unnecessary re-renders.",
+        "optionB": "It handles side effects in functional components.",
+        "optionC": "It manages state changes.",
+        "optionD": "It applies conditional styling based on state.",
+        "answer": "It memoizes a callback function to prevent unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you handle component updates in React?",
+        "optionA": "By using the `useEffect` hook for side effects.",
+        "optionB": "By managing state within the render method.",
+        "optionC": "By applying dynamic styles based on props.",
+        "optionD": "By using context API for state management.",
+        "answer": "By using the `useEffect` hook for side effects.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does the `useContext` hook provide?",
+        "optionA": "A way to access and manage context values in functional components.",
+        "optionB": "A method to handle form submissions.",
+        "optionC": "A tool for managing component state changes.",
+        "optionD": "A way to handle routing and navigation.",
+        "answer": "A way to access and manage context values in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.lazy`?",
+        "optionA": "To dynamically import components for code splitting.",
+        "optionB": "To handle component state changes.",
+        "optionC": "To apply conditional styling based on state.",
+        "optionD": "To manage form validations.",
+        "answer": "To dynamically import components for code splitting.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useMemo` do in React?",
+        "optionA": "It memoizes a computed value to optimize performance.",
+        "optionB": "It handles side effects like data fetching.",
+        "optionC": "It manages component state updates.",
+        "optionD": "It applies dynamic styles based on props.",
+        "answer": "It memoizes a computed value to optimize performance.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the role of `ReactDOM.render`?",
+        "optionA": "To render a React component into the DOM.",
+        "optionB": "To manage component state changes.",
+        "optionC": "To handle asynchronous data fetching.",
+        "optionD": "To apply conditional rendering based on state.",
+        "answer": "To render a React component into the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you create a controlled component in React?",
+        "optionA": "By managing the component’s state with `useState` and handling input changes.",
+        "optionB": "By using `context API` for global state management.",
+        "optionC": "By applying dynamic styles based on state.",
+        "optionD": "By using `React.memo` to prevent re-renders.",
+        "answer": "By managing the component’s state with `useState` and handling input changes.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the function of `useLayoutEffect`?",
+        "optionA": "To perform side effects synchronously after DOM mutations.",
+        "optionB": "To handle state changes in functional components.",
+        "optionC": "To manage routing and navigation.",
+        "optionD": "To apply conditional styling based on props.",
+        "answer": "To perform side effects synchronously after DOM mutations.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you pass data from a parent to a child component in React?",
+        "optionA": "By using props.",
+        "optionB": "By managing state in the child component.",
+        "optionC": "By applying conditional rendering in the parent component.",
+        "optionD": "By using context API for global state.",
+        "answer": "By using props.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `React.createContext` used for?",
+        "optionA": "To create a context for managing state across multiple components.",
+        "optionB": "To manage form validations.",
+        "optionC": "To handle component routing.",
+        "optionD": "To apply dynamic styles based on state.",
+        "answer": "To create a context for managing state across multiple components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `ReactDOM.hydrate` do?",
+        "optionA": "It re-renders a server-rendered React application on the client side.",
+        "optionB": "It manages component state changes.",
+        "optionC": "It handles form submissions.",
+        "optionD": "It optimizes component rendering.",
+        "answer": "It re-renders a server-rendered React application on the client side.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you handle component side effects in React?",
+        "optionA": "By using the `useEffect` hook.",
+        "optionB": "By managing state with `useState`.",
+        "optionC": "By applying dynamic styles based on props.",
+        "optionD": "By using `React.memo` for performance optimization.",
+        "answer": "By using the `useEffect` hook.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useDeferredValue` do in React?",
+        "optionA": "It defers updating a value until the browser is idle.",
+        "optionB": "It handles asynchronous data fetching.",
+        "optionC": "It optimizes component rendering performance.",
+        "optionD": "It applies dynamic styles based on state.",
+        "answer": "It defers updating a value until the browser is idle.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.StrictMode`?",
+        "optionA": "To help identify potential problems in an application during development.",
+        "optionB": "To manage component state with hooks.",
+        "optionC": "To handle routing and navigation.",
+        "optionD": "To apply conditional styling based on props.",
+        "answer": "To help identify potential problems in an application during development.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you prevent a component from re-rendering in React?",
+        "optionA": "By using `React.memo` or `shouldComponentUpdate`.",
+        "optionB": "By managing state changes in the component’s render method.",
+        "optionC": "By applying dynamic styles based on state.",
+        "optionD": "By using context API for state management.",
+        "answer": "By using `React.memo` or `shouldComponentUpdate`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useTransition` allow you to manage?",
+        "optionA": "It allows you to manage concurrent state updates and transitions.",
+        "optionB": "It handles side effects in functional components.",
+        "optionC": "It optimizes component rendering performance.",
+        "optionD": "It applies conditional styling based on props.",
+        "answer": "It allows you to manage concurrent state updates and transitions.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `ReactDOM.createRoot` used for?",
+        "optionA": "To create a root for rendering a React application in the DOM.",
+        "optionB": "To manage state in functional components.",
+        "optionC": "To handle asynchronous data fetching.",
+        "optionD": "To apply conditional rendering based on state.",
+        "answer": "To create a root for rendering a React application in the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you access the previous state value in a React functional component?",
+        "optionA": "By using the `useRef` hook to store the previous state.",
+        "optionB": "By managing state updates with `useState`.",
+        "optionC": "By applying conditional rendering based on state.",
+        "optionD": "By using the `useEffect` hook to track state changes.",
+        "answer": "By using the `useRef` hook to store the previous state.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useImperativeHandle` used for in React?",
+        "optionA": "To customize the instance value exposed when using `ref`.",
+        "optionB": "To handle asynchronous data fetching.",
+        "optionC": "To manage component state updates.",
+        "optionD": "To apply conditional styling based on props.",
+        "answer": "To customize the instance value exposed when using `ref`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useId` provide in React?",
+        "optionA": "It generates unique IDs for accessibility and test IDs.",
+        "optionB": "It manages component state changes.",
+        "optionC": "It handles asynchronous data fetching.",
+        "optionD": "It optimizes rendering performance.",
+        "answer": "It generates unique IDs for accessibility and test IDs.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you handle errors in React components?",
+        "optionA": "By using error boundaries to catch JavaScript errors.",
+        "optionB": "By managing state with `useState`.",
+        "optionC": "By applying dynamic styles based on state.",
+        "optionD": "By using context API for global state management.",
+        "answer": "By using error boundaries to catch JavaScript errors.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `useLayoutEffect` compared to `useEffect`?",
+        "optionA": "`useLayoutEffect` runs synchronously after all DOM mutations.",
+        "optionB": "`useLayoutEffect` handles asynchronous data fetching.",
+        "optionC": "`useLayoutEffect` manages component state changes.",
+        "optionD": "`useLayoutEffect` applies conditional styling based on state.",
+        "answer": "`useLayoutEffect` runs synchronously after all DOM mutations.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `ReactDOM.unmountComponentAtNode` used for?",
+        "optionA": "To unmount a React component from the DOM.",
+        "optionB": "To manage state in functional components.",
+        "optionC": "To handle form submissions.",
+        "optionD": "To apply conditional rendering based on state.",
+        "answer": "To unmount a React component from the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does the `useReducer` hook do?",
+        "optionA": "It provides a way to manage more complex state logic than `useState`.",
+        "optionB": "It handles side effects in functional components.",
+        "optionC": "It optimizes component rendering performance.",
+        "optionD": "It applies dynamic styles based on state.",
+        "answer": "It provides a way to manage more complex state logic than `useState`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.StrictMode`?",
+        "optionA": "To identify potential problems and help in debugging during development.",
+        "optionB": "To handle form validations.",
+        "optionC": "To manage state with hooks.",
+        "optionD": "To optimize performance in components.",
+        "answer": "To identify potential problems and help in debugging during development.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you dynamically import components in React?",
+        "optionA": "By using `React.lazy` for code splitting.",
+        "optionB": "By handling routing within components.",
+        "optionC": "By managing state with `useState`.",
+        "optionD": "By applying dynamic styles based on state.",
+        "answer": "By using `React.lazy` for code splitting.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useTransition` allow you to manage?",
+        "optionA": "Concurrent transitions between state updates.",
+        "optionB": "Asynchronous data fetching.",
+        "optionC": "Component re-rendering performance.",
+        "optionD": "Conditional styling based on state.",
+        "answer": "Concurrent transitions between state updates.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you provide default values for props in React?",
+        "optionA": "By using `defaultProps` on the component.",
+        "optionB": "By managing state with `useState`.",
+        "optionC": "By applying conditional rendering based on props.",
+        "optionD": "By handling form validation.",
+        "answer": "By using `defaultProps` on the component.",
+        "category": "React"
+    }
+,
+    {
+        "question_text": "What is the primary purpose of React's `useEffect` hook?",
+        "optionA": "To manage side effects in functional components.",
+        "optionB": "To handle form state and validation.",
+        "optionC": "To apply styles dynamically based on props.",
+        "optionD": "To control component lifecycle events.",
+        "answer": "To manage side effects in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the role of the `key` prop in React lists?",
+        "optionA": "To uniquely identify elements and optimize re-renders.",
+        "optionB": "To manage the component's internal state.",
+        "optionC": "To handle event binding within the component.",
+        "optionD": "To apply conditional styling to list items.",
+        "answer": "To uniquely identify elements and optimize re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you update the state of a functional component in React?",
+        "optionA": "By using the `useState` hook.",
+        "optionB": "By directly modifying the component's properties.",
+        "optionC": "By passing state as props to child components.",
+        "optionD": "By using context API to manage state.",
+        "answer": "By using the `useState` hook.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `React.memo` do?",
+        "optionA": "It memoizes the component to avoid unnecessary re-renders.",
+        "optionB": "It manages the internal state of a functional component.",
+        "optionC": "It handles asynchronous data fetching.",
+        "optionD": "It applies styles dynamically based on props.",
+        "answer": "It memoizes the component to avoid unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.StrictMode`?",
+        "optionA": "To identify potential problems in an application during development.",
+        "optionB": "To manage state within components.",
+        "optionC": "To handle routing between different views.",
+        "optionD": "To apply conditional styling to elements.",
+        "answer": "To identify potential problems in an application during development.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `React.createElement` do?",
+        "optionA": "It creates and returns a React element based on the component and props.",
+        "optionB": "It handles data fetching and API calls.",
+        "optionC": "It manages routing and navigation.",
+        "optionD": "It applies dynamic styles based on component state.",
+        "answer": "It creates and returns a React element based on the component and props.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you pass data between sibling components?",
+        "optionA": "By lifting state up to a common parent component.",
+        "optionB": "By using the context API for data sharing.",
+        "optionC": "By applying conditional rendering based on props.",
+        "optionD": "By using global state management libraries.",
+        "answer": "By lifting state up to a common parent component.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useContext` used for in React?",
+        "optionA": "To access context values in functional components.",
+        "optionB": "To manage local component state.",
+        "optionC": "To handle routing and navigation.",
+        "optionD": "To apply conditional styling based on state.",
+        "answer": "To access context values in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `React.lazy` enable?",
+        "optionA": "Dynamic import of components for code splitting.",
+        "optionB": "State management in functional components.",
+        "optionC": "Handling side effects in components.",
+        "optionD": "Applying styles based on component props.",
+        "answer": "Dynamic import of components for code splitting.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the role of `React.Fragment`?",
+        "optionA": "To group multiple elements without adding extra nodes to the DOM.",
+        "optionB": "To handle complex state logic within components.",
+        "optionC": "To manage routing and navigation.",
+        "optionD": "To apply dynamic styling to components.",
+        "answer": "To group multiple elements without adding extra nodes to the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `useRef` help in React?",
+        "optionA": "It persists values across renders without causing re-renders.",
+        "optionB": "It handles component lifecycle methods.",
+        "optionC": "It manages state changes in functional components.",
+        "optionD": "It applies styles dynamically based on state.",
+        "answer": "It persists values across renders without causing re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `useReducer`?",
+        "optionA": "To manage complex state logic in functional components.",
+        "optionB": "To handle routing and navigation.",
+        "optionC": "To perform side effects in components.",
+        "optionD": "To apply conditional styling based on props.",
+        "answer": "To manage complex state logic in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you conditionally render components in React?",
+        "optionA": "By using conditional operators or ternary expressions in JSX.",
+        "optionB": "By applying dynamic styles based on state.",
+        "optionC": "By managing routing within the component.",
+        "optionD": "By using the context API to control rendering.",
+        "answer": "By using conditional operators or ternary expressions in JSX.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `React.createContext` used for?",
+        "optionA": "To create a context object for data sharing between components.",
+        "optionB": "To handle state updates within components.",
+        "optionC": "To manage routing and navigation.",
+        "optionD": "To apply conditional styling based on component state.",
+        "answer": "To create a context object for data sharing between components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `ReactDOM.hydrate` do?",
+        "optionA": "It attaches event handlers and re-renders server-rendered HTML.",
+        "optionB": "It manages internal component state.",
+        "optionC": "It handles asynchronous operations in components.",
+        "optionD": "It applies styles based on component props.",
+        "answer": "It attaches event handlers and re-renders server-rendered HTML.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a controlled component in React?",
+        "optionA": "A component that manages form data using React state.",
+        "optionB": "A component that directly manipulates the DOM for updates.",
+        "optionC": "A component that uses context API for managing form data.",
+        "optionD": "A component that applies styles based on form state.",
+        "answer": "A component that manages form data using React state.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you optimize performance in React?",
+        "optionA": "By using memoization and code splitting techniques.",
+        "optionB": "By managing state directly in the DOM.",
+        "optionC": "By applying dynamic styles based on component state.",
+        "optionD": "By handling routing within components.",
+        "answer": "By using memoization and code splitting techniques.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useCallback` do in React?",
+        "optionA": "It returns a memoized version of a callback function.",
+        "optionB": "It manages state changes within functional components.",
+        "optionC": "It handles side effects and asynchronous operations.",
+        "optionD": "It applies conditional styling based on props.",
+        "answer": "It returns a memoized version of a callback function.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you handle form submissions in React?",
+        "optionA": "By using controlled components and handling events.",
+        "optionB": "By using uncontrolled components with direct DOM manipulation.",
+        "optionC": "By managing form state using the context API.",
+        "optionD": "By applying custom validation logic to form inputs.",
+        "answer": "By using controlled components and handling events.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `ReactDOM.render` used for?",
+        "optionA": "To render a React element into the DOM.",
+        "optionB": "To handle component state management.",
+        "optionC": "To manage routing and navigation.",
+        "optionD": "To apply styles based on component state.",
+        "answer": "To render a React element into the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a higher-order component (HOC) in React?",
+        "optionA": "A function that takes a component and returns a new component with enhanced capabilities.",
+        "optionB": "A component that handles routing and navigation.",
+        "optionC": "A component that applies styles dynamically based on state.",
+        "optionD": "A component that manages its own internal state.",
+        "answer": "A function that takes a component and returns a new component with enhanced capabilities.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useLayoutEffect` used for?",
+        "optionA": "To perform side effects synchronously after DOM updates.",
+        "optionB": "To manage state changes in functional components.",
+        "optionC": "To handle routing and navigation.",
+        "optionD": "To apply conditional styling to components.",
+        "answer": "To perform side effects synchronously after DOM updates.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the role of `React.PureComponent`?",
+        "optionA": "To optimize rendering by performing a shallow comparison of props and state.",
+        "optionB": "To handle asynchronous data fetching.",
+        "optionC": "To manage component state changes.",
+        "optionD": "To apply dynamic styling based on props.",
+        "answer": "To optimize rendering by performing a shallow comparison of props and state.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you handle asynchronous data fetching in React?",
+        "optionA": "By using the `useEffect` hook to perform side effects.",
+        "optionB": "By managing data fetching directly within the component's render method.",
+        "optionC": "By applying conditional rendering based on fetch status.",
+        "optionD": "By using context API to share data across components.",
+        "answer": "By using the `useEffect` hook to perform side effects.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useReducer` provide in React?",
+        "optionA": "A way to manage complex state logic in functional components.",
+        "optionB": "A method for dynamically importing components.",
+        "optionC": "A tool for handling side effects in components.",
+        "optionD": "A way to apply conditional styling based on state.",
+        "answer": "A way to manage complex state logic in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you optimize re-rendering of a React component?",
+        "optionA": "By using `React.memo` to memoize the component.",
+        "optionB": "By handling state changes within the component directly.",
+        "optionC": "By applying dynamic styles based on component state.",
+        "optionD": "By using context API for state management.",
+        "answer": "By using `React.memo` to memoize the component.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `useImperativeHandle`?",
+        "optionA": "To customize the instance value that is exposed when using `ref`.",
+        "optionB": "To handle form submissions and validation.",
+        "optionC": "To manage routing and navigation.",
+        "optionD": "To apply conditional styling based on state.",
+        "answer": "To customize the instance value that is exposed when using `ref`.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `React.Suspense` do?",
+        "optionA": "It provides a way to handle lazy-loaded components.",
+        "optionB": "It manages internal component state changes.",
+        "optionC": "It handles form validation and error handling.",
+        "optionD": "It applies conditional styling based on props.",
+        "answer": "It provides a way to handle lazy-loaded components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useTransition` used for?",
+        "optionA": "To manage transitions between state updates.",
+        "optionB": "To handle side effects in functional components.",
+        "optionC": "To optimize re-rendering of components.",
+        "optionD": "To apply dynamic styles based on props.",
+        "answer": "To manage transitions between state updates.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you implement routing in a React application?",
+        "optionA": "By using React Router for handling navigation.",
+        "optionB": "By managing routes with context API.",
+        "optionC": "By applying conditional rendering based on state.",
+        "optionD": "By using global state management libraries.",
+        "answer": "By using React Router for handling navigation.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.forwardRef`?",
+        "optionA": "To forward refs to a child component.",
+        "optionB": "To handle form state management.",
+        "optionC": "To manage routing and navigation.",
+        "optionD": "To apply conditional styles based on props.",
+        "answer": "To forward refs to a child component.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you handle updates to a component's state in React?",
+        "optionA": "By using the `useState` hook to manage state changes.",
+        "optionB": "By directly manipulating the DOM elements.",
+        "optionC": "By using context API for state management.",
+        "optionD": "By handling state updates in parent components.",
+        "answer": "By using the `useState` hook to manage state changes.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `React.PureComponent`?",
+        "optionA": "A component that performs shallow comparison of props and state.",
+        "optionB": "A component used for handling form validations.",
+        "optionC": "A component that manages routing and navigation.",
+        "optionD": "A component for applying conditional styles.",
+        "answer": "A component that performs shallow comparison of props and state.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useEffect` do in React?",
+        "optionA": "It handles side effects like data fetching and subscriptions.",
+        "optionB": "It manages state changes within functional components.",
+        "optionC": "It applies dynamic styles based on component state.",
+        "optionD": "It handles routing and navigation.",
+        "answer": "It handles side effects like data fetching and subscriptions.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you implement error boundaries in React?",
+        "optionA": "By creating a class component with `componentDidCatch` method.",
+        "optionB": "By using `useEffect` for managing side effects.",
+        "optionC": "By applying conditional rendering based on error state.",
+        "optionD": "By managing state with context API.",
+        "answer": "By creating a class component with `componentDidCatch` method.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useMemo` do in React?",
+        "optionA": "It memoizes a computed value to optimize performance.",
+        "optionB": "It handles form submissions and validations.",
+        "optionC": "It manages routing and navigation.",
+        "optionD": "It applies dynamic styles based on props.",
+        "answer": "It memoizes a computed value to optimize performance.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a React Hook?",
+        "optionA": "A special function that lets you use state and lifecycle features in functional components.",
+        "optionB": "A method for handling component routing.",
+        "optionC": "A technique for applying dynamic styles to components.",
+        "optionD": "A way to manage form validations.",
+        "answer": "A special function that lets you use state and lifecycle features in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useImperativeHandle` do in React?",
+        "optionA": "It customizes the instance value that is exposed when using `ref`.",
+        "optionB": "It manages state changes within components.",
+        "optionC": "It handles side effects in functional components.",
+        "optionD": "It applies conditional styling based on state.",
+        "answer": "It customizes the instance value that is exposed when using `ref`.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you implement lazy loading in React?",
+        "optionA": "By using `React.lazy` and `Suspense` for dynamic imports.",
+        "optionB": "By managing state changes within the component directly.",
+        "optionC": "By applying dynamic styles based on component state.",
+        "optionD": "By using the context API for data management.",
+        "answer": "By using `React.lazy` and `Suspense` for dynamic imports.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the `useLayoutEffect` hook used for?",
+        "optionA": "To perform side effects synchronously after DOM mutations.",
+        "optionB": "To manage state changes within components.",
+        "optionC": "To handle routing and navigation.",
+        "optionD": "To apply dynamic styles based on component state.",
+        "answer": "To perform side effects synchronously after DOM mutations.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `React.forwardRef` allow you to do?",
+        "optionA": "Pass refs to child components.",
+        "optionB": "Manage component state with the context API.",
+        "optionC": "Handle asynchronous data fetching.",
+        "optionD": "Apply conditional styling based on state.",
+        "answer": "Pass refs to child components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a React Context?",
+        "optionA": "A way to share values like state or functions between components without prop drilling.",
+        "optionB": "A tool for managing component internal state.",
+        "optionC": "A method for applying dynamic styles based on state.",
+        "optionD": "A technique for handling routing within a component.",
+        "answer": "A way to share values like state or functions between components without prop drilling.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you optimize performance in React components?",
+        "optionA": "By using `React.memo` and `useCallback` for memoization.",
+        "optionB": "By managing state directly in the DOM.",
+        "optionC": "By applying conditional rendering based on state.",
+        "optionD": "By handling routing and navigation within components.",
+        "answer": "By using `React.memo` and `useCallback` for memoization.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useDeferredValue` do in React?",
+        "optionA": "It defers updating a value until after a render.",
+        "optionB": "It handles asynchronous operations in components.",
+        "optionC": "It optimizes performance for rendering.",
+        "optionD": "It applies conditional styling based on state.",
+        "answer": "It defers updating a value until after a render.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useTransition` used for in React?",
+        "optionA": "To manage concurrent transitions between state updates.",
+        "optionB": "To handle side effects in functional components.",
+        "optionC": "To optimize re-rendering of components.",
+        "optionD": "To apply dynamic styles based on props.",
+        "answer": "To manage concurrent transitions between state updates.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you manage form state in React?",
+        "optionA": "By using controlled components with state hooks.",
+        "optionB": "By applying dynamic styling based on form input values.",
+        "optionC": "By using context API for form state management.",
+        "optionD": "By handling form data directly in the DOM.",
+        "answer": "By using controlled components with state hooks.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `React.StrictMode` used for?",
+        "optionA": "To help find potential problems in the application during development.",
+        "optionB": "To handle state management and routing.",
+        "optionC": "To apply conditional styling based on state.",
+        "optionD": "To manage data fetching and subscriptions.",
+        "answer": "To help find potential problems in the application during development.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.useImperativeHandle`?",
+        "optionA": "To customize the instance value that is exposed when using `ref`.",
+        "optionB": "To manage component state and updates.",
+        "optionC": "To handle routing and navigation within components.",
+        "optionD": "To apply conditional styling based on props.",
+        "answer": "To customize the instance value that is exposed when using `ref`.",
+        "category": "React"
+    }
+,
+    {
+        "question_text": "What is React?",
+        "optionA": "A JavaScript library for building user interfaces.",
+        "optionB": "A tool for managing application state in JavaScript.",
+        "optionC": "A JavaScript library for handling asynchronous operations.",
+        "optionD": "A framework for server-side rendering in JavaScript.",
+        "answer": "A JavaScript library for building user interfaces.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does JSX stand for?",
+        "optionA": "JavaScript XML",
+        "optionB": "JavaScript Extended Markup",
+        "optionC": "JavaScript External Markup",
+        "optionD": "JavaScript Expression Markup",
+        "answer": "JavaScript XML",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of the `render` method in a React component?",
+        "optionA": "It returns the JSX that represents the component's UI.",
+        "optionB": "It handles internal component state and updates.",
+        "optionC": "It sets up event listeners for the component.",
+        "optionD": "It applies styles directly to the component.",
+        "answer": "It returns the JSX that represents the component's UI.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a React component?",
+        "optionA": "A reusable piece of the UI with its own logic and state.",
+        "optionB": "A function used for handling routing in the app.",
+        "optionC": "A method for applying dynamic styles to elements.",
+        "optionD": "A tool for managing external API calls.",
+        "answer": "A reusable piece of the UI with its own logic and state.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `props` in React?",
+        "optionA": "Props are used to pass data from parent to child components.",
+        "optionB": "Props handle the internal state of a component.",
+        "optionC": "Props manage routing and navigation in the app.",
+        "optionD": "Props are used for styling components dynamically.",
+        "answer": "Props are used to pass data from parent to child components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useState` do in React?",
+        "optionA": "It adds state management capabilities to functional components.",
+        "optionB": "It handles the routing of different views in the app.",
+        "optionC": "It applies styles to components based on state changes.",
+        "optionD": "It manages asynchronous data fetching operations.",
+        "answer": "It adds state management capabilities to functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the `useEffect` hook used for?",
+        "optionA": "To perform side effects in functional components.",
+        "optionB": "To manage the component's state directly.",
+        "optionC": "To handle routing and navigation between views.",
+        "optionD": "To apply dynamic styling to components.",
+        "answer": "To perform side effects in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the role of `useReducer`?",
+        "optionA": "It is used for managing complex state logic in components.",
+        "optionB": "It is used for handling routing and navigation.",
+        "optionC": "It is used for applying conditional styles to components.",
+        "optionD": "It is used for managing side effects in functional components.",
+        "answer": "It is used for managing complex state logic in components.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does `React.Fragment` work?",
+        "optionA": "It allows grouping multiple elements without adding extra nodes to the DOM.",
+        "optionB": "It handles complex state updates in functional components.",
+        "optionC": "It applies styles dynamically based on component state.",
+        "optionD": "It manages routing between different views.",
+        "answer": "It allows grouping multiple elements without adding extra nodes to the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `useContext` provide in React?",
+        "optionA": "It allows accessing the context value in functional components.",
+        "optionB": "It manages state changes within the component.",
+        "optionC": "It handles routing and navigation.",
+        "optionD": "It applies conditional styling to elements.",
+        "answer": "It allows accessing the context value in functional components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the `useRef` hook used for?",
+        "optionA": "It provides a way to persist values across renders without causing re-renders.",
+        "optionB": "It manages state within functional components.",
+        "optionC": "It handles side effects and asynchronous operations.",
+        "optionD": "It applies dynamic styles to components.",
+        "answer": "It provides a way to persist values across renders without causing re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does the `useMemo` hook optimize?",
+        "optionA": "It optimizes performance by memoizing the result of a computation.",
+        "optionB": "It handles routing and navigation in the app.",
+        "optionC": "It manages the component's local state.",
+        "optionD": "It applies styles based on component props.",
+        "answer": "It optimizes performance by memoizing the result of a computation.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `useCallback` used for?",
+        "optionA": "It returns a memoized version of a callback function to avoid unnecessary re-renders.",
+        "optionB": "It manages the component's routing and navigation.",
+        "optionC": "It handles state updates and asynchronous operations.",
+        "optionD": "It applies styles based on the component's state.",
+        "answer": "It returns a memoized version of a callback function to avoid unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of the `key` prop in a list of elements?",
+        "optionA": "To help React identify which items have changed, been added, or removed.",
+        "optionB": "To manage state changes within each element.",
+        "optionC": "To apply conditional styling to list items.",
+        "optionD": "To handle routing between list views.",
+        "answer": "To help React identify which items have changed, been added, or removed.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the `ReactDOM.render` method used for?",
+        "optionA": "It renders a React element into the DOM.",
+        "optionB": "It manages the component's internal state.",
+        "optionC": "It handles routing and navigation.",
+        "optionD": "It applies dynamic styles to components.",
+        "answer": "It renders a React element into the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a higher-order component (HOC)?",
+        "optionA": "A function that takes a component and returns a new component with additional functionality.",
+        "optionB": "A method for styling components dynamically.",
+        "optionC": "A tool for managing routing in React applications.",
+        "optionD": "A utility for handling asynchronous data fetching.",
+        "answer": "A function that takes a component and returns a new component with additional functionality.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `componentDidMount` do?",
+        "optionA": "It is called after a component is mounted to the DOM.",
+        "optionB": "It handles state updates before the component mounts.",
+        "optionC": "It applies styles to the component during mounting.",
+        "optionD": "It manages routing for the component.",
+        "answer": "It is called after a component is mounted to the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `shouldComponentUpdate`?",
+        "optionA": "To optimize performance by preventing unnecessary re-renders.",
+        "optionB": "To manage the component's internal state.",
+        "optionC": "To handle side effects and asynchronous operations.",
+        "optionD": "To apply dynamic styles based on state changes.",
+        "answer": "To optimize performance by preventing unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the `context` API used for in React?",
+        "optionA": "To pass data through the component tree without prop drilling.",
+        "optionB": "To manage state within individual components.",
+        "optionC": "To handle routing and navigation between views.",
+        "optionD": "To apply conditional styling based on component state.",
+        "answer": "To pass data through the component tree without prop drilling.",
+        "category": "React"
+    },
+    {
+        "question_text": "How does React handle form submissions?",
+        "optionA": "By using controlled components that manage form data through state.",
+        "optionB": "By using uncontrolled components with direct DOM manipulation.",
+        "optionC": "By applying custom validation logic to form inputs.",
+        "optionD": "By managing form data through context API.",
+        "answer": "By using controlled components that manage form data through state.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.StrictMode`?",
+        "optionA": "To help find potential problems in an application during development.",
+        "optionB": "To manage the application's routing and navigation.",
+        "optionC": "To apply styles to components dynamically.",
+        "optionD": "To handle form submissions and validations.",
+        "answer": "To help find potential problems in an application during development.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you optimize performance in a React application?",
+        "optionA": "By using techniques like memoization and lazy loading.",
+        "optionB": "By managing state directly in the DOM.",
+        "optionC": "By applying dynamic styles to components.",
+        "optionD": "By handling routing within components.",
+        "answer": "By using techniques like memoization and lazy loading.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.createContext`?",
+        "optionA": "To create a context object for sharing data between components.",
+        "optionB": "To manage state changes within a component.",
+        "optionC": "To handle routing and navigation.",
+        "optionD": "To apply conditional styles to elements.",
+        "answer": "To create a context object for sharing data between components.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a controlled component in React?",
+        "optionA": "A component whose form data is handled by React state.",
+        "optionB": "A component that directly manipulates the DOM for updates.",
+        "optionC": "A component that handles its own internal state independently.",
+        "optionD": "A component that uses the context API for data management.",
+        "answer": "A component whose form data is handled by React state.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you handle asynchronous operations in a React component?",
+        "optionA": "By using hooks like `useEffect` to perform side effects.",
+        "optionB": "By directly manipulating the DOM for updates.",
+        "optionC": "By applying styles dynamically based on state changes.",
+        "optionD": "By managing state within the context API.",
+        "answer": "By using hooks like `useEffect` to perform side effects.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `React.lazy`?",
+        "optionA": "To dynamically import components and enable code splitting.",
+        "optionB": "To handle form validations and error messages.",
+        "optionC": "To manage internal component state changes.",
+        "optionD": "To apply dynamic styles to components based on props.",
+        "answer": "To dynamically import components and enable code splitting.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `React.memo` do?",
+        "optionA": "It memoizes a component to prevent unnecessary re-renders.",
+        "optionB": "It manages state changes within a functional component.",
+        "optionC": "It handles routing and navigation between views.",
+        "optionD": "It applies conditional styles based on state changes.",
+        "answer": "It memoizes a component to prevent unnecessary re-renders.",
+        "category": "React"
+    },
+    {
+        "question_text": "How can you pass functions as props to child components?",
+        "optionA": "By directly passing the function as a prop to the child component.",
+        "optionB": "By using the context API to share functions.",
+        "optionC": "By handling functions within the parent component's state.",
+        "optionD": "By applying functions directly to the DOM elements.",
+        "answer": "By directly passing the function as a prop to the child component.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is `React.StrictMode` used for?",
+        "optionA": "To detect potential problems in an application during development.",
+        "optionB": "To handle component state management.",
+        "optionC": "To manage routing and navigation.",
+        "optionD": "To apply dynamic styles to components.",
+        "answer": "To detect potential problems in an application during development.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `ReactDOM.hydrate` do?",
+        "optionA": "It attaches event handlers and re-renders server-rendered HTML.",
+        "optionB": "It manages state changes within components.",
+        "optionC": "It handles dynamic styling of elements.",
+        "optionD": "It manages routing within the application.",
+        "answer": "It attaches event handlers and re-renders server-rendered HTML.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you handle errors in a React application?",
+        "optionA": "By using error boundaries to catch and handle errors in the component tree.",
+        "optionB": "By applying dynamic styles based on error state.",
+        "optionC": "By managing error state within the context API.",
+        "optionD": "By handling errors directly in the DOM manipulation code.",
+        "answer": "By using error boundaries to catch and handle errors in the component tree.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the `React.StrictMode` component used for?",
+        "optionA": "To help find potential problems in an application during development.",
+        "optionB": "To handle state management within components.",
+        "optionC": "To apply dynamic styles to React elements.",
+        "optionD": "To manage routing and navigation.",
+        "answer": "To help find potential problems in an application during development.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the `React.createElement` method used for?",
+        "optionA": "To create and return a React element based on a component and its props.",
+        "optionB": "To handle asynchronous data fetching in components.",
+        "optionC": "To manage state updates within functional components.",
+        "optionD": "To apply conditional styling to elements based on props.",
+        "answer": "To create and return a React element based on a component and its props.",
+        "category": "React"
+    },
+    {
+        "question_text": "How do you conditionally render elements in React?",
+        "optionA": "By using conditional operators or ternary expressions in JSX.",
+        "optionB": "By applying dynamic styles to components based on conditions.",
+        "optionC": "By managing state changes within the context API.",
+        "optionD": "By handling routing and navigation conditionally.",
+        "answer": "By using conditional operators or ternary expressions in JSX.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a functional component in React?",
+        "optionA": "A component defined as a function that returns JSX.",
+        "optionB": "A component that handles routing and navigation.",
+        "optionC": "A component that applies dynamic styles based on state.",
+        "optionD": "A component that manages state using hooks.",
+        "answer": "A component defined as a function that returns JSX.",
+        "category": "React"
+    },
+    {
+        "question_text": "What does `React.createElement` return?",
+        "optionA": "A React element that describes how the UI should look.",
+        "optionB": "A method for managing component state.",
+        "optionC": "A tool for handling asynchronous operations.",
+        "optionD": "A function for applying dynamic styles.",
+        "answer": "A React element that describes how the UI should look.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is the purpose of `ReactDOM.unmountComponentAtNode`?",
+        "optionA": "To remove a React component from the DOM.",
+        "optionB": "To update the component's state.",
+        "optionC": "To apply styles to the component.",
+        "optionD": "To handle routing between different views.",
+        "answer": "To remove a React component from the DOM.",
+        "category": "React"
+    },
+    {
+        "question_text": "What is a controlled form component in React?",
+        "optionA": "A component that manages form data using React state.",
+        "optionB": "A component that directly manipulates the DOM for form updates.",
+        "optionC": "A component that uses context API for form data.",
+        "optionD": "A component that applies styles based on form state.",
+        "answer": "A component that manages form data using React state.",
+        "category": "React"
+    }
+]

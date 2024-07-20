@@ -1,0 +1,1763 @@
+    
+ [   {
+        "question_text": "How do you create a new Django project?",
+        "optionA": "By running `django-admin startproject projectname`.",
+        "optionB": "By executing `python manage.py startproject projectname` in the terminal, which will initialize a new Django project with the specified name and create the necessary directory structure and configuration files.",
+        "optionC": "By using `django-admin new project projectname` which is a command that sets up a new Django project with default settings and directory structure.",
+        "optionD": "By creating a new folder and manually adding the necessary files and configurations for a Django project.",
+        "answer": "By running `django-admin startproject projectname`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you add a new model to a Django application?",
+        "optionA": "By creating a new class in the `models.py` file of the application.",
+        "optionB": "By editing the `models.py` file and adding a new class with fields that represent the model, then running `python manage.py makemigrations` and `python manage.py migrate` to apply the changes.",
+        "optionC": "By using the `django-admin create:model ModelName` command to generate the model class and related files automatically.",
+        "optionD": "By manually creating a new file for the model and configuring it in the Django settings file.",
+        "answer": "By creating a new class in the `models.py` file of the application.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you create a new view function in Django?",
+        "optionA": "By defining a function in the `views.py` file of the application.",
+        "optionB": "By adding a new function to the `views.py` file that returns an HTTP response or renders a template, and then mapping this view to a URL pattern in the `urls.py` file.",
+        "optionC": "By using `django-admin create:view viewname` which will generate a new view function template and necessary boilerplate code.",
+        "optionD": "By configuring a view in the `settings.py` file and linking it with the appropriate URL patterns.",
+        "answer": "By defining a function in the `views.py` file of the application.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What command is used to apply database migrations in Django?",
+        "optionA": "By running `python manage.py migrate`.",
+        "optionB": "By executing `python manage.py applymigrations`, which processes migration files and applies changes to the database schema as defined in the migration files.",
+        "optionC": "By using the `django-admin migrate` command to apply all pending migrations to the database.",
+        "optionD": "By creating migration files manually and applying them through a custom script.",
+        "answer": "By running `python manage.py migrate`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you set up static file handling in Django?",
+        "optionA": "By configuring `STATIC_URL` and `STATICFILES_DIRS` in the `settings.py` file.",
+        "optionB": "By adding `STATIC_URL` and `STATICFILES_DIRS` to the `settings.py` file and ensuring that static files are served correctly by configuring `urls.py` and using the `collectstatic` command to gather all static files into a central location for deployment.",
+        "optionC": "By placing static files directly in the project root directory and setting `STATIC_DIR` in the `settings.py` file.",
+        "optionD": "By manually configuring the web server to serve static files without using Django's built-in static file handling mechanisms.",
+        "answer": "By configuring `STATIC_URL` and `STATICFILES_DIRS` in the `settings.py` file.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you create a new Django app?",
+        "optionA": "By running `python manage.py startapp appname`.",
+        "optionB": "By executing `django-admin startapp appname`, which sets up a new application directory structure with necessary files and configurations for adding models, views, and templates.",
+        "optionC": "By using `django-admin create:app appname` which creates a new app with default settings and files.",
+        "optionD": "By manually creating a new directory and adding required files and settings for a Django application.",
+        "answer": "By running `python manage.py startapp appname`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `urls.py` file?",
+        "optionA": "To define URL patterns and route incoming requests to the appropriate view functions.",
+        "optionB": "To handle database connections and configurations.",
+        "optionC": "To manage user authentication and permissions.",
+        "optionD": "To configure the settings and parameters for the Django project.",
+        "answer": "To define URL patterns and route incoming requests to the appropriate view functions.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you configure Django's database settings?",
+        "optionA": "By editing the `DATABASES` setting in the `settings.py` file.",
+        "optionB": "By modifying the `DATABASES` section in the `settings.py` file, where you specify the database engine, name, user, password, host, and port for connecting to the database.",
+        "optionC": "By using `django-admin configure:database` to set up and configure the database connection.",
+        "optionD": "By manually editing database connection files and settings outside of Django's configuration.",
+        "answer": "By editing the `DATABASES` setting in the `settings.py` file.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `migrations`?",
+        "optionA": "To manage changes to the database schema and apply them incrementally.",
+        "optionB": "To handle user authentication and authorization.",
+        "optionC": "To optimize database queries and improve performance.",
+        "optionD": "To define and manage application settings and configurations.",
+        "answer": "To manage changes to the database schema and apply them incrementally.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you create a new Django model migration?",
+        "optionA": "By running `python manage.py makemigrations`.",
+        "optionB": "By executing `python manage.py create:migration migrationname` to generate migration files based on changes to your models, which are then applied to the database using `python manage.py migrate`.",
+        "optionC": "By using `django-admin generate:migration` to create a new migration file that reflects model changes.",
+        "optionD": "By manually creating a migration file and adding the required migration code.",
+        "answer": "By running `python manage.py makemigrations`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you add a new URL pattern to a Django application?",
+        "optionA": "By editing the `urls.py` file and adding a new `path()` or `re_path()` entry.",
+        "optionB": "By modifying the `urls.py` file to include new URL patterns that map URLs to view functions, ensuring that the URL configuration is updated to handle new routes and requests.",
+        "optionC": "By using the `django-admin add:url` command to automatically update the URL configuration.",
+        "optionD": "By defining URL patterns in a separate configuration file and including it in the `urls.py` file.",
+        "answer": "By editing the `urls.py` file and adding a new `path()` or `re_path()` entry.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you serve media files in Django during development?",
+        "optionA": "By configuring `MEDIA_URL` and `MEDIA_ROOT` in `settings.py` and adding URL patterns to serve media files.",
+        "optionB": "By setting up `MEDIA_URL` and `MEDIA_ROOT` in the `settings.py` file and configuring your project's URL patterns to serve media files using Django's built-in development server, ensuring media files are accessible during development.",
+        "optionC": "By using `django-admin serve:media` to handle media file serving.",
+        "optionD": "By manually configuring the web server to serve media files from the media directory.",
+        "answer": "By configuring `MEDIA_URL` and `MEDIA_ROOT` in `settings.py` and adding URL patterns to serve media files.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does Django's `manage.py` command do?",
+        "optionA": "It provides a command-line interface to manage various aspects of a Django project.",
+        "optionB": "It is used to run server commands, create new applications, handle database migrations, and perform other management tasks within a Django project, making it a central tool for project development and maintenance.",
+        "optionC": "It is a configuration file for Django project settings and parameters.",
+        "optionD": "It handles the deployment of Django applications to production environments.",
+        "answer": "It provides a command-line interface to manage various aspects of a Django project.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you implement authentication in Django?",
+        "optionA": "By using Django's built-in authentication system with `User` model and authentication views.",
+        "optionB": "By configuring authentication settings in the `settings.py` file, creating custom user models, and using Django's built-in views and forms for handling user registration, login, and logout.",
+        "optionC": "By installing a third-party authentication package and integrating it into your Django project.",
+        "optionD": "By manually implementing authentication mechanisms and managing user sessions.",
+        "answer": "By using Django's built-in authentication system with `User` model and authentication views.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `context` in templates?",
+        "optionA": "To pass data from views to templates for rendering.",
+        "optionB": "To provide a way to include additional template logic and data in the rendered HTML, allowing dynamic content to be inserted into the template based on the context provided by the view function.",
+        "optionC": "To manage static file configurations and settings.",
+        "optionD": "To handle form validation and error messages.",
+        "answer": "To pass data from views to templates for rendering.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you handle form submissions in Django?",
+        "optionA": "By creating a `Form` class in `forms.py` and processing the form in a view.",
+        "optionB": "By defining a `Form` class with fields and validation rules in `forms.py`, rendering the form in a template, and handling form submissions in a view function that processes the form data and performs necessary actions such as saving data to the database or redirecting the user.",
+        "optionC": "By using `django-admin create:form` to generate a form class and associated files.",
+        "optionD": "By manually creating HTML forms and processing them in the view functions without using Django's form handling mechanisms.",
+        "answer": "By creating a `Form` class in `forms.py` and processing the form in a view.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the role of Django's `admin` site?",
+        "optionA": "To provide an interface for managing and editing model data.",
+        "optionB": "To offer a web-based interface for managing and editing model data in the Django application, including adding, updating, and deleting records, and providing an overview of the data stored in the database.",
+        "optionC": "To handle user authentication and authorization settings.",
+        "optionD": "To configure and manage application settings and parameters.",
+        "answer": "To provide an interface for managing and editing model data.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you enable Django's debugging mode?",
+        "optionA": "By setting `DEBUG = True` in the `settings.py` file.",
+        "optionB": "By modifying the `settings.py` file to set `DEBUG = True`, which enables detailed error messages and debugging information during development, and should be turned off in production environments for security reasons.",
+        "optionC": "By running `django-admin debug` to enable debugging features.",
+        "optionD": "By configuring a special debugging module or package within the Django project.",
+        "answer": "By setting `DEBUG = True` in the `settings.py` file.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does the `urls.py` file in Django do?",
+        "optionA": "It maps URL patterns to views.",
+        "optionB": "It defines URL patterns and routes incoming HTTP requests to the appropriate view functions or class-based views, allowing the application to handle different URLs and deliver the correct responses.",
+        "optionC": "It manages database configurations and settings.",
+        "optionD": "It handles user authentication and permissions.",
+        "answer": "It maps URL patterns to views.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you implement pagination in Django?",
+        "optionA": "By using Django's `Paginator` class.",
+        "optionB": "By incorporating Django's `Paginator` class and `Page` object in your views to divide query results into multiple pages and manage pagination in the template, allowing users to navigate through large sets of data more efficiently.",
+        "optionC": "By manually creating pagination logic in your views and templates without using Django's built-in pagination tools.",
+        "optionD": "By using a third-party pagination library and integrating it with your Django project.",
+        "answer": "By using Django's `Paginator` class.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you define a custom template tag in Django?",
+        "optionA": "By creating a `templatetags` directory and defining the tag in a Python file.",
+        "optionB": "By creating a `templatetags` directory within your application, writing a custom template tag in a Python file inside this directory, and registering the tag with Django's template system to make it available in your templates.",
+        "optionC": "By using `django-admin create:tag` to generate a custom template tag file.",
+        "optionD": "By manually adding custom logic to your existing template files.",
+        "answer": "By creating a `templatetags` directory and defining the tag in a Python file.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you serve different settings for development and production in Django?",
+        "optionA": "By using different `settings.py` files or environment-specific configuration settings.",
+        "optionB": "By maintaining separate `settings.py` files or using environment variables to configure different settings for development and production environments, ensuring that sensitive information and debugging features are properly managed and secured in production.",
+        "optionC": "By switching between settings files manually when deploying to different environments.",
+        "optionD": "By using a configuration management tool to handle environment-specific settings.",
+        "answer": "By using different `settings.py` files or environment-specific configuration settings.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `cache` framework?",
+        "optionA": "By configuring cache settings in `settings.py` and using cache methods in your views.",
+        "optionB": "By setting up cache backend configurations in the `settings.py` file and using cache methods such as `cache.get()` and `cache.set()` to store and retrieve cached data in your views, improving performance by reducing database queries.",
+        "optionC": "By installing a third-party caching library and integrating it with Django.",
+        "optionD": "By manually implementing caching logic in your views and middleware.",
+        "answer": "By configuring cache settings in `settings.py` and using cache methods in your views.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `manage.py` script?",
+        "optionA": "To provide various administrative commands for managing a Django project.",
+        "optionB": "To handle project administration tasks such as running the development server, applying migrations, creating new applications, and managing user accounts, by executing different management commands through the command-line interface.",
+        "optionC": "To configure project settings and parameters.",
+        "optionD": "To handle database schema migrations and data management.",
+        "answer": "To provide various administrative commands for managing a Django project.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you implement custom middleware in Django?",
+        "optionA": "By creating a middleware class and adding it to `MIDDLEWARE` in `settings.py`.",
+        "optionB": "By writing a custom middleware class with methods to process requests and responses, and adding this class to the `MIDDLEWARE` setting in the `settings.py` file to apply the middleware functionality to incoming requests and outgoing responses.",
+        "optionC": "By using a built-in Django middleware template and modifying it according to your needs.",
+        "optionD": "By configuring middleware through custom Django settings and scripts.",
+        "answer": "By creating a middleware class and adding it to `MIDDLEWARE` in `settings.py`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you implement a custom admin interface in Django?",
+        "optionA": "By customizing the `ModelAdmin` class and registering it with the `admin.site` object.",
+        "optionB": "By creating a custom `ModelAdmin` class for your models and registering this class with the `admin.site.register()` method, allowing you to modify the admin interface's appearance and functionality for your models.",
+        "optionC": "By using a third-party admin interface package and configuring it for your models.",
+        "optionD": "By manually editing Django's default admin templates and views.",
+        "answer": "By customizing the `ModelAdmin` class and registering it with the `admin.site` object.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `QuerySet`?",
+        "optionA": "A collection of database queries.",
+        "optionB": "A Django class that represents a collection of database queries and allows you to filter, order, and retrieve records from the database, providing an interface to work with query results efficiently.",
+        "optionC": "A utility for managing database schema changes.",
+        "optionD": "A tool for creating and managing database migrations.",
+        "answer": "A Django class that represents a collection of database queries and allows you to filter, order, and retrieve records from the database.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you handle file uploads in Django?",
+        "optionA": "By using the `FileField` or `ImageField` in a model and processing uploads in a view.",
+        "optionB": "By defining `FileField` or `ImageField` in a Django model to handle file uploads, configuring the `MEDIA_URL` and `MEDIA_ROOT` settings, and processing uploaded files in your views to save them to the server or perform additional actions.",
+        "optionC": "By using a third-party file upload package.",
+        "optionD": "By manually handling file uploads and storage through custom code.",
+        "answer": "By using the `FileField` or `ImageField` in a model and processing uploads in a view.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you handle user permissions in Django?",
+        "optionA": "By using Django's built-in permissions system and `Permission` model.",
+        "optionB": "By configuring user permissions through Django's built-in permissions framework, which allows you to define and manage user permissions and groups, and use decorators or middleware to enforce these permissions in your views and application logic.",
+        "optionC": "By creating custom permission management tools and integrating them into your application.",
+        "optionD": "By manually managing user access and roles through custom code and configurations.",
+        "answer": "By using Django's built-in permissions system and `Permission` model.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `signals`?",
+        "optionA": "To allow decoupled applications to get notified when certain actions occur.",
+        "optionB": "To enable different parts of Django applications to communicate and respond to certain events or actions, such as model changes or user logins, without tightly coupling the code, allowing for more flexible and modular application design.",
+        "optionC": "To manage and configure application settings and parameters.",
+        "optionD": "To handle asynchronous operations and background tasks.",
+        "answer": "To allow decoupled applications to get notified when certain actions occur.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you implement Django's `authentication` system?",
+        "optionA": "By using Django's built-in `User` model and authentication views.",
+        "optionB": "By integrating Django's `User` model for managing user accounts, passwords, and sessions, and utilizing built-in authentication views and forms for handling user login, registration, and logout.",
+        "optionC": "By using a third-party authentication package and configuring it with Django.",
+        "optionD": "By manually implementing authentication logic and session management.",
+        "answer": "By using Django's built-in `User` model and authentication views.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you configure Django's settings for different environments?",
+        "optionA": "By using environment variables or separate settings files.",
+        "optionB": "By managing settings through environment variables or creating separate settings files for development, testing, and production environments, allowing for environment-specific configurations and secure handling of sensitive information.",
+        "optionC": "By manually editing the `settings.py` file for each environment.",
+        "optionD": "By using a configuration management tool to handle settings for different environments.",
+        "answer": "By using environment variables or separate settings files.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `TemplateView` used for?",
+        "optionA": "To render a template with context data.",
+        "optionB": "To render a template and provide context data, simplifying the process of creating views that only need to display a template with some dynamic content without additional logic.",
+        "optionC": "To handle file uploads and data processing in views.",
+        "optionD": "To manage form submissions and data validation.",
+        "answer": "To render a template with context data.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you implement custom validation in Django forms?",
+        "optionA": "By defining custom validation methods in the form class.",
+        "optionB": "By adding custom validation logic to your form class through methods like `clean()` or field-specific `clean_fieldname()` methods, which allow you to perform additional validation and raise errors as needed.",
+        "optionC": "By using Django's built-in validation decorators and tools.",
+        "optionD": "By manually implementing validation logic outside of Django's form handling system.",
+        "answer": "By defining custom validation methods in the form class.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `class-based views`?",
+        "optionA": "By inheriting from Django's view classes and overriding their methods.",
+        "optionB": "By creating views that inherit from Django's class-based view classes, such as `ListView`, `DetailView`, or `CreateView`, and customizing their behavior by overriding methods and providing additional context or logic as needed.",
+        "optionC": "By using Django's function-based views and manually handling view logic.",
+        "optionD": "By configuring class-based views through decorators and middleware.",
+        "answer": "By inheriting from Django's view classes and overriding their methods.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `context_processors` used for?",
+        "optionA": "To add context variables to templates globally.",
+        "optionB": "To include context data in templates globally by defining context processors in the `settings.py` file, which can provide data to all templates rendered by the application without needing to pass context manually in each view.",
+        "optionC": "To handle static file management and configurations.",
+        "optionD": "To manage user authentication and permissions.",
+        "answer": "To add context variables to templates globally.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you handle internationalization in Django?",
+        "optionA": "By using Django's `i18n` framework and translation functions.",
+        "optionB": "By configuring the `i18n` framework, using translation functions like `gettext()` and `ugettext()` in your code, and providing translation files for different languages to support internationalization and localization of your application.",
+        "optionC": "By manually implementing language-specific views and templates.",
+        "optionD": "By using a third-party internationalization package.",
+        "answer": "By using Django's `i18n` framework and translation functions.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you implement Django's `signals` to perform actions on model save?",
+        "optionA": "By connecting signal handlers to the `post_save` signal.",
+        "optionB": "By defining signal handlers and connecting them to the `post_save` signal for a model, allowing you to perform actions such as sending notifications or updating related data after a model instance is saved.",
+        "optionC": "By using Django's built-in signal processing tools without custom handlers.",
+        "optionD": "By manually implementing post-save actions in model methods.",
+        "answer": "By connecting signal handlers to the `post_save` signal.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you set up custom user models in Django?",
+        "optionA": "By subclassing `AbstractUser` or `AbstractBaseUser` and configuring `AUTH_USER_MODEL` in `settings.py`.",
+        "optionB": "By creating a custom user model by subclassing `AbstractUser` or `AbstractBaseUser`, and setting `AUTH_USER_MODEL` in the `settings.py` file to use this custom model for user authentication and management.",
+        "optionC": "By using Django's built-in user model and extending it with additional fields.",
+        "optionD": "By configuring user models through third-party authentication packages.",
+        "answer": "By subclassing `AbstractUser` or `AbstractBaseUser` and configuring `AUTH_USER_MODEL` in `settings.py`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `SessionMiddleware` used for?",
+        "optionA": "To manage session data in Django applications.",
+        "optionB": "To handle session data management by providing mechanisms to store and retrieve session data for individual users, which can be used to maintain user state across different requests and interactions within a Django application.",
+        "optionC": "To configure authentication settings and user permissions.",
+        "optionD": "To optimize performance and caching in Django applications.",
+        "answer": "To manage session data in Django applications.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `Signals` to perform actions when a model instance is deleted?",
+        "optionA": "By connecting a signal handler to the `post_delete` signal.",
+        "optionB": "By defining a signal handler and connecting it to the `post_delete` signal of a model to perform actions such as cleanup or notifications when a model instance is deleted from the database.",
+        "optionC": "By using Django's built-in deletion handlers without custom signals.",
+        "optionD": "By manually implementing deletion logic in model methods.",
+        "answer": "By connecting a signal handler to the `post_delete` signal.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you integrate third-party applications into a Django project?",
+        "optionA": "By installing the application and adding it to `INSTALLED_APPS` in `settings.py`.",
+        "optionB": "By installing the third-party application via a package manager, configuring its settings as required, and adding it to the `INSTALLED_APPS` list in your `settings.py` file to include its functionality in your Django project.",
+        "optionC": "By manually incorporating third-party code and configuring it within your project.",
+        "optionD": "By using Django's built-in tools to automatically integrate third-party applications.",
+        "answer": "By installing the application and adding it to `INSTALLED_APPS` in `settings.py`.",
+        "category": "Django"
+    }
+,
+    {
+        "question_text": "What is the role of Django's `urlpatterns` list?",
+        "optionA": "To define the mapping of URL patterns to view functions or classes.",
+        "optionB": "To handle database migrations and schema changes.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To configure middleware for request processing.",
+        "answer": "To define the mapping of URL patterns to view functions or classes.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you handle file uploads in Django forms?",
+        "optionA": "By using `FileField` or `ImageField` in the form and model, and configuring the form to handle multipart data.",
+        "optionB": "By defining file upload logic directly in `views.py`.",
+        "optionC": "By configuring file uploads in `settings.py`.",
+        "optionD": "By creating custom middleware for file handling.",
+        "answer": "By using `FileField` or `ImageField` in the form and model, and configuring the form to handle multipart data.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `get_object_or_404()` method used for?",
+        "optionA": "To retrieve an object or raise a 404 error if it does not exist.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To configure middleware for request handling.",
+        "answer": "To retrieve an object or raise a 404 error if it does not exist.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `model_to_dict()` function?",
+        "optionA": "To convert a model instance into a dictionary with its field values.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To convert a model instance into a dictionary with its field values.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you create a custom template filter in Django?",
+        "optionA": "By defining a function in a `templatetags` module and registering it as a filter.",
+        "optionB": "By modifying the default template filters provided by Django.",
+        "optionC": "By configuring filters in `settings.py`.",
+        "optionD": "By defining filters directly in `views.py`.",
+        "answer": "By defining a function in a `templatetags` module and registering it as a filter.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `reverse_lazy()` function used for?",
+        "optionA": "To lazily evaluate a URL pattern and reverse it into a URL string.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To lazily evaluate a URL pattern and reverse it into a URL string.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you set up a Django project to use internationalization (i18n)?",
+        "optionA": "By configuring `LANGUAGE_CODE` and `USE_I18N` in `settings.py`, and using translation functions in the code.",
+        "optionB": "By defining internationalization settings directly in `models.py`.",
+        "optionC": "By modifying URL patterns to include language codes.",
+        "optionD": "By creating custom middleware for language handling.",
+        "answer": "By configuring `LANGUAGE_CODE` and `USE_I18N` in `settings.py`, and using translation functions in the code.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `@receiver` decorator?",
+        "optionA": "To connect a function to a Django signal.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To define custom middleware for request handling.",
+        "optionD": "To configure URL routing and view processing.",
+        "answer": "To connect a function to a Django signal.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you create a Django middleware class?",
+        "optionA": "By creating a class with `__init__`, `process_request`, and/or `process_response` methods.",
+        "optionB": "By configuring middleware settings in `settings.py`.",
+        "optionC": "By defining middleware logic directly in `views.py`.",
+        "optionD": "By modifying Django's built-in middleware classes.",
+        "answer": "By creating a class with `__init__`, `process_request`, and/or `process_response` methods.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `default` argument in model fields?",
+        "optionA": "To provide a default value for a model field if none is specified.",
+        "optionB": "To configure default settings for middleware.",
+        "optionC": "To handle static file management and serving.",
+        "optionD": "To define custom URL patterns.",
+        "answer": "To provide a default value for a model field if none is specified.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `ModelForm`?",
+        "optionA": "To create a form based on a Django model, automatically generating form fields and validation.",
+        "optionB": "To manage static file paths and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To create a form based on a Django model, automatically generating form fields and validation.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `aggregate()` function?",
+        "optionA": "To perform database aggregation functions like `Count`, `Sum`, `Avg`, etc., on a queryset.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To perform database aggregation functions like `Count`, `Sum`, `Avg`, etc., on a queryset.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you manage user permissions in Django?",
+        "optionA": "By using Django's built-in permission system, defining permissions on models, and using `@permission_required` decorator.",
+        "optionB": "By configuring user roles directly in `settings.py`.",
+        "optionC": "By defining custom middleware for user management.",
+        "optionD": "By modifying the default user model.",
+        "answer": "By using Django's built-in permission system, defining permissions on models, and using `@permission_required` decorator.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does Django's `@action` decorator do in the admin interface?",
+        "optionA": "To add custom actions to the admin interface for a model.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To add custom actions to the admin interface for a model.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you configure Django's caching framework?",
+        "optionA": "By defining caching backend settings in `settings.py` and using caching functions.",
+        "optionB": "By handling caching directly in `models.py`.",
+        "optionC": "By modifying static file paths and serving.",
+        "optionD": "By creating custom middleware for caching.",
+        "answer": "By defining caching backend settings in `settings.py` and using caching functions.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you implement custom validation for Django models?",
+        "optionA": "By defining a `clean()` method or individual `clean_<fieldname>()` methods in the model.",
+        "optionB": "By handling validation directly in `views.py`.",
+        "optionC": "By configuring validation settings in `settings.py`.",
+        "optionD": "By using custom middleware for validation.",
+        "answer": "By defining a `clean()` method or individual `clean_<fieldname>()` methods in the model.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `ClassBasedViews` (CBV) framework?",
+        "optionA": "A framework for creating views using classes instead of functions, offering more structure and reusability.",
+        "optionB": "A system for managing static file paths and serving.",
+        "optionC": "A tool for configuring URL routing and view processing.",
+        "optionD": "A method for defining custom middleware.",
+        "answer": "A framework for creating views using classes instead of functions, offering more structure and reusability.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `FileSystemStorage` class?",
+        "optionA": "To manage file storage and retrieval on the local file system.",
+        "optionB": "To configure URL routing and view processing.",
+        "optionC": "To define custom middleware for file handling.",
+        "optionD": "To handle form validation and processing.",
+        "answer": "To manage file storage and retrieval on the local file system.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the role of Django's `signals` framework?",
+        "optionA": "To allow different parts of the application to communicate and react to events or changes.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To allow different parts of the application to communicate and react to events or changes.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `signals` to trigger actions after saving a model?",
+        "optionA": "By connecting a function to the `post_save` signal for the model.",
+        "optionB": "By defining actions directly in `views.py`.",
+        "optionC": "By handling actions in `settings.py`.",
+        "optionD": "By creating custom middleware for action handling.",
+        "answer": "By connecting a function to the `post_save` signal for the model.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you create a custom Django template tag?",
+        "optionA": "By defining a function in a `templatetags` module and registering it as a tag.",
+        "optionB": "By modifying default template tags provided by Django.",
+        "optionC": "By configuring template tags in `settings.py`.",
+        "optionD": "By defining tags directly in `views.py`.",
+        "answer": "By defining a function in a `templatetags` module and registering it as a tag.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `get_list_or_404()` method used for?",
+        "optionA": "To retrieve a list of objects or raise a 404 error if none are found.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To configure middleware for request handling.",
+        "answer": "To retrieve a list of objects or raise a 404 error if none are found.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you implement Django's `Custom Managers`?",
+        "optionA": "By creating a custom manager class that inherits from `models.Manager` and adding methods for custom queries.",
+        "optionB": "By defining custom managers directly in `views.py`.",
+        "optionC": "By modifying the default model manager in `models.py`.",
+        "optionD": "By configuring custom managers in `settings.py`.",
+        "answer": "By creating a custom manager class that inherits from `models.Manager` and adding methods for custom queries.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `TestCase` class used for?",
+        "optionA": "To write unit tests for Django applications and verify code correctness.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To define custom middleware for request handling.",
+        "optionD": "To configure URL routing and view processing.",
+        "answer": "To write unit tests for Django applications and verify code correctness.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `ContentTypes` framework?",
+        "optionA": "To work with generic relationships and dynamically manage model instances.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To work with generic relationships and dynamically manage model instances.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `SelectRelated` method?",
+        "optionA": "To perform a single database query for related objects, optimizing performance.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To perform a single database query for related objects, optimizing performance.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does Django's `QuerySet` API provide?",
+        "optionA": "Methods for querying and manipulating database records.",
+        "optionB": "Handling static file management and serving.",
+        "optionC": "Configuring URL routing and view processing.",
+        "optionD": "Defining custom middleware for request handling.",
+        "answer": "Methods for querying and manipulating database records.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you handle database transactions in Django?",
+        "optionA": "By using `atomic()` blocks to ensure that a series of database operations are treated as a single transaction.",
+        "optionB": "By configuring transaction settings in `settings.py`.",
+        "optionC": "By defining transaction handling logic directly in `models.py`.",
+        "optionD": "By creating custom middleware for transaction management.",
+        "answer": "By using `atomic()` blocks to ensure that a series of database operations are treated as a single transaction.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `QuerySet` methods like `filter()` and `exclude()`?",
+        "optionA": "To narrow down or exclude specific records from a queryset based on query conditions.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To narrow down or exclude specific records from a queryset based on query conditions.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `get_or_create()` method?",
+        "optionA": "To retrieve an object if it exists, or create it if it does not.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To define custom middleware for request handling.",
+        "optionD": "To configure URL routing and view processing.",
+        "answer": "To retrieve an object if it exists, or create it if it does not.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `ModelAdmin` class to customize the admin interface?",
+        "optionA": "By subclassing `ModelAdmin` and defining attributes and methods to customize the admin view.",
+        "optionB": "By modifying the default admin interface directly in `models.py`.",
+        "optionC": "By configuring admin settings in `settings.py`.",
+        "optionD": "By creating custom middleware for admin management.",
+        "answer": "By subclassing `ModelAdmin` and defining attributes and methods to customize the admin view.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `SessionMiddleware` used for?",
+        "optionA": "To manage user sessions and session data across requests.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To manage user sessions and session data across requests.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `AdminSite` class to customize the admin site?",
+        "optionA": "By subclassing `AdminSite` and overriding methods to change the admin site's behavior and appearance.",
+        "optionB": "By modifying the default admin site directly in `models.py`.",
+        "optionC": "By configuring admin settings in `settings.py`.",
+        "optionD": "By creating custom middleware for admin management.",
+        "answer": "By subclassing `AdminSite` and overriding methods to change the admin site's behavior and appearance.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `TransactionMiddleware`?",
+        "optionA": "To ensure that database operations within a request are atomic and handled within a transaction.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To ensure that database operations within a request are atomic and handled within a transaction.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `CacheMiddleware` used for?",
+        "optionA": "To cache the results of views and reduce the load on the database and server.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To cache the results of views and reduce the load on the database and server.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `Q` objects for complex queries?",
+        "optionA": "By using `Q` objects to build complex queries with `AND`, `OR`, and `NOT` conditions.",
+        "optionB": "By handling complex queries directly in `views.py`.",
+        "optionC": "By configuring query settings in `settings.py`.",
+        "optionD": "By creating custom middleware for query handling.",
+        "answer": "By using `Q` objects to build complex queries with `AND`, `OR`, and `NOT` conditions.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you implement pagination in Django views?",
+        "optionA": "By using Django's built-in `Paginator` class to divide querysets into pages and render them.",
+        "optionB": "By handling pagination directly in `models.py`.",
+        "optionC": "By configuring pagination settings in `settings.py`.",
+        "optionD": "By creating custom middleware for pagination.",
+        "answer": "By using Django's built-in `Paginator` class to divide querysets into pages and render them.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `Context` object in templates?",
+        "optionA": "To pass data from views to templates and render dynamic content.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To pass data from views to templates and render dynamic content.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does Django's `F()` expression do?",
+        "optionA": "To reference model field values directly in database queries, allowing for operations like arithmetic.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To reference model field values directly in database queries, allowing for operations like arithmetic.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `related_name` attribute in model fields?",
+        "optionA": "To specify a custom name for the reverse relation from a related model.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To specify a custom name for the reverse relation from a related model.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `User` model?",
+        "optionA": "To manage user authentication and authorization.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To manage user authentication and authorization.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `@csrf_exempt` decorator?",
+        "optionA": "To exempt a view from CSRF protection.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To define custom middleware for request handling.",
+        "optionD": "To configure URL routing and view processing.",
+        "answer": "To exempt a view from CSRF protection.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does Django's `migrate` command do?",
+        "optionA": "To apply and synchronize database schema changes based on migration files.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To define custom middleware for request handling.",
+        "optionD": "To configure URL routing and view processing.",
+        "answer": "To apply and synchronize database schema changes based on migration files.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `session` framework to store user data?",
+        "optionA": "By using the session framework to store and retrieve user-specific data across requests.",
+        "optionB": "By handling static file management and serving.",
+        "optionC": "By configuring URL routing and view processing.",
+        "optionD": "By defining custom middleware for request handling.",
+        "answer": "By using the session framework to store and retrieve user-specific data across requests.",
+        "category": "Django"
+    }
+,
+    {
+        "question_text": "What is the purpose of Django's `DATABASES` setting?",
+        "optionA": "To configure database connections and settings for the Django project.",
+        "optionB": "To handle user authentication and session management.",
+        "optionC": "To manage static file paths and settings.",
+        "optionD": "To define URL routing and view processing.",
+        "answer": "To configure database connections and settings for the Django project.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you add middleware to a Django project?",
+        "optionA": "By adding the middleware class to the `MIDDLEWARE` list in `settings.py`.",
+        "optionB": "By configuring middleware in `urls.py`.",
+        "optionC": "By defining middleware logic directly in `views.py`.",
+        "optionD": "By creating custom middleware commands in `management/commands`.",
+        "answer": "By adding the middleware class to the `MIDDLEWARE` list in `settings.py`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How does Django's `@property` decorator work with model methods?",
+        "optionA": "It allows a method to be accessed as a read-only attribute.",
+        "optionB": "It configures model fields for better performance.",
+        "optionC": "It defines a custom form field for models.",
+        "optionD": "It manages static file serving and paths.",
+        "answer": "It allows a method to be accessed as a read-only attribute.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `select_related()` method?",
+        "optionA": "To perform a single SQL query with joined tables to reduce the number of database queries.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file locations and serving.",
+        "optionD": "To configure middleware for enhanced security.",
+        "answer": "To perform a single SQL query with joined tables to reduce the number of database queries.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you customize Django's admin interface?",
+        "optionA": "By creating a custom `ModelAdmin` class and registering it with the admin site.",
+        "optionB": "By modifying the default admin templates directly.",
+        "optionC": "By defining custom middleware for admin views.",
+        "optionD": "By configuring admin settings in `settings.py`.",
+        "answer": "By creating a custom `ModelAdmin` class and registering it with the admin site.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `get_or_create()` method?",
+        "optionA": "To retrieve an object if it exists or create it if it does not.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and settings.",
+        "optionD": "To configure middleware for request processing.",
+        "answer": "To retrieve an object if it exists or create it if it does not.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you define a custom manager for a Django model?",
+        "optionA": "By creating a subclass of `models.Manager` and adding custom methods.",
+        "optionB": "By configuring custom managers in `settings.py`.",
+        "optionC": "By defining custom manager methods directly in `models.py`.",
+        "optionD": "By modifying the default manager class in Django's core.",
+        "answer": "By creating a subclass of `models.Manager` and adding custom methods.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `@transaction.atomic` decorator?",
+        "optionA": "To ensure that a block of code is executed within a database transaction.",
+        "optionB": "To manage static file locations and serving.",
+        "optionC": "To handle form validation and processing.",
+        "optionD": "To configure middleware for enhanced security.",
+        "answer": "To ensure that a block of code is executed within a database transaction.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you create a custom Django template tag?",
+        "optionA": "By defining a custom tag function in a `templatetags` module and registering it.",
+        "optionB": "By modifying the default template tags provided by Django.",
+        "optionC": "By configuring tags in `settings.py`.",
+        "optionD": "By defining tags in `views.py`.",
+        "answer": "By defining a custom tag function in a `templatetags` module and registering it.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `get_list_or_404()` method used for?",
+        "optionA": "To retrieve a list of objects or raise a 404 error if none are found.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and settings.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To retrieve a list of objects or raise a 404 error if none are found.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you use Django's `signals` framework for model changes?",
+        "optionA": "By connecting signal handlers to model signals such as `post_save` or `pre_delete`.",
+        "optionB": "By modifying model definitions in `models.py`.",
+        "optionC": "By configuring signal settings in `settings.py`.",
+        "optionD": "By creating custom management commands for signals.",
+        "answer": "By connecting signal handlers to model signals such as `post_save` or `pre_delete`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does the `@staticmethod` decorator do in Django models?",
+        "optionA": "It defines a method that does not require access to the instance or class.",
+        "optionB": "It allows a method to modify model fields.",
+        "optionC": "It handles form validation and processing.",
+        "optionD": "It manages static file paths and serving.",
+        "answer": "It defines a method that does not require access to the instance or class.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `manage.py` to create a new app?",
+        "optionA": "By running `python manage.py startapp <app_name>` to generate a new application directory.",
+        "optionB": "By modifying `settings.py` to include a new app configuration.",
+        "optionC": "By creating new app files manually in the project directory.",
+        "optionD": "By defining new apps in `urls.py`.",
+        "answer": "By running `python manage.py startapp <app_name>` to generate a new application directory.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is Django's `@login_required` decorator used for?",
+        "optionA": "To restrict access to a view to authenticated users only.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To restrict access to a view to authenticated users only.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you define a custom validation method for a Django form?",
+        "optionA": "By creating a method named `clean_<fieldname>` in the form class.",
+        "optionB": "By configuring validation settings in `settings.py`.",
+        "optionC": "By defining validation logic directly in `models.py`.",
+        "optionD": "By using Django's built-in validation functions.",
+        "answer": "By creating a method named `clean_<fieldname>` in the form class.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the purpose of Django's `create()` method in model managers?",
+        "optionA": "To create and save a new object in the database in one step.",
+        "optionB": "To retrieve an existing object or raise an error if not found.",
+        "optionC": "To handle form validation and processing.",
+        "optionD": "To manage static file paths and settings.",
+        "answer": "To create and save a new object in the database in one step.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `context_processors`?",
+        "optionA": "To add context variables to all templates rendered during a request.",
+        "optionB": "By configuring context settings in `settings.py`.",
+        "optionC": "By defining context processors in `urls.py`.",
+        "optionD": "By creating custom context processors in `views.py`.",
+        "answer": "To add context variables to all templates rendered during a request.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the role of Django's `migrations`?",
+        "optionA": "To handle changes to the database schema over time.",
+        "optionB": "To manage static file paths and serving.",
+        "optionC": "To define custom middleware for request handling.",
+        "optionD": "To configure URL routing and view processing.",
+        "answer": "To handle changes to the database schema over time.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you specify a custom URL pattern in Django?",
+        "optionA": "By adding a new pattern to the `urlpatterns` list in `urls.py`.",
+        "optionB": "By defining URL patterns directly in `views.py`.",
+        "optionC": "By configuring URL settings in `settings.py`.",
+        "optionD": "By creating custom middleware for URL processing.",
+        "answer": "By adding a new pattern to the `urlpatterns` list in `urls.py`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does Django's `admin.site.unregister()` method do?",
+        "optionA": "It unregisters a model from the Django admin interface.",
+        "optionB": "It defines new models for the admin interface.",
+        "optionC": "It handles static file management and serving.",
+        "optionD": "It configures middleware for request processing.",
+        "answer": "It unregisters a model from the Django admin interface.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you set up custom URL routing in Django?",
+        "optionA": "By defining custom URL patterns in `urls.py` and mapping them to views.",
+        "optionB": "By configuring URL routing in `settings.py`.",
+        "optionC": "By defining routes directly in `views.py`.",
+        "optionD": "By creating custom middleware for URL handling.",
+        "answer": "By defining custom URL patterns in `urls.py` and mapping them to views.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the role of Django's `admin.site.site_header` attribute?",
+        "optionA": "To customize the text displayed in the header of the Django admin site.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To customize the text displayed in the header of the Django admin site.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you define a one-to-many relationship in Django models?",
+        "optionA": "By using a `ForeignKey` field in the model.",
+        "optionB": "By defining a `ManyToManyField` in the model.",
+        "optionC": "By using a `OneToOneField` in the model.",
+        "optionD": "By configuring relationships in `settings.py`.",
+        "answer": "By using a `ForeignKey` field in the model.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can yo    u limit the number of objects returned in a Django query?",
+        "optionA": "By using the `:n]` slicing notation on a queryset.",
+        "optionB": "By configuring query limits in `settings.py`.",
+        "optionC": "By defining query limits directly in `models.py`.",
+        "optionD": "By using the `l imit()` method on a queryset.",
+        "answer": "By using the `:n]` slicing notation on a queryset.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How do you handle form submissions in Django views?",
+        "optionA": "By checking if the request method is `POST` and validating the form.",
+        "optionB": "By configuring form submission settings in `settings.py`.",
+        "optionC": "By defining form handling logic in `models.py`.",
+        "optionD": "By using custom middleware to process form data.",
+        "answer": "By checking if the request method is `POST` and validating the form.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the `@csrf_exempt` decorator used for in Django?",
+        "optionA": "To exempt a view from CSRF protection.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure URL routing and view processing.",
+        "optionD": "To define custom middleware for request handling.",
+        "answer": "To exempt a view from CSRF protection.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you configure Django's static files settings?",
+        "optionA": "By defining `STATIC_URL` and `STATICFILES_DIRS` in `settings.py`.",
+        "optionB": "By configuring static file paths in `urls.py`.",
+        "optionC": "By creating custom middleware for static file serving.",
+        "optionD": "By defining static file settings directly in `models.py`.",
+        "answer": "By defining `STATIC_URL` and `STATICFILES_DIRS` in `settings.py`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you define a custom template context processor in Django?",
+        "optionA": "By creating a function that adds variables to the template context and registering it in `settings.py`.",
+        "optionB": "By defining context processors directly in `views.py`.",
+        "optionC": "By modifying Django's built-in context processors.",
+        "optionD": "By configuring context processors in `models.py`.",
+        "answer": "By creating a function that adds variables to the template context and registering it in `settings.py`.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What is the role of Django's `reverse()` function?",
+        "optionA": "To generate URLs from view names and URL patterns.",
+        "optionB": "To handle static file management and serving.",
+        "optionC": "To configure middleware for request processing.",
+        "optionD": "To define custom model fields.",
+        "answer": "To generate URLs from view names and URL patterns.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you use Django's `prefetch_related()` method?",
+        "optionA": "To perform a separate database query for each related object to optimize performance.",
+        "optionB": "To handle form validation and processing.",
+        "optionC": "To manage static file paths and serving.",
+        "optionD": "To configure middleware for enhanced security.",
+        "answer": "To perform a separate database query for each related object to optimize performance.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does the `@admin.display` decorator do in Django's admin interface?",
+        "optionA": "It customizes the display of model fields and methods in the admin list view.",
+        "optionB": "It handles static file management and serving.",
+        "optionC": "It configures URL routing and view processing.",
+        "optionD": "It defines custom middleware for request handling.",
+        "answer": "It customizes the display of model fields and methods in the admin list view.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you set up a Django project to use multiple databases?",
+        "optionA": "By defining multiple database configurations in the `DATABASES` setting and using database routers.",
+        "optionB": "By configuring multiple database settings in `settings.py`.",
+        "optionC": "By defining databases directly in `models.py`.",
+        "optionD": "By creating custom middleware for database management.",
+        "answer": "By defining multiple database configurations in the `DATABASES` setting and using database routers.",
+        "category": "Django"
+    },
+    {
+        "question_text": "How can you create a custom Django management command?",
+        "optionA": "By creating a `management/commands` directory in an app and adding a custom command class.",
+        "optionB": "By modifying the `manage.py` file directly.",
+        "optionC": "By defining custom commands in `views.py`.",
+        "optionD": "By configuring command settings in `settings.py`.",
+        "answer": "By creating a `management/commands` directory in an app and adding a custom command class.",
+        "category": "Django"
+    },
+    {
+        "question_text": "What does Django's `update_or_create()` method do?",
+        "optionA": "It updates an existing object or creates a new one if it does not exist.",
+        "optionB": "It handles static file management and serving.",
+        "optionC": "It defines custom model fields.",
+        "optionD": "It manages URL routing and view processing.",
+        "answer": "It updates an existing object or creates a new one if it does not exist.",
+        "category": "Django"
+    },
+       
+        {
+            "question_text": "What is the purpose of Django's `staticfiles` app?",
+            "optionA": "To collect and manage static files such as CSS and JavaScript across the project.",
+            "optionB": "To handle user authentication and session management.",
+            "optionC": "To manage database migrations and schema changes.",
+            "optionD": "To define URL routing and view mappings.",
+            "answer": "To collect and manage static files such as CSS and JavaScript across the project.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you set up a Django application for deployment?",
+            "optionA": "By configuring `ALLOWED_HOSTS`, setting `DEBUG` to `False`, and using a production-ready web server.",
+            "optionB": "By creating a new app with `python manage.py startapp` and configuring URLs.",
+            "optionC": "By using the Django development server for all production environments.",
+            "optionD": "By modifying the `settings.py` file to include additional debugging information.",
+            "answer": "By configuring `ALLOWED_HOSTS`, setting `DEBUG` to `False`, and using a production-ready web server.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is the `Django REST Framework` (DRF)?",
+            "optionA": "A toolkit for building Web APIs in Django applications.",
+            "optionB": "A system for managing static files and media.",
+            "optionC": "A library for handling database migrations and schema changes.",
+            "optionD": "A tool for customizing Django's authentication system.",
+            "answer": "A toolkit for building Web APIs in Django applications.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you define a custom error page in Django for a 404 error?",
+            "optionA": "By creating a `404.html` template in your templates directory.",
+            "optionB": "By configuring error handling in `urls.py`.",
+            "optionC": "By adding a custom error handler function in `views.py`.",
+            "optionD": "By setting error codes in `settings.py`.",
+            "answer": "By creating a `404.html` template in your templates directory.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How does Django handle user sessions?",
+            "optionA": "By using session middleware to store and manage user session data.",
+            "optionB": "By configuring user session settings in `settings.py`.",
+            "optionC": "By creating custom session models in `models.py`.",
+            "optionD": "By handling session data directly in the database layer.",
+            "answer": "By using session middleware to store and manage user session data.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is the purpose of Django's `context_processors`?",
+            "optionA": "To add context variables to all templates automatically.",
+            "optionB": "To manage database schema and migrations.",
+            "optionC": "To handle static file management and serving.",
+            "optionD": "To define custom middleware for request handling.",
+            "answer": "To add context variables to all templates automatically.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How do you perform a bulk update on Django models?",
+            "optionA": "By using `update()` method on a queryset to apply changes in bulk.",
+            "optionB": "By iterating through model instances and saving each one individually.",
+            "optionC": "By defining a custom management command for bulk updates.",
+            "optionD": "By configuring batch processing settings in `settings.py`.",
+            "answer": "By using `update()` method on a queryset to apply changes in bulk.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is a Django `Form` class used for?",
+            "optionA": "To handle and validate user input in a web form.",
+            "optionB": "To define URL routing and view mappings.",
+            "optionC": "To manage static file paths and settings.",
+            "optionD": "To configure middleware for request processing.",
+            "answer": "To handle and validate user input in a web form.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you ensure that a Django view only responds to POST requests?",
+            "optionA": "By using the `@require_POST` decorator to restrict the view to POST requests only.",
+            "optionB": "By configuring POST request handling in `settings.py`.",
+            "optionC": "By defining the request method in the view's `urls.py` entry.",
+            "optionD": "By implementing POST handling logic directly in the view function.",
+            "answer": "By using the `@require_POST` decorator to restrict the view to POST requests only.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you generate a URL for a view in Django?",
+            "optionA": "By using the `reverse()` function or the `{% url %}` template tag.",
+            "optionB": "By manually specifying the URL in `urls.py`.",
+            "optionC": "By using Django's URL routing configuration in `views.py`.",
+            "optionD": "By configuring URL patterns in `settings.py`.",
+            "answer": "By using the `reverse()` function or the `{% url %}` template tag.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is Django's `signals` framework used for?",
+            "optionA": "To allow decoupled applications to get notified when certain actions occur.",
+            "optionB": "To handle static file management and serving.",
+            "optionC": "To configure URL routing and view processing.",
+            "optionD": "To manage user authentication and permissions.",
+            "answer": "To allow decoupled applications to get notified when certain actions occur.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you create a database index on a Django model field?",
+            "optionA": "By using the `db_index=True` option in the model field definition.",
+            "optionB": "By defining indexes in `settings.py`.",
+            "optionC": "By configuring database schema directly in `models.py`.",
+            "optionD": "By creating custom management commands for indexing.",
+            "answer": "By using the `db_index=True` option in the model field definition.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you access the current user in a Django template?",
+            "optionA": "By using the `user` variable provided by the context.",
+            "optionB": "By defining the user in the template's `context_processors`.",
+            "optionC": "By accessing the user through the view function directly.",
+            "optionD": "By configuring the user settings in `settings.py`.",
+            "answer": "By using the `user` variable provided by the context.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is Django's `admin` app used for?",
+            "optionA": "To provide a built-in interface for managing and administering site content.",
+            "optionB": "To handle user authentication and permissions.",
+            "optionC": "To configure static file management and serving.",
+            "optionD": "To define custom middleware for request processing.",
+            "answer": "To provide a built-in interface for managing and administering site content.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How do you use Django's `cache` framework to store a value?",
+            "optionA": "By using `cache.set('key', 'value', timeout)` to store the value with an optional timeout.",
+            "optionB": "By defining cache settings in `settings.py`.",
+            "optionC": "By using `cache.add('key', 'value')` to store the value.",
+            "optionD": "By manually editing the cache database tables.",
+            "answer": "By using `cache.set('key', 'value', timeout)` to store the value with an optional timeout.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you paginate querysets in Django?",
+            "optionA": "By using Django's `Paginator` class to split the queryset into pages.",
+            "optionB": "By manually splitting the queryset in the view function.",
+            "optionC": "By configuring pagination settings in `settings.py`.",
+            "optionD": "By defining pagination logic in `models.py`.",
+            "answer": "By using Django's `Paginator` class to split the queryset into pages.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is the purpose of Django's `csrf_token` template tag?",
+            "optionA": "To include a CSRF token in forms for Cross-Site Request Forgery protection.",
+            "optionB": "To handle static file management and serving.",
+            "optionC": "To define URL routing for different views.",
+            "optionD": "To configure middleware settings for enhanced security.",
+            "answer": "To include a CSRF token in forms for Cross-Site Request Forgery protection.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you add custom fields to Django's built-in `User` model?",
+            "optionA": "By extending the `AbstractUser` class and adding new fields.",
+            "optionB": "By modifying the `User` model directly in `models.py`.",
+            "optionC": "By configuring additional user fields in `settings.py`.",
+            "optionD": "By defining custom user models in `views.py`.",
+            "answer": "By extending the `AbstractUser` class and adding new fields.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What does the `@login_required` decorator do?",
+            "optionA": "It restricts access to a view to authenticated users only.",
+            "optionB": "It handles static file management and serving.",
+            "optionC": "It configures URL routing and view processing.",
+            "optionD": "It defines custom middleware for request handling.",
+            "answer": "It restricts access to a view to authenticated users only.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you use Django's `model_form_factory` to create a form for a model?",
+            "optionA": "By using `modelform_factory(Model)` to dynamically create a form class.",
+            "optionB": "By manually defining a form class in `forms.py`.",
+            "optionC": "By configuring form settings in `models.py`.",
+            "optionD": "By using the `form_class` attribute in view functions.",
+            "answer": "By using `modelform_factory(Model)` to dynamically create a form class.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is the purpose of Django's `manage.py` command?",
+            "optionA": "To provide a command-line utility for managing Django projects.",
+            "optionB": "To configure static file management and serving.",
+            "optionC": "To handle URL routing and view processing.",
+            "optionD": "To define custom middleware for request handling.",
+            "answer": "To provide a command-line utility for managing Django projects.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you make a Django model field unique?",
+            "optionA": "By setting the `unique=True` option in the field definition.",
+            "optionB": "By defining custom validation logic in the model's `clean` method.",
+            "optionC": "By creating a unique index in the database schema directly.",
+            "optionD": "By configuring the field in `settings.py`.",
+            "answer": "By setting the `unique=True` option in the field definition.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you create a Django management command?",
+            "optionA": "By creating a `management/commands` directory in an app and adding a custom command class.",
+            "optionB": "By modifying the `manage.py` file directly.",
+            "optionC": "By configuring management commands in `settings.py`.",
+            "optionD": "By defining commands in `views.py`.",
+            "answer": "By creating a `management/commands` directory in an app and adding a custom command class.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is Django's `migrate` command used for?",
+            "optionA": "To apply and unapply database migrations based on model changes.",
+            "optionB": "To create a new Django application.",
+            "optionC": "To handle static file management and serving.",
+            "optionD": "To define custom middleware for request processing.",
+            "answer": "To apply and unapply database migrations based on model changes.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How do you override Django's default authentication views?",
+            "optionA": "By creating custom views and configuring them in `urls.py`.",
+            "optionB": "By modifying the default authentication views in Django's core.",
+            "optionC": "By using custom middleware to intercept authentication requests.",
+            "optionD": "By defining authentication logic directly in `models.py`.",
+            "answer": "By creating custom views and configuring them in `urls.py`.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is Django's `FileField` used for?",
+            "optionA": "To handle file uploads and storage in Django models.",
+            "optionB": "To manage static file paths and serving.",
+            "optionC": "To define custom middleware for file processing.",
+            "optionD": "To handle URL routing and view processing.",
+            "answer": "To handle file uploads and storage in Django models.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you implement a custom template filter in Django?",
+            "optionA": "By creating a custom filter function in a `templatetags` module and registering it.",
+            "optionB": "By configuring filter settings in `settings.py`.",
+            "optionC": "By defining filters in `views.py`.",
+            "optionD": "By modifying Django's built-in filters.",
+            "answer": "By creating a custom filter function in a `templatetags` module and registering it.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is the role of Django's `AbstractBaseUser`?",
+            "optionA": "To provide a base class for creating custom user models with custom authentication methods.",
+            "optionB": "To handle URL routing and view processing.",
+            "optionC": "To manage static file serving and paths.",
+            "optionD": "To configure middleware for request handling.",
+            "answer": "To provide a base class for creating custom user models with custom authentication methods.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you use Django's `default` argument for model fields?",
+            "optionA": "To specify a default value for a field if no value is provided.",
+            "optionB": "To handle field validation errors.",
+            "optionC": "To define custom field types.",
+            "optionD": "To configure default field options in `settings.py`.",
+            "answer": "To specify a default value for a field if no value is provided.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is the purpose of Django's `admin.site.register()` method?",
+            "optionA": "To register models with the Django admin interface for management.",
+            "optionB": "To define URL routing and view processing.",
+            "optionC": "To handle static file management and serving.",
+            "optionD": "To configure middleware for request handling.",
+            "answer": "To register models with the Django admin interface for management.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you use Django's `get_object_or_404()` method?",
+            "optionA": "By fetching an object from the database or raising a 404 error if not found.",
+            "optionB": "By creating a new object if it does not exist.",
+            "optionC": "By validating data in a form submission.",
+            "optionD": "By handling static file serving and paths.",
+            "answer": "By fetching an object from the database or raising a 404 error if not found.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How do you add custom headers to a Django response?",
+            "optionA": "By modifying the response object and adding headers in a view.",
+            "optionB": "By configuring headers in `settings.py`.",
+            "optionC": "By defining headers in the template context.",
+            "optionD": "By setting headers directly in the URL routing configuration.",
+            "answer": "By modifying the response object and adding headers in a view.",
+            "category": "Django"
+        },
+        {
+            "question_text": "What is the `Django Signals` framework used for?",
+            "optionA": "To allow certain parts of a Django application to get notified when specific events occur.",
+            "optionB": "To handle URL routing and view processing.",
+            "optionC": "To manage static file paths and serving.",
+            "optionD": "To configure middleware for request handling.",
+            "answer": "To allow certain parts of a Django application to get notified when specific events occur.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you set up custom validation for a Django form?",
+            "optionA": "By defining custom validation methods in the form class.",
+            "optionB": "By configuring validation settings in `settings.py`.",
+            "optionC": "By creating validation functions in `views.py`.",
+            "optionD": "By modifying the default validation behavior in `models.py`.",
+            "answer": "By defining custom validation methods in the form class.",
+            "category": "Django"
+        },
+        {
+            "question_text": "How can you use Django's `model` `Meta` class?",
+            "optionA": "To configure model options such as database table name, ordering, and permissions.",
+            "optionB": "To define additional fields and methods for the model.",
+            "optionC": "To handle URL routing and view processing.",
+            "optionD": "To manage static file paths and serving.",
+            "answer": "To configure model options such as database table name, ordering, and permissions.",
+            "category": "Django"
+        },
+       
+           
+            {
+                "question_text": "What is Django's ORM used for?",
+                "optionA": "It manages interactions with the database, making it easier to work with models.",
+                "optionB": "It handles session management and user authentication across the application.",
+                "optionC": "It configures middleware and integrates various security features into the project.",
+                "optionD": "It manages static files and serves them during development and production.",
+                "answer": "It manages interactions with the database, making it easier to work with models.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the purpose of `manage.py`?",
+                "optionA": "It provides a command-line utility for executing various Django commands.",
+                "optionB": "It defines URL routing and maps paths to corresponding views.",
+                "optionC": "It configures middleware settings and integrates security features.",
+                "optionD": "It handles form validation and processes user input.",
+                "answer": "It provides a command-line utility for executing various Django commands.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What does the `urlpatterns` list in Django do?",
+                "optionA": "It maps URL patterns to view functions or classes to handle HTTP requests.",
+                "optionB": "It defines settings for static file management and serving.",
+                "optionC": "It configures database schema and model relationships.",
+                "optionD": "It handles session management and user authentication.",
+                "answer": "It maps URL patterns to view functions or classes to handle HTTP requests.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the function of Django's `csrf_exempt` decorator?",
+                "optionA": "It exempts a view from Cross-Site Request Forgery (CSRF) protection.",
+                "optionB": "It handles static file paths and serves files in development.",
+                "optionC": "It manages user authentication and permissions.",
+                "optionD": "It configures middleware for enhanced security.",
+                "answer": "It exempts a view from Cross-Site Request Forgery (CSRF) protection.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you create a model in Django?",
+                "optionA": "By defining a class that inherits from `models.Model` and specifying fields.",
+                "optionB": "By configuring URL patterns in `urls.py`.",
+                "optionC": "By creating a new form class in `forms.py`.",
+                "optionD": "By adding new settings in `settings.py`.",
+                "answer": "By defining a class that inherits from `models.Model` and specifying fields.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the purpose of `migrations` in Django?",
+                "optionA": "To apply schema changes to the database and manage updates.",
+                "optionB": "To define URL routing and view mappings.",
+                "optionC": "To configure static file paths and settings.",
+                "optionD": "To handle user authentication and permissions.",
+                "answer": "To apply schema changes to the database and manage updates.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How can you include static files in a Django template?",
+                "optionA": "By using the `{% static %}` template tag to reference the files.",
+                "optionB": "By defining static file paths in `settings.py`.",
+                "optionC": "By adding static file references in `urls.py`.",
+                "optionD": "By placing static files directly in the `views.py` file.",
+                "answer": "By using the `{% static %}` template tag to reference the files.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the role of the `render()` function in Django?",
+                "optionA": "It renders a template with a context and returns an HTTP response.",
+                "optionB": "It handles HTTP requests directly without rendering a template.",
+                "optionC": "It configures middleware settings for the project.",
+                "optionD": "It manages static file paths and serving configurations.",
+                "answer": "It renders a template with a context and returns an HTTP response.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the use of `get_object_or_404()` in Django views?",
+                "optionA": "To retrieve an object from the database or raise a 404 error if not found.",
+                "optionB": "To handle form validation and user input processing.",
+                "optionC": "To configure URL routing and view handling.",
+                "optionD": "To manage static file serving and paths.",
+                "answer": "To retrieve an object from the database or raise a 404 error if not found.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is a Django `formset`?",
+                "optionA": "A collection of Django forms that can be processed together.",
+                "optionB": "A utility for handling URL routing and view mappings.",
+                "optionC": "A class used for managing static file paths.",
+                "optionD": "A method for configuring middleware settings.",
+                "answer": "A collection of Django forms that can be processed together.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you define custom validation for a Django form?",
+                "optionA": "By overriding the `clean()` method in the form class.",
+                "optionB": "By configuring settings in `settings.py`.",
+                "optionC": "By defining custom middleware for validation.",
+                "optionD": "By adding URL patterns in `urls.py`.",
+                "answer": "By overriding the `clean()` method in the form class.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What does the `reverse()` function do in Django?",
+                "optionA": "It generates a URL from a view name and optional parameters.",
+                "optionB": "It handles static file management and serving.",
+                "optionC": "It processes form data and user input.",
+                "optionD": "It configures middleware and security settings.",
+                "answer": "It generates a URL from a view name and optional parameters.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the `base.html` template used for?",
+                "optionA": "As a base template that other templates can extend from.",
+                "optionB": "To manage static file serving and paths.",
+                "optionC": "To configure middleware settings for the project.",
+                "optionD": "To define custom error pages for the application.",
+                "answer": "As a base template that other templates can extend from.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you handle file uploads in Django?",
+                "optionA": "By using `FileField` and `ImageField` in Django models.",
+                "optionB": "By configuring static file paths in `settings.py`.",
+                "optionC": "By defining file upload handlers in `views.py`.",
+                "optionD": "By adding file paths to the URL configuration in `urls.py`.",
+                "answer": "By using `FileField` and `ImageField` in Django models.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the purpose of Django's `ALLOWED_HOSTS` setting?",
+                "optionA": "To specify which host/domain names the server is allowed to serve.",
+                "optionB": "To configure middleware and request processing.",
+                "optionC": "To handle static file serving and management.",
+                "optionD": "To define URL patterns and view mappings.",
+                "answer": "To specify which host/domain names the server is allowed to serve.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What does the `@login_required` decorator do?",
+                "optionA": "It restricts access to a view to only authenticated users.",
+                "optionB": "It manages static file paths and serving configurations.",
+                "optionC": "It configures URL routing for different views.",
+                "optionD": "It processes form validation and user input.",
+                "answer": "It restricts access to a view to only authenticated users.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you create a custom management command in Django?",
+                "optionA": "By creating a file in the `management/commands` directory of an app.",
+                "optionB": "By configuring settings in `settings.py`.",
+                "optionC": "By defining a new model class in `models.py`.",
+                "optionD": "By adding URL patterns in `urls.py`.",
+                "answer": "By creating a file in the `management/commands` directory of an app.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How can you manage different environments in Django?",
+                "optionA": "By using environment-specific settings files and configurations.",
+                "optionB": "By defining URL patterns for each environment.",
+                "optionC": "By configuring middleware settings based on the environment.",
+                "optionD": "By managing static file locations and serving settings.",
+                "answer": "By using environment-specific settings files and configurations.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is Django's `get_or_create()` method used for?",
+                "optionA": "To retrieve an object if it exists or create a new one if it doesn't.",
+                "optionB": "To configure static file management and serving.",
+                "optionC": "To handle URL routing and view processing.",
+                "optionD": "To define custom middleware for request handling.",
+                "answer": "To retrieve an object if it exists or create a new one if it doesn't.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you handle multi-language support in Django?",
+                "optionA": "By using Django's built-in translation system with `gettext` and language settings.",
+                "optionB": "By configuring URL patterns for each language version.",
+                "optionC": "By managing static file paths for different languages.",
+                "optionD": "By defining custom middleware for language detection.",
+                "answer": "By using Django's built-in translation system with `gettext` and language settings.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is Django's `RequestContext` used for?",
+                "optionA": "To provide context data to templates, including request-related information.",
+                "optionB": "To manage URL routing and view mappings.",
+                "optionC": "To handle static file management and serving.",
+                "optionD": "To configure middleware settings for the project.",
+                "answer": "To provide context data to templates, including request-related information.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you restrict access to certain views in Django?",
+                "optionA": "By using decorators like `@login_required` or `@permission_required`.",
+                "optionB": "By configuring static file paths in `settings.py`.",
+                "optionC": "By defining URL patterns in `urls.py`.",
+                "optionD": "By managing middleware settings and request processing.",
+                "answer": "By using decorators like `@login_required` or `@permission_required`.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is a Django `generic view`?",
+                "optionA": "A view that provides common functionality for handling typical use cases.",
+                "optionB": "A custom view defined for specific application logic.",
+                "optionC": "A utility for managing static files and paths.",
+                "optionD": "A middleware component for request processing.",
+                "answer": "A view that provides common functionality for handling typical use cases.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the `@receiver` decorator used for in Django signals?",
+                "optionA": "To register a function as a signal receiver for a specific signal.",
+                "optionB": "To define URL routing patterns for signal-related views.",
+                "optionC": "To manage static file references and paths.",
+                "optionD": "To handle form validation and input processing.",
+                "answer": "To register a function as a signal receiver for a specific signal.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How can you create a custom template tag in Django?",
+                "optionA": "By defining a new tag in a `templatetags` module and registering it.",
+                "optionB": "By configuring URL patterns to handle custom tag processing.",
+                "optionC": "By managing static file paths and serving configurations.",
+                "optionD": "By defining custom middleware for tag handling.",
+                "answer": "By defining a new tag in a `templatetags` module and registering it.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is Django's `cache` framework used for?",
+                "optionA": "To store and retrieve data in a cache for improving performance.",
+                "optionB": "To handle URL routing and view processing.",
+                "optionC": "To manage static file locations and paths.",
+                "optionD": "To define custom middleware for caching.",
+                "answer": "To store and retrieve data in a cache for improving performance.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you enable Django's debug mode?",
+                "optionA": "By setting `DEBUG = True` in the `settings.py` file.",
+                "optionB": "By configuring `DEBUG` settings in `urls.py`.",
+                "optionC": "By defining debug middleware in `middleware.py`.",
+                "optionD": "By managing static files in `settings.py`.",
+                "answer": "By setting `DEBUG = True` in the `settings.py` file.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is Django's `template inheritance`?",
+                "optionA": "A mechanism to extend a base template and reuse common layout elements.",
+                "optionB": "A way to define URL routing patterns for different templates.",
+                "optionC": "A method for handling static file references and paths.",
+                "optionD": "A technique for managing form validation and processing.",
+                "answer": "A mechanism to extend a base template and reuse common layout elements.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What does the `@property` decorator do in Django models?",
+                "optionA": "It defines a method as a property, allowing it to be accessed like an attribute.",
+                "optionB": "It configures URL routing for model-based views.",
+                "optionC": "It manages static file paths and configurations.",
+                "optionD": "It handles user authentication and permissions.",
+                "answer": "It defines a method as a property, allowing it to be accessed like an attribute.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you implement custom middleware in Django?",
+                "optionA": "By defining a new middleware class with `process_request` and/or `process_response` methods.",
+                "optionB": "By configuring static file paths in `settings.py`.",
+                "optionC": "By creating custom views and URL patterns.",
+                "optionD": "By managing form validation and processing logic.",
+                "answer": "By defining a new middleware class with `process_request` and/or `process_response` methods.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the purpose of Django's `SessionMiddleware`?",
+                "optionA": "To manage and handle session data for user-specific information.",
+                "optionB": "To configure static file paths and serving settings.",
+                "optionC": "To handle URL routing and view processing.",
+                "optionD": "To define custom template tags and filters.",
+                "answer": "To manage and handle session data for user-specific information.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is a Django `model manager`?",
+                "optionA": "A class that provides query methods for interacting with model instances.",
+                "optionB": "A utility for handling static files and paths.",
+                "optionC": "A method for defining custom middleware.",
+                "optionD": "A function for managing URL routing and views.",
+                "answer": "A class that provides query methods for interacting with model instances.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How can you optimize query performance in Django?",
+                "optionA": "By using query optimization techniques like `select_related` and `prefetch_related`.",
+                "optionB": "By configuring middleware settings for performance.",
+                "optionC": "By managing static file serving and paths.",
+                "optionD": "By defining custom template tags for efficiency.",
+                "answer": "By using query optimization techniques like `select_related` and `prefetch_related`.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What does the `@require_http_methods` decorator do?",
+                "optionA": "It restricts access to a view to only specified HTTP methods.",
+                "optionB": "It handles static file management and serving.",
+                "optionC": "It configures URL routing and view processing.",
+                "optionD": "It defines custom middleware for request handling.",
+                "answer": "It restricts access to a view to only specified HTTP methods.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the `Django REST Framework` used for?",
+                "optionA": "To build and manage RESTful APIs in Django applications.",
+                "optionB": "To handle static file paths and serving configurations.",
+                "optionC": "To manage middleware settings and request processing.",
+                "optionD": "To define custom error handling pages.",
+                "answer": "To build and manage RESTful APIs in Django applications.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How do you use Django's `signals`?",
+                "optionA": "By connecting functions to signal handlers to perform actions on certain events.",
+                "optionB": "By configuring static file paths and serving settings.",
+                "optionC": "By managing URL routing and view mappings.",
+                "optionD": "By defining custom middleware for signal handling.",
+                "answer": "By connecting functions to signal handlers to perform actions on certain events.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the function of `HttpResponseRedirect`?",
+                "optionA": "To redirect the user to a different URL.",
+                "optionB": "To handle form validation and processing.",
+                "optionC": "To manage static file locations and serving.",
+                "optionD": "To configure middleware for enhanced security.",
+                "answer": "To redirect the user to a different URL.",
+                "category": "Django"
+            },
+            {
+                "question_text": "How can you enable Django's `internationalization` features?",
+                "optionA": "By configuring the `LANGUAGES` and `LOCALE_PATHS` settings in `settings.py`.",
+                "optionB": "By defining URL routing patterns for each language.",
+                "optionC": "By managing static file paths for different languages.",
+                "optionD": "By creating custom middleware for language detection.",
+                "answer": "By configuring the `LANGUAGES` and `LOCALE_PATHS` settings in `settings.py`.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What is the use of `@csrf_protect` decorator?",
+                "optionA": "To enforce CSRF protection for a specific view.",
+                "optionB": "To handle static file management and serving.",
+                "optionC": "To manage middleware settings for security.",
+                "optionD": "To define custom error handling pages.",
+                "answer": "To enforce CSRF protection for a specific view.",
+                "category": "Django"
+            },
+            {
+                "question_text": "What does Django's `User` model provide?",
+                "optionA": "It provides user authentication and profile management features.",
+                "optionB": "It handles static file paths and serving settings.",
+                "optionC": "It configures middleware for request handling.",
+                "optionD": "It defines custom template tags and filters.",
+                "answer": "It provides user authentication and profile management features.",
+                "category": "Django"
+            }
+        ]
+            

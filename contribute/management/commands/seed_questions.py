@@ -8,10 +8,13 @@ class Command(BaseCommand):
     help = 'Seed the database with technical questions'
 
     def handle(self, *args, **options):
-        Question.objects.all().delete()
+        # Question.objects.all().delete()
         # Define the path to the JSON file
         base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        json_file_path = os.path.join(base_dir, 'json', 'javascript.json')
+        # json_file_path = os.path.join(base_dir, 'json', 'javascript.json')
+        # json_file_path = os.path.join(base_dir, 'json', 'sql.json')
+        # json_file_path = os.path.join(base_dir, 'json', 'react.json')
+        json_file_path = os.path.join(base_dir, 'json', 'laravel.json')
 
         # Ensure the path is correct by printing it
         self.stdout.write(self.style.WARNING(f'Loading questions from {json_file_path}'))
@@ -24,8 +27,7 @@ class Command(BaseCommand):
             self.stdout.write(self.style.ERROR(f'File not found: {json_file_path}'))
             return
 
-        categories = ['JavaScript', 'React', 'Django', 'Laravel']
-
+        
         # Seed the database with questions
         for i in range(len(questions)):  # Adjust the range for the number of questions
             question = random.choice(questions)
