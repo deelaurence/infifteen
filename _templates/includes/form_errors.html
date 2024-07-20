@@ -1,0 +1,8 @@
+<!-- templates/form_errors.html -->
+{% if form.errors %}
+    {% for field, errors in form.errors.items %}
+        {% for error in errors %}
+            <p class="errorlist">{{ error }}</p>
+        {% endfor %}
+    {% endfor %}
+{% endif %}

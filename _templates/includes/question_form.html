@@ -1,0 +1,31 @@
+<div class="mt-6">
+    <label for="{{ form.question_text.id_for_label }}">Question</label>
+    <textarea class="question-textarea" name="{{ form.question_text.name }}" placeholder="Enter your question">{% if form.question_text.value is not None %}{{ form.question_text.value }}{% endif %}</textarea>
+</div>
+<div style="display: none;" class="instruct">
+    <p></p>
+</div>
+<div class="answers-btn-group">
+    <div class="add-option-btn bg-shade2 w-2/3 py-3 font-semibold text-center flex justify-center items-center mt-4 text-shade5">Add Options</div>
+    <button class="choose-correct-btn bg-shade2 w-1/3 py-3 font-semibold text-center flex justify-center items-center mt-4 text-shade5">Next</button>
+</div>
+
+<div class="a_wrapper">
+    <label for="{{ form.optionA.id_for_label }}">Option A</label>
+    <textarea name="{{ form.optionA.name }}" placeholder="Enter your option A">{% if form.optionA.value is not None %}{{ form.optionA.value }}{% endif %}</textarea>
+</div>
+<div class="b_wrapper">
+    <label for="{{ form.optionB.id_for_label }}">Option B</label>
+    <textarea name="{{ form.optionB.name }}" placeholder="Enter your option B">{% if form.optionB.value is not None %}{{ form.optionB.value }}{% endif %}</textarea>
+</div>
+<div class="c_wrapper">
+    <label for="{{ form.optionC.id_for_label }}">Option C</label>
+    <textarea name="{{ form.optionC.name }}" placeholder="Enter your option C">{% if form.optionC.value is not None %}{{ form.optionC.value }}{% endif %}</textarea>
+</div>
+<div class="d_wrapper">
+    <label for="{{ form.optionD.id_for_label }}">Option D</label>
+    <textarea name="{{ form.optionD.name }}" placeholder="Enter your option D">{% if form.optionD.value is not None %}{{ form.optionD.value }}{% endif %}</textarea>
+</div>
+<div class="opacity-70">
+    <input id="answer" name="{{ form.answer.name }}" type="hidden" value="{% if form.answer.value is not None %}{{ form.answer.value }}{% endif %}">
+</div>

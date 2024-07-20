@@ -1,0 +1,24 @@
+<footer class="flex flex-col mt-32  text-shade2 gap-4 pr-6 pl-6 sm:pl-32 sm:pr-32 md:pl-44 md:pr-44 py-6 justify-between ">
+    <!-- Your footer content here -->
+    <div class="flex justify-between items-center">
+        <div class="flex items-center gap-1">
+            <p class="bg-shade2 circle-design block mt-1  rounded-full h-4 w-4"></p>
+            <p class="text-2xl font-bold"> In Fifteen. </p>
+        </div>
+        <p class="text-right">Created by <a class="underline font-medium" href="https://github.com/deelaurence">deverence</a> </p>
+    </div>
+    <div>
+        <div>
+            <h3 class="font-semibold mt-6 mb-4">OUR LINKS</h3>
+            <div class="flex flex-col">
+                <a href="{% url 'login' %}">Login</a>
+                <a class="italic" href="{% url 'contribute' %}">Contribute</a>
+                <a href="{% url 'signup' %}">Sign Up</a>
+                <a href="{% url 'home' %}">Home</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p>All Rights reserved &copy; 2024</p>
+    </div>
+</footer>

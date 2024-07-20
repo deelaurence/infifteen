@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class=" ">
+     <form class="mb-6" method="post" action="{% url 'logout' %}">
+          {% csrf_token %}
+          <button class="underline" type="submit">Logout</button>
+      </form>
+     <p class="text-2xl font-bold"> Hello, {{name}} </p>
+          {% if questions %}
+          <p class="mb-12">Click on any question in review to edit it.</p>  
+          {%else%}
+          <p>You've not contributed any question yet.</p> 
+          {%endif%}
+
+     {% for question in questions %}
+      
+     <a 
+     href=" {% if question.publish %} {% else %}  {% url 'edit_question' question.pk %} {% endif %} " 
+     class="flex flex-col gap-2 mb-10 {% if question.publish %}  opacity-100 {% else %} opacity-75 {% endif %}">
+          <div class="text-sm">
+               <p class="text-xl  font-medium">{{question.question_text}}</p>
+               {% if question.publish %}
+                    <p>Published</p>
+               {% else %}
+                    <p>In Review</p>
+               {% endif %}
+          </div>
+          <p><span class="font-medium">a.</span> {{question.optionA}}</p>
+          <p><span class="font-medium">b.</span> {{question.optionB}}</p>
+          {%if question.optionC %}
+          <p><span class="font-medium">c.</span> {{question.optionC}}</p>
+          {%endif%}
+          {%if question.optionD %}
+          <p><span class="font-medium">d.</span> {{question.optionD}}</p>
+          {%endif%}
+          <p class="italic">answer. {{question.answer}}</p>
+     </a>
+     {% endfor %}
+</div>
+<script>
+    const name ='{{name}}'
+    if(!localStorage.getItem('name')){
+     localStorage.setItem('name',name)
+    } 
+</script>
+
+    
+    
+{% endblock %}

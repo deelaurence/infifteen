@@ -1,0 +1,23 @@
+<!-- templates/contribute/edit_question.html -->
+{% extends 'base.html' %}   
+{% load static %}
+
+{% block title %} Edit Question {% endblock %}
+{% block content %}
+<section class="bg-shade5">
+    <p class="editing-info">Editing {{category}}</p>    
+    <h2 class="text-3xl font-semibold mt-16">Edit Question</h2>
+    <form method="post" action="{% url 'edit_question' question.pk %}" class="question-form *:flex *:flex-col *:gap-1 *:mb-4 ">
+        <!-- <p class="already inline">Perform a tertiary call to?<span class="underline" href="{% url 'signup' %}">Action</span> </p> -->
+        
+    
+        {% csrf_token %}   
+        <input style="display: none;" name="category" value="{{category}}" type="text">
+        {% include 'includes/question_form.html' %}
+        <!-- Include the reusable form errors template -->
+        {% include 'includes/form_errors.html' with form=form %}               
+    
+    </form>
+    <script src="/static/js/contribute.js"></script>
+</section>
+{% endblock %}

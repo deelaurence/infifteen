@@ -1,0 +1,37 @@
+<!-- templates/users/signup.html -->
+{% extends 'base.html' %}   
+{% load static %}
+
+{% block title %} Contribute {% endblock %}
+{% block content %}
+<section class="bg-shade5">
+    {% include 'includes/contribute_instructions.html' %}
+        
+    <h2 class="text-3xl font-semibold mt-16">Add Question</h2>
+    <form  method="post" action="{% url 'contribute' %}" class="question-form *:flex *:flex-col *:gap-1 *:mb-4 ">
+        <!-- <p class="already inline">Perform a tertiary call to?<span class="underline" href="{ url 'signup' }">Action</span> </p> -->
+        
+        {% csrf_token %}
+            
+            <label for="basic-dropdown">Choose a category</label>
+            <select
+            name="{{ form.category.name }}"
+            id="basic-dropdown">
+                {% for category in categories %}
+                    <option value={{category}}>{{category}}</option>
+                {% endfor %}
+            </select>
+            <div style="display: none;" class="instruct">
+                    <p></p>
+            </div>
+            {% include 'includes/question_form.html' %}
+            <!-- Include the reusable form errors template -->
+             {% include 'includes/form_errors.html' with form=form %}               
+    
+    </form>
+    <script src="/static/js/contribute.js"></script>
+</section>
+    
+</section>
+
+{% endblock %}    

@@ -1,0 +1,416 @@
+{% extends 'base.html' %}
+
+{% block title %}Quiz{% endblock %}
+
+{% block content %}
+    
+<section class="pages-parent">
+    <!-- page-zero
+    introduction page -->
+    <div style="display: none;" class="page-zero">
+        <img src="https://cdn-icons-png.flaticon.com/128/7488/7488237.png" alt="">
+        <p class="answer-as-many">Answer as many {{category|capfirst}} questions possible in 15 minutes.</p>
+        <p class="your-time">Your timer starts the moment you click on start.</p>
+        <p class="do-not">Do not refresh the page.</p>
+        <p class="text-sm text-shade4">name*</p>
+        <input class="enter-name" placeholder="Enter your name" type="text">
+        <br>
+        <button class="start-quiz">Start</button>
+        
+    </div>
+    <!-- page one 
+    Questions Page 
+    -->
+    <div style="display: none;" class="page-one"> 
+        
+        <!-- timer, questions answered and score -->
+        <div class="management">
+            <div class="countdown" >
+                <img src="https://cdn-icons-png.flaticon.com/128/5715/5715832.png">
+                <p class="timer">15:00</p>
+            </div>
+            <div class="questions-left" >
+                <img src="https://cdn-icons-png.flaticon.com/128/6356/6356630.png">
+                <p class="current-question">8/24</p>
+            </div>
+            <div class="questions-left" >
+                <img src="https://cdn-icons-png.flaticon.com/128/10748/10748906.png">
+                <p class="score">0%</p>
+            </div>   
+        </div>
+
+        
+        <h2 class="secondary-header">Question</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                {% for element in questions %}
+                <div class="single-question">
+                    <p class="quiz-question">{{ element.question_text }}</p>
+                    <h2 class="tertiary-header">Choose the right answer</h2>
+                    {% if element.optionA|length > 0 %}
+                    <p class="quiz-option quiz-option-a">{{ element.optionA }}</p>
+                    {% endif %}
+                    {% if element.optionB|length > 0 %}
+                    <p class="quiz-option quiz-option-b">{{ element.optionB }}</p>
+                    {% endif %}
+                    {% if element.optionC|length > 0 %}
+                    <p class="quiz-option quiz-option-c">{{ element.optionC }}</p>
+                    {% endif %}
+                    {% if element.optionD|length > 0 %}
+                    <p class="quiz-option quiz-option-d">{{ element.optionD }}</p>
+                    {% endif %}
+                    <p class="correct-answer correct-text" style="display:none;">{{ element.answer }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <div id="next-btn"  style="display:none;">
+                <button class="mx-6 sm:mx-32  md:mx-44 w-[calc(100vw-4rem)] sm:w-[calc(100vw-17rem)] md:w-[calc(100vw-23rem)]" id="nextQuestionBtn">Next Question</button>
+            </div>
+        </div>
+    </div>
+    <!-- page two 
+    Leaderboard page-->
+    <div style="display: none;" class="page-two">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/128/16865/16865619.png" alt="">           -->
+        <div>
+            <h2 class=" text-4xl  sm:text-6xl  md:text-8xl mb-10 md:mb-16 font-bold" >Leaderboard.</h2>
+            <div class="flex gap-6 font-semibold">
+                <p class="w-8">Rank</p>
+                <p class="w-1/3">Name</p>
+                <p class="w-1/3">Category</p>
+                <p class="w-1/3">Points</p>
+            </div>
+            {% for result in leaderboard %}
+            <div class="flex gap-6 border-b-[1px] items-center py-4 border-shade4">
+                <p class="w-8 text-xs underline ">{{ forloop.counter0|add:1 }} </p>
+                <p class="w-1/3  results-name">{{result.name}}</p>
+                <p class="w-1/3 ">{{result.category|capfirst}}</p>
+                <p class="w-1/3 ">{{result.fair_result}}</p>
+            </div>
+            {% endfor %}
+
+        </div>
+        <form style="display: none;" method="post" action="{% url 'quiz-in-category' category %}" class="*:flex *:flex-col *:gap-1 *:mb-4 ">
+            {% csrf_token %}
+                <div class="mt-6">
+                    <input 
+                        type="text" 
+                        name="category" 
+                        id="category-leaderboard" 
+                        class="form-control"
+                        value={{category}} >
+                </div>
+                <div class="mt-6">
+                    <input 
+                        type="text" 
+                        name="name" 
+                        id="name_leaderboard" 
+                        class="form-control"
+                        value="" >
+                </div>
+                <div class="mt-6">
+                    <input 
+                        type="number" 
+                        name="score" 
+                        id="score_leaderboard" 
+                        class="form-control"
+                        value="" >
+               </div>
+                <div class="mt-6">
+                    <input 
+                        type="number" 
+                        name="attempted_questions" 
+                        id="attempted_questions_leaderboard" 
+                        class="form-control"
+                        value="" >
+               </div>
+               <button type="submit" id="hiddenSubmitButton" style="display: none;"></button>
+                   <!-- Include the reusable form errors template -->
+                    {% include 'includes/form_errors.html' with form=form %}               
+                </form>
+                <a href="{% url 'home' %}" class="bg-shade2 w-full py-3 font-semibold text-center flex justify-center items-center mt-4 text-shade5 ">Home</a>
+    </div>
+    
+    <script>
+
+        // Dom selections        
+        
+        let index = 0;
+        let correctBox;
+        let correctText;
+        const availableUsers = document.querySelectorAll('.available-users')
+        const attemped_questions_leaderboard = document.querySelector('#attempted_questions_leaderboard')
+        const score_leaderboard = document.querySelector('#score_leaderboard')
+        const name_leaderboard = document.querySelector('#name_leaderboard')
+        const leaderboardForm = document.querySelector('form')
+        const carousel = document.querySelector('.carousel');
+        const enterName = document.querySelector('.enter-name')
+        const startQuiz = document.querySelector('.start-quiz')
+        const pagesParent = document.querySelector('.pages-parent')
+        const pageZero = document.querySelector('.page-zero')
+        const pageOne = document.querySelector('.page-one')
+        const pageTwo = document.querySelector('.page-two')
+        const nextBtnContainer = document.getElementById('next-btn');
+        const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+        const timerDisplay = document.querySelector('.timer');
+        let score = document.querySelector('.score')
+        let timer;
+        let correctlyAnswered=0;
+        let questionIndex=0
+        let resultsName=document.querySelectorAll('.results-name')
+
+        // If the name the user have in local storage is on the leaderboard
+        // bolden it on the leaderboard list
+        resultsName.forEach((name)=>{
+            if(name.textContent==localStorage.getItem('name')){
+                name.style.fontWeight='600'
+                name.textContent=`${name.textContent}*`
+            }
+        })
+        
+        
+        //Get all the pages and selectively display it
+        const selectPage=(page)=>{  
+            Array.from(pagesParent.children).forEach((_page,index)=>{
+                if(page==_page){
+                    sessionStorage.setItem('page',index)
+                    _page.style.display='block'
+                }
+                else{
+                    _page.style.display='none'
+                }
+            })
+        }        
+        
+        //Confirm which page we are currently on
+        switch (Number(sessionStorage.getItem('page'))) {
+            case 0:
+                selectPage(pageZero)       
+                break;
+            case 1:
+                selectPage(pageOne)
+                break;
+            default:
+                selectPage(pageTwo)
+                break;
+        }
+
+
+        //All questions is a list of questions displayed in a flex box
+        //from left to right and overflow hidden, clicking on next question 
+        //moves the carousel by the full(100%) width of each question
+        const updateQuestion = ()=>{
+            try {
+                questionIndex++
+                let currentQuestionWrapper = carousel.children[questionIndex-1]
+                let prevQuestionWrapper = carousel.children[questionIndex-2]
+                const currentQuestion = `${questionIndex}/${carousel.children.length}`
+                const currentQuestionEl = document.querySelector('.current-question')
+                currentQuestionEl.textContent=currentQuestion
+                let percentage =correctlyAnswered/(questionIndex-1)*100
+                currentQuestionWrapper.classList.add('opacity')
+                prevQuestionWrapper.classList.remove('opacity')
+                score.innerHTML=`${Math.floor(percentage||0)}%`
+                attemped_questions_leaderboard.value=questionIndex
+                score_leaderboard.value=percentage           
+            } catch (error) {
+                console.log(error)        
+            }
+        }
+        
+        //Function to return options each question in view has.
+        //The index is the current question, the classname is
+        //the class of the option e.g option-a
+        const getCurrentCarousel = (classname) =>{
+            try {
+                return carousel.children[index].querySelector(`.${classname}`)
+            } catch (error) {
+                console.log(error)
+            }
+        }
+       
+
+        //Function to slide to next question
+        let currentOptions;
+        const updateCarousel = () => {
+            index++;
+            const offset = -index * 100;
+            carousel.style.transform = `translateX(${offset}%)`;
+        };
+
+
+        //After answering a question, show next button
+        const shownextBtnContainer = (message) => {            
+            nextBtnContainer.style.display = 'block';
+        };
+
+        //Hide next button
+        const hidenextBtnContainer = () => {
+            nextBtnContainer.style.display = 'none';
+        };
+
+        //The moment the first question shows
+        const initializeCarousel = () => {       
+            const optionClasses = ['quiz-option-a', 'quiz-option-b', 'quiz-option-c', 'quiz-option-d'];
+            
+            const currentOptions = optionClasses
+                .map(getCurrentCarousel)
+                .filter(option => option); // This filters out any falsy values, including `null`, `undefined`, or `false`
+            
+                console.log(optionClasses
+                .map(getCurrentCarousel))
+                currentOptions.forEach((option)=>{
+                option.addEventListener('click',(event)=>{    
+                    const selectedOption = event.target;
+                    
+                    //There's a correct answer field in every question
+                    //Check if selected option is equal to it
+
+                    //The selector is looking for a single question
+                    //parent and a child within it, '.correct-answer'
+                    const correctAnswer = event.target
+                        .closest('.single-question')
+                        .querySelector('.correct-answer');
+                        
+                    if (selectedOption.textContent === correctAnswer.textContent) {
+                        selectedOption.classList.add('correct-answer')
+                        //prevent multiple clicking of correct answer
+                        if(nextBtnContainer.style.display == 'block'){
+                            //An option has already been chosen
+                            return
+                        }
+                        correctlyAnswered++
+                        shownextBtnContainer();
+                    } else {
+                        selectedOption.classList.add('wrong-answer')
+                        currentOptions.forEach((option)=>{
+                            if(option.textContent===correctAnswer.textContent){
+                                option.classList.add('correct-answer')
+                            }
+                        })
+                        shownextBtnContainer();
+                    }
+                })  
+            })    
+            
+
+        };
+
+        //When next button is clicked
+        nextQuestionBtn.addEventListener('click', () => {
+            if(questionIndex==carousel.children.length){
+                nextQuestionBtn.textContent="The end"
+                return
+            }
+            hidenextBtnContainer();
+            updateQuestion()
+            updateCarousel();
+            initializeCarousel()
+        });
+
+        initializeCarousel();
+        updateQuestion()
+
+
+        //Timer updates every second
+        const startTimer = (duration, display) => {
+            let timer = duration, minutes, seconds;
+            const interval = setInterval(() => {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    timer = 0;
+                    //When time elapses, submit the user score
+                    clearInterval(interval);        
+                        console.log('Submitting Quiz')
+                        setTimeout(() => {
+                            document.getElementById('hiddenSubmitButton').click()
+                            // leaderboardForm.submit();
+                        }, 2000);
+                        
+                        leaderboardForm.style.display='none'   
+                        selectPage(pageTwo)
+                }
+                
+                
+            }, 1000);
+        };
+            
+        //The time
+        const fifteenMinutes = 60 * 0.1;
+        
+
+        //Extract names coming from backend
+        function extractValuesFromBackend(dataList, key) {
+            let values = [];
+            dataList.forEach((item) => {
+                values.push(item[key]);
+            });
+            return values;
+        }
+
+        //replace single quotes with double to make JSON formatting possible
+        const rawData='{{ leaderboard|escapejs }}'.replace(/'/g, '"')        
+        const leaderBoard = JSON.parse(rawData);
+
+        // Extracting names
+        const names = extractValuesFromBackend(leaderBoard, 'name');
+        const uniqueNameSet = new Set(names);
+
+        // Convert Set back to array
+        const uniqueNames = [...uniqueNameSet];
+        sessionStorage.setItem('all_users',JSON.stringify(uniqueNames))
+
+        //If user has their name used on the current device
+        if(localStorage.getItem('name')){
+            enterName.value=localStorage.getItem('name')
+            enterName.setAttribute('disabled',true)
+        }
+
+        //Page zero logic
+        enterName.addEventListener('focus',()=>{
+            startQuiz.textContent='Start'
+        })
+
+        
+        startQuiz.addEventListener('click',()=>{
+            if(!enterName.value){
+                startQuiz.textContent='Provide a name'                
+                return
+            }
+            if(enterName.value.length>10){
+                startQuiz.textContent='Name too long'                
+                return
+            }
+            //Prevent duplicate names, but if the user has the name in thier device,
+            //no issues
+            const unavailableNames=JSON.parse(sessionStorage.getItem('all_users'))
+            if(unavailableNames.includes(enterName.value)&&!localStorage.getItem('name')){
+                startQuiz.textContent='Name already taken'
+                return
+            }
+
+
+            localStorage.setItem('name',enterName.value)
+            name_leaderboard.value=enterName.value
+            
+            startTimer(fifteenMinutes, timerDisplay);
+            selectPage(pageOne)
+        })
+        
+        
+        
+
+    </script>
+</section>
+
+
+
+{% endblock %}

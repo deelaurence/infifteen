@@ -1,0 +1,965 @@
+[
+    {
+        "question_text": "What does the term (IIFE) in JavaScript mean?",
+        "optionA": "A function that is defined and executed right after its creation.",
+        "optionB": "A function that is used to handle asynchronous events.",
+        "optionC": "A function that is called only once during the lifetime of a page.",
+        "optionD": "A function that is executed after a short time delay during the page life cycle.",
+        "answer": "A function that is defined and executed right after its creation.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What does the `typeof` operator do in JavaScript?",
+        "optionA": "An operator that returns the prototype of the given object passed to it.",
+        "optionB": "It converts the value passed to it during execution to a specific type.",
+        "optionC": "It checks if a value is an instance of a given class.",
+        "optionD": "It returns a string indicating the type of the unevaluated operand.",
+        "answer": "It returns a string indicating the type of the unevaluated operand.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the difference between `let`, `const`, and `var` in JavaScript?",
+        "optionA": "`var` is function-scoped, while `let` and `const` are block-scoped.",
+        "optionB": "`let` is function-scoped, while `var` and `const` are block-scoped.",
+        "optionC": "`const` is function-scoped, while `let` and `var` are block-scoped.",
+        "optionD": "There is no difference between `let`, `const`, and `var`.",
+        "answer": "`var` is function-scoped, while `let` and `const` are block-scoped.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is a promise chain in JavaScript?",
+        "optionA": "A way of linking multiple callbacks in JavaScript.",
+        "optionB": "A technique for handling events in JavaScript.",
+        "optionC": "A sequence of `.then()` methods called on a promise to handle asynchronous operations.",
+        "optionD": "A method to create multiple promises at once.",
+        "answer": "A sequence of `.then()` methods called on a promise to handle asynchronous operations.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.map()` method in JavaScript?",
+        "optionA": "It creates a new array populated with the results of calling a provided function on every element in the calling array.",
+        "optionB": "It filters out elements that do not meet certain conditions resulting from calling a provided function on every element in the calling array.",
+        "optionC": "It reduces the array to a single value.",
+        "optionD": "It finds the first element that meets a certain condition.",
+        "answer": "It creates a new array populated with the results of calling a provided function on every element in the calling array.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `fetch` API in JavaScript?",
+        "optionA": "To make network requests and handle responses.",
+        "optionB": "To manipulate the DOM.",
+        "optionC": "To perform mathematical calculations in native JavaScript.",
+        "optionD": "To handle local storage operations.",
+        "answer": "To make network requests and handle responses.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is destructuring in JavaScript?",
+        "optionA": "A syntax for unpacking values from arrays or properties from objects into distinct variables.",
+        "optionB": "A technique for concatenating arrays.",
+        "optionC": "A process for iterating over arrays.",
+        "optionD": "A method to remove elements from an array when certain conditions are met, providing syntax clarity.",
+        "answer": "A syntax for unpacking values from arrays or properties from objects into distinct variables.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.filter()` method in JavaScript?",
+        "optionA": "It creates a new array with all elements that pass the test implemented by the provided function.",
+        "optionB": "It reduces the array to a single value.",
+        "optionC": "It sorts the elements of an array.",
+        "optionD": "It reverses the elements of an array.",
+        "answer": "It creates a new array with all elements that pass the test implemented by the provided function.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.reduce()` method in JavaScript?",
+        "optionA": "It executes a reducer function on each element of the array, resulting in a single output value.",
+        "optionB": "It filters out elements that do not meet a certain condition.",
+        "optionC": "It creates a new array with the results of calling a function for every array element while memoizing the original array.",
+        "optionD": "It concatenates multiple arrays into a single array.",
+        "answer": "It executes a reducer function on each element of the array, resulting in a single output value.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.find()` method in JavaScript?",
+        "optionA": "It returns the value of the first element in the array that satisfies the provided testing function.",
+        "optionB": "It filters out elements that do not meet a certain condition.",
+        "optionC": "It sorts the elements of an array.",
+        "optionD": "It creates a new array with the results of calling a function for every array element in array loops.",
+        "answer": "It returns the value of the first element in the array that satisfies the provided testing function.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the difference between `==` and `===` in JavaScript?",
+        "optionA": "`==` compares values after type conversion, while `===` compares values without type conversion.",
+        "optionB": "`==` compares values without type conversion, while `===` compares values after type conversion.",
+        "optionC": "`==` is used for comparing objects, while `===` is used for comparing primitive values.",
+        "optionD": "There is no difference between `==` and `===`.",
+        "answer": "`==` compares values after type conversion, while `===` compares values without type conversion.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `setTimeout` function in JavaScript?",
+        "optionA": "To execute a function after a specified delay.",
+        "optionB": "To repeatedly execute a function at specified intervals.",
+        "optionC": "To stop the execution of a function.",
+        "optionD": "To immediately execute a function.",
+        "answer": "To execute a function after a specified delay.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is a promise in JavaScript?",
+        "optionA": "An object representing the eventual completion or failure of an asynchronous operation.",
+        "optionB": "A method to handle synchronous events completion or failure in native JavaScript operations.",
+        "optionC": "A tool to create private variables.",
+        "optionD": "A way to manipulate the DOM.",
+        "answer": "An object representing the eventual completion or failure of an asynchronous operation.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Which of this is true about synchronous and asynchronous code in JavaScript?",
+        "optionA": "Synchronous code is executed sequentially, blocking subsequent code until the current operation completes",
+        "optionB": "Synchronous code is executed only in web workers, while asynchronous code is executed in the main thread.",
+        "optionC": "Synchronous code is used for network requests, while asynchronous code is used for DOM manipulation.",
+        "optionD": "There is no difference between synchronous and asynchronous code.",
+        "answer": "Synchronous code is executed sequentially, blocking subsequent code until the current operation completes",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `async` keyword in JavaScript?",
+        "optionA": "To define an asynchronous function that returns a promise.",
+        "optionB": "To delay the execution of a function until a desired timeout.",
+        "optionC": "To immediately execute a function.",
+        "optionD": "To handle synchronous events.",
+        "answer": "To define an asynchronous function that returns a promise.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `await` keyword in JavaScript?",
+        "optionA": "To pause the execution of an asynchronous function and wait for the promise to resolve.",
+        "optionB": "To delay the execution of a function.",
+        "optionC": "To pause the execution of an asynchronous function until there is a triggered completion event",
+        "optionD": "To handle synchronous events.",
+        "answer": "To pause the execution of an asynchronous function and wait for the promise to resolve.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `JSON.stringify` method in JavaScript?",
+        "optionA": "To convert a JavaScript object or value to a JSON string.",
+        "optionB": "To parse a JSON string into a JavaScript object to prevent incompatible data types.",
+        "optionC": "To validate a JSON string.",
+        "optionD": "To compare two JSON strings.",
+        "answer": "To convert a JavaScript object or value to a JSON string.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the difference between `forEach` and `map` methods in JavaScript?",
+        "optionA": "`forEach` executes a provided function once for each array element and does not return a new array, while `map` executes a provided function once for each array element and returns a new array with the results.",
+        "optionB": "`map` executes a provided function once for each array element and does not return a new array, while `forEach` executes a provided function once for each array element and returns a new array with the results.",
+        "optionC": "`map` initializes a provided function once for each array element and does not return a new array, while `forEach` initializes a provided function once for each array element and returns a new array with the results.",
+        "optionD": "`forEach` works only with numbers, while `map` works with all data types.",
+        "answer": "`forEach` executes a provided function once for each array element and does not return a new array, while `map` executes a provided function once for each array element and returns a new array with the results.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `try...catch` statement in JavaScript?",
+        "optionA": "To handle exceptions and perform actions when errors occur.",
+        "optionB": "To define a block of code to be executed repeatedly in the current scope.",
+        "optionC": "To declare variables with block scope.",
+        "optionD": "To compare values with type conversion.",
+        "answer": "To handle exceptions and perform actions when errors occur.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What does the `Array.prototype.some()` method do in JavaScript?",
+        "optionA": "It tests whether at least one element in the array passes the provided function's test.",
+        "optionB": "It creates a new array with all elements that pass the provided function's test when dealing with immutable arrays.",
+        "optionC": "It sorts the elements of an array in place.",
+        "optionD": "It reduces the array to a single value.",
+        "answer": "It tests whether at least one element in the array passes the provided function's test.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What does the `Array.prototype.every()` method do in JavaScript?",
+        "optionA": "It tests whether all elements in the array pass the provided function's test.",
+        "optionB": "It creates a new array with all elements that pass the provided function's test.",
+        "optionC": "It sorts the elements of an array in place.",
+        "optionD": "It reduces the array to a single value.",
+        "answer": "It tests whether all elements in the array pass the provided function's test.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.findIndex()` method in JavaScript?",
+        "optionA": "It returns the index of the first element in the array that satisfies the provided testing function.",
+        "optionB": "It filters out elements that do not meet a certain condition.",
+        "optionC": "It sorts the elements of an array in place.",
+        "optionD": "It creates a new array with the results of calling a function for every array element.",
+        "answer": "It returns the index of the first element in the array that satisfies the provided testing function.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Object.keys()` method in JavaScript?",
+        "optionA": "To return an array of a given object's own enumerable property names.",
+        "optionB": "To return the values of an object's properties when transforming objects to arrays.",
+        "optionC": "To merge two or more objects.",
+        "optionD": "To delete a property from an object.",
+        "answer": "To return an array of a given object's own enumerable property names.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Object.values()` method in JavaScript?",
+        "optionA": "To return an array of a given object's own enumerable property values.",
+        "optionB": "To return the keys of an object's properties.",
+        "optionC": "To merge two or more objects.",
+        "optionD": "To delete a property from an object.",
+        "answer": "To return an array of a given object's own enumerable property values.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Object.entries()` method in JavaScript?",
+        "optionA": "To return an array of a given object's own enumerable property [key, value] pairs.",
+        "optionB": "To return the keys of an object's properties.",
+        "optionC": "To merge two or more objects.",
+        "optionD": "To delete a property from an object.",
+        "answer": "To return an array of a given object's own enumerable property [key, value] pairs.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What does the `typeof` operator return for an array in JavaScript?",
+        "optionA": "`object`",
+        "optionB": "`array`",
+        "optionC": "`null`",
+        "optionD": "`undefined`",
+        "answer": "`object`",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Object.freeze()` method in JavaScript?",
+        "optionA": "To prevent new properties from being added to an object.",
+        "optionB": "To convert an object to a JSON string.",
+        "optionC": "To make an object value remain the same between multiple windows refresh",
+        "optionD": "To create a new object that inherits from an existing object.",
+        "answer": "To prevent new properties from being added to an object.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Function.prototype.call()` method in JavaScript?",
+        "optionA": "To call a function with a specified `this` value and arguments provided individually.",
+        "optionB": "To call a function with a specified `this` value and arguments provided as an array.",
+        "optionC": "To bind a function to a specific `this` value.",
+        "optionD": "To define a function that can be called multiple times.",
+        "answer": "To call a function with a specified `this` value and arguments provided individually.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Function.prototype.apply()` method in JavaScript?",
+        "optionA": "To call a function with a specified `this` value and arguments provided as an array.",
+        "optionB": "To call a function with a specified `this` value and arguments provided individually.",
+        "optionC": "To bind a function to a specific `this` value.",
+        "optionD": "To define a function that can be called multiple times.",
+        "answer": "To call a function with a specified `this` value and arguments provided as an array.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.reduce()` method in JavaScript?",
+        "optionA": "To apply a function against an accumulator and each element in the array to reduce it to a single value.",
+        "optionB": "To create a new array with all elements that pass the test implemented by the provided function.",
+        "optionC": "To test whether all elements in the array pass the provided function's test.",
+        "optionD": "To execute a provided function once for each array element.",
+        "answer": "To apply a function against an accumulator and each element in the array to reduce it to a single value.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.filter()` method in JavaScript?",
+        "optionA": "To create a new array with all elements that pass the test implemented by the provided function.",
+        "optionB": "To apply a function against an accumulator and each element in the array to reduce it to a single value.",
+        "optionC": "To test whether all elements in the array pass the provided function's test.",
+        "optionD": "To execute a provided function once for each array element.",
+        "answer": "To create a new array with all elements that pass the test implemented by the provided function.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.includes()` method in JavaScript?",
+        "optionA": "To determine whether an array includes a certain value among its entries, returning `true` or `false`.",
+        "optionB": "To apply a function against an accumulator and each element in the array to reduce it to a single value.",
+        "optionC": "To create a new array with all elements that pass the test implemented by the provided function.",
+        "optionD": "To execute a provided function once for each array element.",
+        "answer": "To determine whether an array includes a certain value among its entries, returning `true` or `false`.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Promise.all()` method in JavaScript?",
+        "optionA": "To return a single promise that resolves when all of the promises in the iterable argument have resolved.",
+        "optionB": "To create a new array with all elements that pass the test implemented by the provided function.",
+        "optionC": "To determine whether an array includes a certain value among its entries.",
+        "optionD": "To apply a function against an accumulator and each element in the array to reduce it to a single value.",
+        "answer": "To return a single promise that resolves when all of the promises in the iterable argument have resolved.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.slice()` method in JavaScript?",
+        "optionA": "To return a shallow copy of a portion of an array into a new array object selected from start to end (end not included).",
+        "optionB": "To mutate an array by removing or replacing existing elements and/or adding new elements.",
+        "optionC": "To test whether all elements in the array pass the provided function's test.",
+        "optionD": "To execute a provided function once for each array element.",
+        "answer": "To return a shallow copy of a portion of an array into a new array object selected from start to end (end not included).",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.splice()` method in JavaScript?",
+        "optionA": "To change the contents of an array by removing or replacing existing elements and/or adding new elements in place.",
+        "optionB": "To create a new array with all elements that pass the test implemented by the provided function.",
+        "optionC": "To determine whether an array includes a certain value among its entries.",
+        "optionD": "To apply a function against an accumulator and each element in the array to reduce it to a single value.",
+        "answer": "To change the contents of an array by removing or replacing existing elements and/or adding new elements in place.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Array.prototype.concat()` method in JavaScript?",
+        "optionA": "To merge two or more arrays and return a new array.",
+        "optionB": "To change the contents of an array by removing or replacing existing elements and/or adding new elements in place.",
+        "optionC": "To create a new array with all elements that pass the test implemented by the provided function.",
+        "optionD": "To apply a function against an accumulator and each element in the array to reduce it to a single value.",
+        "answer": "To merge two or more arrays and return a new array.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the difference between `let` and `var` in JavaScript.",
+        "optionA": "`let` is block-scoped, while `var` is function-scoped.",
+        "optionB": "`let` is function-scoped, while `var` is block-scoped.",
+        "optionC": "`let` allows variable hoisting, while `var` does not.",
+        "optionD": "`let` can be redeclared in the same scope, while `var` cannot.",
+        "answer": "`let` is block-scoped, while `var` is function-scoped.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Describe the `async` and `await` keywords in JavaScript.",
+        "optionA": "`async` declares an asynchronous function and `await` pauses the execution of the function until a Promise is resolved.",
+        "optionB": "`async` declares a synchronous function and `await` pauses the execution of the function until a Promise is rejected.",
+        "optionC": "`async` is used for error handling in JavaScript, while `await` is used for synchronous operations.",
+        "optionD": "`async` and `await` are used to create loops in JavaScript.",
+        "answer": "`async` declares an asynchronous function and `await` pauses the execution of the function until a Promise is resolved.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How does the `fetch` API work in JavaScript?",
+        "optionA": "The `fetch` API is used to make network requests and returns a Promise that resolves to the Response object representing the response to the request.",
+        "optionB": "The `fetch` API is used to create new objects in JavaScript.",
+        "optionC": "The `fetch` API is used to handle local storage in JavaScript.",
+        "optionD": "The `fetch` API is used to manage asynchronous operations.",
+        "answer": "The `fetch` API is used to make network requests and returns a Promise that resolves to the Response object representing the response to the request.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the difference between `==` and `===` in JavaScript.",
+        "optionA": "`==` checks for equality with type conversion, while `===` checks for equality without type conversion.",
+        "optionB": "`==` checks for equality without type conversion, while `===` checks for equality with type conversion.",
+        "optionC": "`==` checks for strict equality, while `===` checks for loose equality.",
+        "optionD": "`==` is used for string comparison, while `===` is used for number comparison.",
+        "answer": "`==` checks for equality with type conversion, while `===` checks for equality without type conversion.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How do you create a class in JavaScript?",
+        "optionA": "By using the `class` keyword followed by the class name.",
+        "optionB": "By using the `function` keyword followed by the function name.",
+        "optionC": "By using the `createClass` method.",
+        "optionD": "By using the `constructor` keyword followed by the class name.",
+        "answer": "By using the `class` keyword followed by the class name.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How do you handle errors in JavaScript using promises?",
+        "optionA": "By using the `catch` method on a promise.",
+        "optionB": "By using the `finally` method on a promise.",
+        "optionC": "By using the `throw` keyword inside the promise.",
+        "optionD": "By using the `return` keyword inside the promise.",
+        "answer": "By using the `catch` method on a promise.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What does the `new` keyword do in JavaScript?",
+        "optionA": "The `new` keyword creates a new object from a constructor function and sets the `this` keyword to the new object.",
+        "optionB": "The `new` keyword assigns a new value to a variable and sets the `this` keyword to the new variable when modifying variants.",
+        "optionC": "The `new` keyword is used to define new properties on an object.",
+        "optionD": "The `new` keyword is used to import modules in JavaScript.",
+        "answer": "The `new` keyword creates a new object from a constructor function and sets the `this` keyword to the new object.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Describe the use of the `super` keyword in JavaScript.",
+        "optionA": "The `super` keyword is used to call functions on an object's parent.",
+        "optionB": "The `super` keyword is used to define a superclass in JavaScript OOP.",
+        "optionC": "The `super` keyword is used to create a new instance of a class.",
+        "optionD": "The `super` keyword is used to create a new prototype chain.",
+        "answer": "The `super` keyword is used to call functions on an object's parent.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'use strict' in JavaScript.",
+        "optionA": "'use strict' prevents coding mistakes and 'unsafe' actions.",
+        "optionB": "'use strict' is used to define strict variable types in JavaScript.",
+        "optionC": "'use strict' is used to restrict the use of certain keywords in JavaScript.",
+        "optionD": "'use strict' is used to enable the latest ECMAScript features.",
+        "answer": "'use strict' prevents coding mistakes and 'unsafe' actions.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you create a private variable in JavaScript?",
+        "optionA": "By using closures to encapsulate the variable within a function scope.",
+        "optionB": "By prefixing the variable name with an underscore.",
+        "optionC": "By using the `private` keyword.",
+        "optionD": "By defining the variable inside a `try...catch` block.",
+        "answer": "By using closures to encapsulate the variable within a function scope.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain how the `debounce` function works in JavaScript.",
+        "optionA": "The `debounce` function limits the rate at which a function is invoked, ensuring it is called after a specified delay has elapsed since the last time it was invoked.",
+        "optionB": "The `debounce` function ensures that a function is called immediately after a specified delay.",
+        "optionC": "The `debounce` function limits the number of arguments a function can take.",
+        "optionD": "The `debounce` function is used to bind event handlers to DOM elements.",
+        "answer": "The `debounce` function limits the rate at which a function is invoked, ensuring it is called after a specified delay has elapsed since the last time it was invoked.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the difference between `for...of` and `for...in` loops in JavaScript?",
+        "optionA": "`for...of` iterates over iterable objects like arrays, while `for...in` iterates over the properties of an object.",
+        "optionB": "`for...of` iterates over the properties of an object, while `for...in` iterates over iterable objects like arrays.",
+        "optionC": "`for...of` is used for asynchronous loops, while `for...in` is used for synchronous loops.",
+        "optionD": "`for...of` is used for numbers, while `for...in` is used for strings.",
+        "answer": "`for...of` iterates over iterable objects like arrays, while `for...in` iterates over the properties of an object.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How does the `typeof` operator work in JavaScript?",
+        "optionA": "The `typeof` operator returns a string indicating the type of the unevaluated operand.",
+        "optionB": "The `typeof` operator converts the operand to a number.",
+        "optionC": "The `typeof` operator checks if the operand is an instance of a class when iterating over class methods.",
+        "optionD": "The `typeof` operator determines the size of the operand.",
+        "answer": "The `typeof` operator returns a string indicating the type of the unevaluated operand.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the difference between synchronous and asynchronous code in JavaScript.",
+        "optionA": "Synchronous code is executed in sequence, blocking further execution until the current operation completes, while asynchronous code allows other operations to continue before completing the current operation.",
+        "optionB": "Synchronous code runs in the background, while asynchronous code runs on the main thread.",
+        "optionC": "Synchronous code is used for handling user input, while asynchronous code is used for handling network requests.",
+        "optionD": "Synchronous code is always faster than asynchronous code.",
+        "answer": "Synchronous code is executed in sequence, blocking further execution until the current operation completes, while asynchronous code allows other operations to continue before completing the current operation.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you clone an object in JavaScript?",
+        "optionA": "By using `Object.assign()` or the spread operator.",
+        "optionB": "By using the `new` keyword.",
+        "optionC": "By using the `Object.create()` method.",
+        "optionD": "By using the `clone()` method provided in JavaScript.",
+        "answer": "By using `Object.assign()` or the spread operator.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is true about the event loop",
+        "optionA": "It ensures non-blocking behavior.",
+        "optionB": "The event loop is responsible for allocating memory to new objects.",
+        "optionC": "The event loop is a method for iterating over array elements.",
+        "optionD": "The event loop is a built-in JavaScript function for managing timers.",
+        "answer": "It ensures non-blocking behavior.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How do you handle deep cloning of objects in JavaScript?",
+        "optionA": "By using `JSON.parse(JSON.stringify(object))` or libraries like Lodash.",
+        "optionB": "By using the `clone()` method.",
+        "optionC": "By using the `Object.assign()` method.",
+        "optionD": "By using the spread operator.",
+        "answer": "By using `JSON.parse(JSON.stringify(object))` or libraries like Lodash.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Describe the concept of currying in JavaScript.",
+        "optionA": "Currying is the process of transforming a function that takes multiple arguments into a series of functions that each take a single argument.",
+        "optionB": "Currying is the technique of optimizing function performance.",
+        "optionC": "Currying is a method for handling asynchronous operations in JavaScript.",
+        "optionD": "Currying is used to define private variables in JavaScript.",
+        "answer": "Currying is the process of transforming a function that takes multiple arguments into a series of functions that each take a single argument.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you prevent an object from being modified in JavaScript?",
+        "optionA": "By using `Object.freeze()` or `Object.seal()`.",
+        "optionB": "By using the `const` keyword.",
+        "optionC": "By using the `preventModification()` method.",
+        "optionD": "By using the `Object.preventExtensions()` method.",
+        "answer": "By using `Object.freeze()` or `Object.seal()`.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the difference between `Object.freeze()` and `Object.seal()`.",
+        "optionA": "`Object.freeze()` makes an object immutable, preventing any changes, while `Object.seal()` allows existing properties to be modified but prevents new properties from being added.",
+        "optionB": "`Object.freeze()` allows new properties to be added but prevents existing properties from being modified, while `Object.seal()` makes an object immutable.",
+        "optionC": "`Object.freeze()` is used for deep cloning of objects, while `Object.seal()` is used for shallow cloning.",
+        "optionD": "`Object.freeze()` and `Object.seal()` are identical in functionality.",
+        "answer": "`Object.freeze()` makes an object immutable, preventing any changes, while `Object.seal()` allows existing properties to be modified but prevents new properties from being added.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the use of `setTimeout` and `setInterval` in JavaScript.",
+        "optionA": "`setTimeout` executes a function after a specified delay, while `setInterval` repeatedly executes a function at specified intervals.",
+        "optionB": "`setTimeout` repeatedly executes a function at specified intervals, while `setInterval` executes a function after a specified delay.",
+        "optionC": "`setTimeout` is used for asynchronous operations, while `setInterval` is used for synchronous operations.",
+        "optionD": "`setTimeout` and `setInterval` are used for managing event listeners.",
+        "answer": "`setTimeout` executes a function after a specified delay, while `setInterval` repeatedly executes a function at specified intervals.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How do arrow functions differ from regular functions in JavaScript?",
+        "optionA": "Arrow functions do not have their own `this` context and cannot be used as constructors.",
+        "optionB": "Arrow functions have their own `this` context and can be used as constructors.",
+        "optionC": "Arrow functions can only be used for synchronous operations.",
+        "optionD": "Arrow functions are hoisted on the top of their functional or block scope when initialized.",
+        "answer": "Arrow functions do not have their own `this` context and cannot be used as constructors.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you create a module in JavaScript?",
+        "optionA": "By using the `export` and `import` keywords.",
+        "optionB": "By using the `module` keyword.",
+        "optionC": "By using the `define` function.",
+        "optionD": "By using the `require` function.",
+        "answer": "By using the `export` and `import` keywords.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Describe how to use the `reduce` method in JavaScript.",
+        "optionA": "The `reduce` method executes a reducer function on each element of the array, resulting in a single output value.",
+        "optionB": "The `reduce` method filters out elements from an array based on a condition.",
+        "optionC": "The `reduce` method returns the largest value in an array.",
+        "optionD": "The `reduce` method creates a new array with all elements that pass the test implemented by the provided function.",
+        "answer": "The `reduce` method executes a reducer function on each element of the array, resulting in a single output value.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How do you use template literals in JavaScript?",
+        "optionA": "Template literals are enclosed by backticks and can include placeholders indicated by `${expression}`.",
+        "optionB": "Template literals are enclosed by double quotes and can include placeholders indicated by `${expression}`.",
+        "optionC": "Template literals are enclosed by single quotes and can include placeholders indicated by `${expression}`.",
+        "optionD": "Template literals are enclosed by angle brackets and can include placeholders indicated by `${expression}`.",
+        "answer": "Template literals are enclosed by backticks and can include placeholders indicated by `${expression}`.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'hoisting' in JavaScript.",
+        "optionA": "Hoisting is the process where variable and function declarations are moved to the top of their containing scope before code execution.",
+        "optionB": "Hoisting is a technique used to optimize memory usage when deploying a compiled JavaScript program to an external hosting service during production.",
+        "optionC": "Hoisting is the process of converting synchronous code to asynchronous.",
+        "optionD": "Hoisting is the process of optimizing the execution time of a function.",
+        "answer": "Hoisting is the process where variable and function declarations are moved to the top of their containing scope before code execution.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you prevent default behavior in an event handler in JavaScript?",
+        "optionA": "By using the `event.preventDefault()` method.",
+        "optionB": "By using the `event.stopPropagation()` method.",
+        "optionC": "By using the `event.stopImmediatePropagation()` method.",
+        "optionD": "By using the `event.defaultPrevented()` method.",
+        "answer": "By using the `event.preventDefault()` method.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How do you check if an object has a specific property in JavaScript?",
+        "optionA": "By using the `hasOwnProperty` method.",
+        "optionB": "By using the `includes` method.",
+        "optionC": "By using the `indexOf` method.",
+        "optionD": "By using the `findOwnProperty` method.",
+        "answer": "By using the `hasOwnProperty` method.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Describe the concept of 'throttling' in JavaScript.",
+        "optionA": "Throttling ensures that a function is only called at most once in a specified time period.",
+        "optionB": "Throttling ensures that a function is called immediately after an event occurs to prevent memory leakage.",
+        "optionC": "Throttling is a technique for error handling in JavaScript.",
+        "optionD": "Throttling is a method for handling synchronous operations.",
+        "answer": "Throttling ensures that a function is only called at most once in a specified time period.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the differences between `let`, `const`, and `var` in JavaScript?",
+        "optionA": "`let` and `const` are block-scoped, while `var` is function-scoped.",
+        "optionB": "`let` and `const` can be redeclared within the same scope, while `var` cannot.",
+        "optionC": "`const` variables must be initialized with a value, while `let` and `var` can be declared without initialization.",
+        "optionD": "`var` variables cannot be reassigned after initialization, while `let` and `const` can.",
+        "answer": "`let` and `const` are block-scoped, while `var` is function-scoped.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain how to handle errors in asynchronous code in JavaScript.",
+        "optionA": "By using try...catch blocks around asynchronous code or handling errors in the callback functions.",
+        "optionB": "By using the `finally` block after asynchronous code execution or handling errors in the callback functions.",
+        "optionC": "By using the `await` keyword to handle asynchronous errors or handling errors in the callback functions.",
+        "optionD": "By using the `catch` method on Promise objects.",
+        "answer": "By using try...catch blocks around asynchronous code or handling errors in the callback functions.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the purpose of the `Map` object in JavaScript?",
+        "optionA": "The `Map` object is used for storing key-value pairs where keys can be of any type.",
+        "optionB": "The `Map` object is used for sorting arrays based on custom criteria.",
+        "optionC": "The `Map` object is used for converting arrays into objects or creating new arrays from original ones.",
+        "optionD": "The `Map` object is used for creating deep copies of objects.",
+        "answer": "The `Map` object is used for storing key-value pairs where keys can be of any type.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "One of these can convert a string to a number in JavaScript?",
+        "optionA": "By using the `parseFloat()` function.",
+        "optionB": "By using the `stringToNumber()` function.",
+        "optionC": "By using the `convert()` function.",
+        "optionD": "By using the `parse()` method.",
+        "answer": "By using the `parseFloat()` function.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Describe the concept of 'promises chaining' in JavaScript.",
+        "optionA": "Promises chaining is the technique of linking multiple promises together to handle asynchronous operations sequentially.",
+        "optionB": "Promises chaining is the technique of executing multiple promises concurrently.",
+        "optionC": "Promises chaining is the technique of handling errors in promises.",
+        "optionD": "Promises chaining is the technique of transforming promises into synchronous code by linking a higher level promise to a lower level one.",
+        "answer": "Promises chaining is the technique of linking multiple promises together to handle asynchronous operations sequentially.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the differences between `null` and `undefined` in JavaScript?",
+        "optionA": "`null` is explicitly assigned by developers to indicate no value, while `undefined` is assigned by JavaScript when a variable has been declared but not assigned a value.",
+        "optionB": "`null` is a primitive data type, while `undefined` is an object.",
+        "optionC": "`null` can be converted to a number, while `undefined` cannot.",
+        "optionD": "`null` is a JavaScript keyword, while `undefined` is a reserved word.",
+        "answer": "`null` is explicitly assigned by developers to indicate no value, while `undefined` is assigned by JavaScript when a variable has been declared but not assigned a value.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How does memoization work in JavaScript?",
+        "optionA": "Memoization is a technique used to optimize performance by caching the results of expensive function calls and returning the cached result when the same inputs occur again.",
+        "optionB": "Memoization is a technique for handling errors in JavaScript.",
+        "optionC": "Memoization is a process for converting synchronous functions to asynchronous functions to improve performance in JavaScript, by breaking down the function into smaller, non-blocking pieces.",
+        "optionD": "Memoization is a technique for converting arrays into objects.",
+        "answer": "Memoization is a technique used to optimize performance by caching the results of expensive function calls and returning the cached result when the same inputs occur again.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'currying' in JavaScript.",
+        "optionA": "Currying is the process of transforming a function that takes multiple arguments into a series of functions that each take a single argument.",
+        "optionB": "Currying is the technique of optimizing function performance.",
+        "optionC": "Currying is a method used to execute multiple asynchronous operations in sequence by breaking down the original function into smaller functions, each handling a portion of the operation",
+        "optionD": "Currying is used to define private variables in JavaScript.",
+        "answer": "Currying is the process of transforming a function that takes multiple arguments into a series of functions that each take a single argument.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you sort an array of objects based on a specific property in JavaScript?",
+        "optionA": "By using the `sort()` method with a custom comparison function.",
+        "optionB": "By using the `filter()` method.",
+        "optionC": "By using the `map()` method.",
+        "optionD": "You create a new array and manually iterate over the original array of objects, inserting each object into the correct position in the new array based on the specific property.",
+        "answer": "By using the `sort()` method with a custom comparison function.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the differences between `==` and `===` operators in JavaScript?",
+        "optionA": "`==` checks for equality after type coercion, while `===` checks for equality without type coercion.",
+        "optionB": "`==` checks for equality without type coercion, while `===` checks for equality after type coercion.",
+        "optionC": "`==` and `===` operators are identical in functionality.",
+        "optionD": "`==` is used for strict equality comparisons, while `===` is used for loose equality comparisons.",
+        "answer": "`==` checks for equality after type coercion, while `===` checks for equality without type coercion.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the difference between synchronous and asynchronous code execution in JavaScript.",
+        "optionA": "Synchronous code executes line by line and blocks further execution until it completes, while asynchronous code allows the program to continue executing other tasks without waiting for the asynchronous operation to finish.",
+        "optionB": "Asynchronous code executes line by line and blocks further execution until it completes, while synchronous code allows the program to continue executing other tasks without waiting for the synchronous operation to finish.",
+        "optionC": "Synchronous code is used for handling user input, while asynchronous code is used for handling server requests.",
+        "optionD": "Asynchronous code is used for handling user input, while synchronous code is used for handling server requests.",
+        "answer": "Synchronous code executes line by line and blocks further execution until it completes, while asynchronous code allows the program to continue executing other tasks without waiting for the asynchronous operation to finish.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the difference between `forEach` and `map` methods in JavaScript?",
+        "optionA": "`forEach` iterates over an array and executes a callback function for each element, while `map` creates a new array by applying a callback function to each element of the original array.",
+        "optionB": "`forEach` creates a new array by applying a callback function to each element of the original array, while `map` iterates over an array and executes a callback function for each element.",
+        "optionC": "`forEach` and `map` methods are identical in functionality.",
+        "optionD": "`forEach` is used for asynchronous operations, while `map` is used for synchronous operations.",
+        "answer": "`forEach` iterates over an array and executes a callback function for each element, while `map` creates a new array by applying a callback function to each element of the original array.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'lexical scoping' in JavaScript.",
+        "optionA": "Lexical scoping allows a function to access variables from its parent function, even after the parent function has finished executing.",
+        "optionB": "Lexical scoping is a technique used for optimizing memory allocation in JavaScript.",
+        "optionC": "Lexical scoping is a technique that allows functions to inherit variables from their parent functions but restricts them from accessing global variables.",
+        "optionD": "Lexical scoping is a technique for handling errors in JavaScript.",
+        "answer": "Lexical scoping allows a function to access variables from its parent function, even after the parent function has finished executing.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the different ways to declare a function in JavaScript?",
+        "optionA": "Using function declarations, function expressions, and arrow functions.",
+        "optionB": "Using only function declarations.",
+        "optionC": "Using function declarations and event listeners that automatically bind the function to specific events",
+        "optionD": "Using only arrow functions.",
+        "answer": "Using function declarations, function expressions, and arrow functions.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'strict mode' in JavaScript.",
+        "optionA": "Strict mode is a way to opt in to a restricted variant of JavaScript.",
+        "optionB": "Strict mode is a debugging tool used to identify runtime errors in JavaScript code.",
+        "optionC": "Strict mode is used to enforce type safety in JavaScript applications.",
+        "optionD": "Strict mode is a technique for optimizing JavaScript performance.",
+        "answer": "Strict mode is a way to opt in to a restricted variant of JavaScript.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is event capturing and event bubbling in JavaScript?",
+        "optionA": "Event capturing is the process where an event triggered on a child element is propagated up to its parent elements, while event bubbling is the reverse process.",
+        "optionB": "Event capturing is the process where an event triggered on a parent element is propagated down to its child elements, while event bubbling is the reverse process.",
+        "optionC": "Event capturing and event bubbling are two names for the same process in JavaScript.",
+        "optionD": "Event capturing and event bubbling are unrelated concepts in JavaScript.",
+        "answer": "Event capturing is the process where an event triggered on a child element is propagated up to its parent elements, while event bubbling is the reverse process.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How do you deep copy an object in JavaScript?",
+        "optionA": "By using the `Object.assign()` method.",
+        "optionB": "By using the `JSON.stringify()` and `JSON.parse()` methods.",
+        "optionC": "By using the spread operator (`...`).",
+        "optionD": "By using the `Object.create()` method.",
+        "answer": "By using the `JSON.stringify()` and `JSON.parse()` methods.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'callback hell' and how to avoid it in JavaScript.",
+        "optionA": "'Callback hell' refers to the nesting of multiple callbacks within one another, leading to code that is hard to read and maintain. It can be avoided by using promises or async/await.",
+        "optionB": "'Callback hell' is a technique for optimizing callback functions in JavaScript.",
+        "optionC": "'Callback hell' is a debugging tool used to identify callback errors in JavaScript code.",
+        "optionD": "Callback hell is a situation where callbacks are used in synchronous code execution, causing the entire program to run sequentially and significantly slowing down performance due to a memory overload. ",
+        "answer": "'Callback hell' refers to the nesting of multiple callbacks within one another, leading to code that is hard to read and maintain. It can be avoided by using promises or async/await.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How does JavaScript handle inheritance?",
+        "optionA": "JavaScript uses prototypal inheritance where objects inherit properties and methods from other objects.",
+        "optionB": "JavaScript uses classical inheritance similar to languages like Java or C++ making compilation predictable.",
+        "optionC": "JavaScript does not support inheritance.",
+        "optionD": "JavaScript uses functional inheritance instead of prototypal inheritance.",
+        "answer": "JavaScript uses prototypal inheritance where objects inherit properties and methods from other objects.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the advantages of using arrow functions in JavaScript?",
+        "optionA": "Arrow functions have a concise syntax and lexical `this`, avoiding the need for `bind()`.",
+        "optionB": "Arrow functions allow for named function expressions.",
+        "optionC": "Arrow functions execute faster than regular functions.",
+        "optionD": "Arrow functions automatically hoist their declarations.",
+        "answer": "Arrow functions have a concise syntax and lexical `this`, avoiding the need for `bind()`.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the difference between `==` and `===` operators in JavaScript.",
+        "optionA": "`==` checks for equality after type coercion, while `===` checks for equality without type coercion.",
+        "optionB": "`==` checks for equality without type coercion, while `===` checks for equality after type coercion.",
+        "optionC": "`==` and `===` operators are identical in functionality.",
+        "optionD": "`==` is used for strict equality comparisons, while `===` is used for loose equality comparisons.",
+        "answer": "`==` checks for equality after type coercion, while `===` checks for equality without type coercion.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the difference between `null` and `undefined` in JavaScript?",
+        "optionA": "`null` is explicitly assigned by developers to indicate no value, while `undefined` is assigned by JavaScript when a variable has been declared but not assigned a value.",
+        "optionB": "`null` represents an intentional absence of any object value, while `undefined` indicates that a variable has been declared but has not yet been assigned a value.",
+        "optionC": "`null` is a primitive data type, while `undefined` is an object.",
+        "optionD": "`null` can be converted to a number, while `undefined` cannot.",
+        "answer": "`null` is explicitly assigned by developers to indicate no value, while `undefined` is assigned by JavaScript when a variable has been declared but not assigned a value.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the difference between `let` and `const` in JavaScript?",
+        "optionA": "`let` allows variables to be reassigned, while `const` does not allow reassignment after initialization.",
+        "optionB": "`let` and `const` are both used for defining variables with block scope.",
+        "optionC": "`const` is used for defining constants, while `let` is used for regular variable declarations.",
+        "optionD": "`let` and `const` are function-scoped variables.",
+        "answer": "`let` allows variables to be reassigned, while `const` does not allow reassignment after initialization.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'arrow functions' in JavaScript.",
+        "optionA": "Arrow functions are a shorthand syntax for defining functions in JavaScript, providing a more concise way to write function expressions.",
+        "optionB": "Arrow functions are used for handling asynchronous operations in JavaScript.",
+        "optionC": "Arrow functions are a new feature introduced in ES6 for defining classes in JavaScript.",
+        "optionD": "Arrow functions are used for defining private methods in JavaScript classes.",
+        "answer": "Arrow functions are a shorthand syntax for defining functions in JavaScript, providing a more concise way to write function expressions.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are 'template literals' in JavaScript?",
+        "optionA": "Template literals are string literals allowing embedded expressions. They are enclosed by backticks (` `) instead of double or single quotes.",
+        "optionB": "Template literals are used for creating multi-line strings in JavaScript.",
+        "optionC": "Template literals are a feature of ES6 for defining classes in JavaScript.",
+        "optionD": "Template literals are a method of defining complex data structures in JavaScript, enabling the creation of dynamic objects and arrays within a single expression.",
+        "answer": "Template literals are string literals allowing embedded expressions. They are enclosed by backticks (` `) instead of double or single quotes.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain how you can handle module dependencies in JavaScript.",
+        "optionA": "By using module bundlers like Webpack or module loaders like RequireJS.",
+        "optionB": "By using global variables to manage module dependencies.",
+        "optionC": "By using synchronous script tags in HTML to load modules.",
+        "optionD": "By using `import` and `export` statements provided by ES6 modules.",
+        "answer": "By using module bundlers like Webpack or module loaders like RequireJS.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the differences between `slice()` and `splice()` methods in JavaScript?",
+        "optionA": "`slice()` returns a shallow copy of a portion of an array, while `splice()` changes the contents of an array by removing or replacing existing elements and/or adding new elements.",
+        "optionB": "`slice()` changes the contents of an array by removing or replacing existing elements and/or adding new elements, while `splice()` returns a shallow copy of a portion of an array.",
+        "optionC": "`slice()` and `splice()` methods are identical in functionality.",
+        "optionD": "`slice()` and `splice()` methods are used for asynchronous operations in JavaScript.",
+        "answer": "`slice()` returns a shallow copy of a portion of an array, while `splice()` changes the contents of an array by removing or replacing existing elements and/or adding new elements.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you check if a variable is an array in JavaScript?",
+        "optionA": "By using the `typeof` operator.",
+        "optionB": "By using the `Array.isArray()` method.",
+        "optionC": "By checking if the variable has a `length` property.",
+        "optionD": "By using the `isArray()` function.",
+        "answer": "By using the `Array.isArray()` method.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'event delegation' in JavaScript.",
+        "optionA": "Event delegation is a technique where you add an event listener to a parent element instead of individual child elements, allowing you to manage events efficiently for dynamically added elements.",
+        "optionB": "Event delegation is a technique for optimizing memory allocation in JavaScript applications.",
+        "optionC": "Event delegation is a method for handling asynchronous events in JavaScript.",
+        "optionD": "Event delegation is a concept related to managing memory leaks in JavaScript applications.",
+        "answer": "Event delegation is a technique where you add an event listener to a parent element instead of individual child elements, allowing you to manage events efficiently for dynamically added elements.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the advantages and disadvantages of using closures in JavaScript?",
+        "optionA": "Advantages include encapsulation and maintaining state across function calls. Disadvantages include potential memory leaks if not managed properly.",
+        "optionB": "Advantages include optimizing code performance. Disadvantages include slower execution time if not managed properly leading to unpredictable behaviour between caching.",
+        "optionC": "Advantages include simplifying asynchronous operations. Disadvantages include limited browser support.",
+        "optionD": "Advantages include improving security features. Disadvantages include complexity in code readability.",
+        "answer": "Advantages include encapsulation and maintaining state across function calls. Disadvantages include potential memory leaks if not managed properly.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you handle cross-origin requests in JavaScript?",
+        "optionA": "By using JSONP (JSON with Padding) or CORS (Cross-Origin Resource Sharing).",
+        "optionB": "By using synchronous XMLHttpRequests.",
+        "optionC": "By using the `fetch()` API.",
+        "optionD": "By using the `axios` library.",
+        "answer": "By using JSONP (JSON with Padding) or CORS (Cross-Origin Resource Sharing).",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'currying' in JavaScript.",
+        "optionA": "Currying is the technique of converting a function that takes multiple arguments into a sequence of functions that each take a single argument.",
+        "optionB": "Currying is a method for handling exceptions in JavaScript code.",
+        "optionC": "Currying is a technique for optimizing memory allocation in JavaScript applications.",
+        "optionD": "Currying is a technique for converting asynchronous operations to synchronous in JavaScript.",
+        "answer": "Currying is the technique of converting a function that takes multiple arguments into a sequence of functions that each take a single argument.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the differences between `setTimeout()` and `setInterval()` in JavaScript?",
+        "optionA": "`setTimeout()` executes a function once after a specified delay, while `setInterval()` repeatedly executes a function at specified intervals.",
+        "optionB": "`setTimeout()` repeatedly executes a function at specified intervals, while `setInterval()` executes a function once after a specified delay.",
+        "optionC": "`setTimeout()` and `setInterval()` are identical in functionality.",
+        "optionD": "`setTimeout()` and `setInterval()` are used for handling asynchronous operations in JavaScript.",
+        "answer": "`setTimeout()` executes a function once after a specified delay, while `setInterval()` repeatedly executes a function at specified intervals.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'async/await' in JavaScript.",
+        "optionA": "`async/await` is a syntactic sugar for writing asynchronous code that behaves synchronously, making asynchronous code look and behave more like synchronous code.",
+        "optionB": "`async/await` is a new feature introduced in ES6 for defining classes in JavaScript.",
+        "optionC": "`async/await` is a technique for optimizing performance of JavaScript applications.",
+        "optionD": "`async/await` is a technique for handling errors in JavaScript.",
+        "answer": "`async/await` is a syntactic sugar for writing asynchronous code that behaves synchronously, making asynchronous code look and behave more like synchronous code.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What are the differences between `var`, `let`, and `const` in JavaScript?",
+        "optionA": "`var` has function scope, while `let` and `const` have block scope.",
+        "optionB": "`var` and `let` have block scope, while `const` has function scope.",
+        "optionC": "`var` and `let` allow reassignment, while `const` does not allow reassignment after initialization.",
+        "optionD": "`var`, `let`, and `const` are function-scoped variables.",
+        "answer": "`var` has function scope, while `let` and `const` have block scope.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'promises chaining' in JavaScript.",
+        "optionA": "Promises chaining is a technique where multiple asynchronous operations can be chained together using `.then()` to execute them sequentially.",
+        "optionB": "Promises chaining is a technique for optimizing memory allocation in JavaScript applications.",
+        "optionC": "Promises chaining is a method for converting synchronous operations to asynchronous in JavaScript.",
+        "optionD": "Promises chaining is a debugging tool used to identify callback errors in JavaScript code.",
+        "answer": "Promises chaining is a technique where multiple asynchronous operations can be chained together using `.then()` to execute them sequentially.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How do you handle exceptions in JavaScript?",
+        "optionA": "By using `try`, `catch`, and `finally` blocks to handle exceptions and cleanup code.",
+        "optionB": "By using `throw` statements to manually trigger exceptions in JavaScript code.",
+        "optionC": "By using `catch` statements to define custom error handling functions in JavaScript applications.",
+        "optionD": "By using `async/await` keywords to handle asynchronous exceptions.",
+        "answer": "By using `try`, `catch`, and `finally` blocks to handle exceptions and cleanup code.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'memoization' in JavaScript.",
+        "optionA": "Memoization is a technique of caching the return values of expensive function calls and reusing them when the same inputs occur again.",
+        "optionB": "Memoization is a technique for optimizing memory allocation in JavaScript applications.",
+        "optionC": "Memoization is a method for converting synchronous operations to asynchronous in JavaScript.",
+        "optionD": "Memoization is a technique for handling errors in JavaScript code.",
+        "answer": "Memoization is a technique of caching the return values of expensive function calls and reusing them when the same inputs occur again.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the difference between `Object.freeze()` and `const` in JavaScript?",
+        "optionA": "`Object.freeze()` freezes an object, preventing its properties from being added, modified, or removed, while `const` declares a constant reference to an object, but its properties can still be modified.",
+        "optionB": "`Object.freeze()` declares a constant reference to an object, preventing its properties from being modified, while `const` freezes an object.",
+        "optionC": "`Object.freeze()` and `const` are identical in functionality.",
+        "optionD": "`Object.freeze()` and `const` are used for handling asynchronous operations in JavaScript.",
+        "answer": "`Object.freeze()` freezes an object, preventing its properties from being added, modified, or removed, while `const` declares a constant reference to an object, but its properties can still be modified.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "How can you handle local storage in JavaScript?",
+        "optionA": "By using the `localStorage` object, which allows you to store key-value pairs in a web browser with no expiration date.",
+        "optionB": "By using the `sessionStorage` object, which allows you to store key-value pairs in a web browser for the duration of the page session.",
+        "optionC": "By using the `IndexedDB` API for storing large amounts of structured data in a web browser.",
+        "optionD": "By using cookies to store small amounts of data on the client side.",
+        "answer": "By using the `localStorage` object, which allows you to store key-value pairs in a web browser with no expiration date.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "Explain the concept of 'spread syntax' in JavaScript.",
+        "optionA": "Spread syntax (`...`) allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected.",
+        "optionB": "Spread syntax (`...`) is used for handling asynchronous operations in JavaScript applications.",
+        "optionC": "Spread syntax (`...`) is used for converting synchronous operations to asynchronous in JavaScript.",
+        "optionD": "Spread syntax (`...`) is a technique for optimizing memory allocation in JavaScript.",
+        "answer": "Spread syntax (`...`) allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected.",
+        "category": "JavaScript"
+    },
+    {
+        "question_text": "What is the Event Loop in JavaScript and how does it work?",
+        "optionA": "The Event Loop is a mechanism that handles the execution of asynchronous callbacks in JavaScript, ensuring non-blocking behavior.",
+        "optionB": "The Event Loop is a debugging tool used to identify callback errors in JavaScript code.",
+        "optionC": "The Event Loop is a technique for optimizing memory allocation in JavaScript applications.",
+        "optionD": "The Event Loop is a method for converting synchronous operations to asynchronous in JavaScript.",
+        "answer": "The Event Loop is a mechanism that handles the execution of asynchronous callbacks in JavaScript, ensuring non-blocking behavior.",
+        "category": "JavaScript"
+    }
+]
