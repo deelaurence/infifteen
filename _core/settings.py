@@ -67,6 +67,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "django_browser_reload.middleware.BrowserReloadMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware"
 ]
 
 ROOT_URLCONF = '_core.urls'
@@ -164,12 +165,12 @@ USE_TZ = True
 
 
 STATIC_URL = '/staticfiles/'
-STATIC_ROOT = BASE_DIR/ "staticfiles"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 # Example of STATICFILES_DIRS if you have static files outside of apps
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
-
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
