@@ -163,8 +163,8 @@ USE_TZ = True
 
 
 
-STATIC_URL = '/static/'
-STATIC_ROOT = '/static/'
+STATIC_URL = '/staticfiles/'
+STATIC_ROOT = BASE_DIR/ "staticfiles"
 # Example of STATICFILES_DIRS if you have static files outside of apps
 STATICFILES_DIRS = [
     BASE_DIR / "static",
