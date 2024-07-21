@@ -32,13 +32,15 @@
     let errorLists=document.querySelectorAll('.errorlist')
     let inputLists=document.querySelectorAll('input')
     
-    inputLists.forEach((input)=>{
-        input.addEventListener('input',()=>{
-            errorLists.forEach((error)=>{
-                error.previousElementSibling?error.style.display = 'none':null;    
-            })
-        })
-    })
+    inputLists.forEach((input) => {
+    input.addEventListener('input', () => {
+        errorLists.forEach((error) => {
+            if (error.previousElementSibling) {
+                error.style.display = 'none';
+            }
+        });
+    });
+    });
 
     
     const textareas = document.querySelectorAll('.question-textarea');

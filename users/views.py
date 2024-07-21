@@ -1,4 +1,5 @@
 from django.contrib.auth import login, authenticate
+from django.core.exceptions import ObjectDoesNotExist
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, FormView, View
 from .forms import *
@@ -85,29 +86,34 @@ class LoginView(FormView):
     def form_valid(self, form):
         email = form.cleaned_data.get('email')
         password = form.cleaned_data.get('password1')
+        
         if not User.objects.filter(email=email).exists():
             form.add_error(None, 'Email not registered')
             return self.form_invalid(form)
+        
         user = authenticate(username=email, password=password)
-        profile = Profile.objects.get(user=user)
-        print('verified is',profile.is_verified)
+        
+        if user is None:
+            form.add_error(None, 'Invalid Credentials')
+            return self.form_invalid(form)
+
+        try:
+            profile = Profile.objects.get(user=user)
+        except ObjectDoesNotExist:
+            form.add_error(None, 'Profile not found')
+            return self.form_invalid(form)
+
         if not profile.is_verified:
             form.add_error(None, 'Email not verified')
             return self.form_invalid(form)
-        print(user)
-        if user is not None:
-            login(self.request, user)
-        else:
-            form.add_error(None, 'Invalid Credentials')
-            return self.form_invalid(form)    
+
+        login(self.request, user)
         return super().form_valid(form)
 
     def form_invalid(self, form):    
         print('Login form is not valid')    
         print(form.errors.items())
         return self.render_to_response(self.get_context_data(form=form))
-        return super().form_invalid(form)
-
 
 class VerifyEmailView(View):
     def get(self, request, uidb64, token):

@@ -55,7 +55,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -125,7 +124,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -195,7 +193,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -265,7 +262,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -335,7 +331,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -405,7 +400,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -475,7 +469,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -545,7 +538,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -615,7 +607,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -685,7 +676,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -755,7 +745,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -825,7 +814,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -895,7 +883,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -965,7 +952,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1035,7 +1021,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1105,7 +1090,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1175,7 +1159,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1245,7 +1228,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1315,7 +1297,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1385,7 +1366,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1455,7 +1435,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1525,7 +1504,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1595,7 +1573,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
@@ -1665,7 +1642,6 @@ class GetQuizInCategory(View):
             print("Session Key:", request.session.session_key)
             print("CSRF Token:", get_token(request))
             
-            category=data.get('category')
             score = data.get('score')
             attempted_questions=data.get('attempted_questions')
             name=data.get('name')
