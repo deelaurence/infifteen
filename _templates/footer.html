@@ -11,9 +11,15 @@
         <div>
             <h3 class="font-semibold mt-6 mb-4">OUR LINKS</h3>
             <div class="flex flex-col">
-                <a href="{% url 'login' %}">Login</a>
-                <a class="italic" href="{% url 'contribute' %}">Contribute</a>
-                <a href="{% url 'signup' %}">Sign Up</a>
+                {% if user.is_authenticated %}
+                
+                <a href="{% url 'dashboard' %}">{{name}}</a> 
+                
+                {% else %}
+                <a href="{% url 'login' %}">Sign In</a>
+                {% endif %}
+                <a class="italic underline" href="{% url 'contribute' %}">Contribute</a>
+                <a href="{% url 'dashboard' %}">Dashboard</a>
                 <a href="{% url 'home' %}">Home</a>
             </div>
         </div>
