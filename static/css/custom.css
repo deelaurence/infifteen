@@ -7,8 +7,8 @@
     --shade6: #B6A39F;
   }
 
-/* 
-*{
+
+/* *{
     border: 1px solid var(--shade4);
 } */
 /* 
@@ -21,7 +21,10 @@ nav{
 
 
 .hero-text{
-    font-size: 1.5rem;
+    /* display: none; */
+    width: 60%;
+    float: right;
+    font-size: 1.2rem;
     line-height: 1.3rem;
     margin-bottom: 10px;
 }
@@ -175,3 +178,31 @@ footer{
 .circle-design {
     animation: blink 30s infinite;
 }
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: absolute;
+    opacity: .15;
+    left: 0;
+    top:0;
+    /* z-index: -1; */
+    padding: 20px;
+    
+}
+.sugar-box {
+    border-left: 1px solid var(--shade4);
+    border-bottom: 1px solid var(--shade4);
+    height:100px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+
+.sugar-box:hover {
+    transform: scale(1.05);
+}
+
+
