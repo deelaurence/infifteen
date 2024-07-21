@@ -5,7 +5,9 @@
 </head>
 <body>
     <p>Hi {{ user.first_name }},</p>
-    <p>Your question "{{ question.question_text }}" has been published. You chose "{{question.answer}}" as the correct answer. The community is happy for your contribution.</p>
-    <p>Access your <a style="display: inline;" href="https://infifteen.onrender.com">dashboard</a> here</p>
+    <p>Your question "{{ question.question_text }}" has been published. It was decided that "{{question.answer}}" was the best answer to the question.</p> 
+        
+    <p> The whole {{question.category}} community is grateful for your service. 😊 </p>
+    <p>Access your <a style="display: inline;" href="https://infifteen.onrender.com/dashboard">dashboard </a>to contribute more questions.</p>
 </body>
 </html>
