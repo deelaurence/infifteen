@@ -1,0 +1,1245 @@
+[
+    {
+        "question_text": "What is the default configuration file format for Spring Boot?",
+        "optionA": "Properties file",
+        "optionB": "YAML file",
+        "optionC": "XML file",
+        "optionD": "JSON file",
+        "answer": "Properties file",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you specify a Spring Boot application’s main class?",
+        "optionA": "By using the `@SpringBootApplication` annotation",
+        "optionB": "By setting `mainClass` in `application.properties`",
+        "optionC": "By creating a `MainClass` with `@Application` annotation",
+        "optionD": "By specifying the main class in `pom.xml`",
+        "answer": "By using the `@SpringBootApplication` annotation",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@Value` annotation?",
+        "optionA": "To inject property values into a bean",
+        "optionB": "To configure bean properties",
+        "optionC": "To define a custom value resolver",
+        "optionD": "To bind request parameters",
+        "answer": "To inject property values into a bean",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you handle file uploads in Spring Boot?",
+        "optionA": "By using `@RequestParam` with `MultipartFile`",
+        "optionB": "By using `@UploadFile` annotation",
+        "optionC": "By configuring file upload settings in `application.properties`",
+        "optionD": "By creating a `FileUploadConfig` class",
+        "answer": "By using `@RequestParam` with `MultipartFile`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to configure a RESTful web service endpoint in Spring Boot?",
+        "optionA": "@RestController",
+        "optionB": "@Controller",
+        "optionC": "@Service",
+        "optionD": "@Repository",
+        "answer": "@RestController",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you specify the active profile in a Spring Boot application?",
+        "optionA": "By setting `spring.profiles.active` in `application.properties`",
+        "optionB": "By using `@Profile` annotation",
+        "optionC": "By defining profiles in `application.yml`",
+        "optionD": "By creating a `ProfileConfig` class",
+        "answer": "By setting `spring.profiles.active` in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of the `@ComponentScan` annotation?",
+        "optionA": "To specify the packages to scan for Spring components",
+        "optionB": "To define custom component scanning logic",
+        "optionC": "To configure the component scanning frequency",
+        "optionD": "To set up the component scanning interval",
+        "answer": "To specify the packages to scan for Spring components",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure Spring Boot to use an external database?",
+        "optionA": "By setting up database connection properties in `application.properties`",
+        "optionB": "By using `@DatabaseConfig` annotation",
+        "optionC": "By creating a `DataSourceConfig` class",
+        "optionD": "By configuring database settings in `application.yml`",
+        "answer": "By setting up database connection properties in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you add custom headers to a Spring Boot REST response?",
+        "optionA": "By using `HttpServletResponse` and `@ResponseHeader` annotation",
+        "optionB": "By using `@ResponseHeaders` annotation",
+        "optionC": "By configuring headers in `application.properties`",
+        "optionD": "By creating a `ResponseConfig` class",
+        "answer": "By using `HttpServletResponse` and `@ResponseHeader` annotation",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@Transactional` annotation?",
+        "optionA": "To manage transaction boundaries in service methods",
+        "optionB": "To configure transaction settings in `application.properties`",
+        "optionC": "To define transaction management beans",
+        "optionD": "To handle transaction rollback settings",
+        "answer": "To manage transaction boundaries in service methods",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you define a custom Spring Boot banner?",
+        "optionA": "By creating a `banner.txt` or `banner.yml` file in the resources directory",
+        "optionB": "By using `@CustomBanner` annotation",
+        "optionC": "By configuring the banner in `application.properties`",
+        "optionD": "By defining the banner in a `BannerConfig` class",
+        "answer": "By creating a `banner.txt` or `banner.yml` file in the resources directory",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you create a scheduled task in Spring Boot?",
+        "optionA": "By using `@Scheduled` annotation on a method",
+        "optionB": "By creating a `ScheduledTask` class",
+        "optionC": "By configuring scheduled tasks in `application.properties`",
+        "optionD": "By using `@TaskScheduler` annotation",
+        "answer": "By using `@Scheduled` annotation on a method",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which dependency is used for integrating Spring Boot with Apache ActiveMQ?",
+        "optionA": "spring-boot-starter-artemis",
+        "optionB": "spring-boot-starter-activemq",
+        "optionC": "spring-boot-starter-messaging",
+        "optionD": "spring-boot-starter-jms",
+        "answer": "spring-boot-starter-activemq",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What does the `@EnableAsync` annotation do?",
+        "optionA": "It enables asynchronous method execution",
+        "optionB": "It configures asynchronous task scheduling",
+        "optionC": "It sets up asynchronous communication channels",
+        "optionD": "It defines async processing beans",
+        "answer": "It enables asynchronous method execution",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you use `@RequestBody` in a Spring Boot controller method?",
+        "optionA": "To bind the request body to a method parameter",
+        "optionB": "To configure request body validation",
+        "optionC": "To define custom request body format",
+        "optionD": "To handle file uploads",
+        "answer": "To bind the request body to a method parameter",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@ConfigurationProperties`?",
+        "optionA": "To bind properties from `application.properties` to a Java bean",
+        "optionB": "To configure custom properties for beans",
+        "optionC": "To define configuration settings for specific profiles",
+        "optionD": "To create a configuration class",
+        "answer": "To bind properties from `application.properties` to a Java bean",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to define a RESTful web service endpoint in Spring Boot?",
+        "optionA": "@RequestMapping",
+        "optionB": "@RestController",
+        "optionC": "@Service",
+        "optionD": "@Controller",
+        "answer": "@RestController",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you configure logging levels in Spring Boot?",
+        "optionA": "By setting `logging.level` properties in `application.properties`",
+        "optionB": "By using `@LoggingConfig` annotation",
+        "optionC": "By defining logging settings in `logback.xml`",
+        "optionD": "By configuring logging in `application.yml`",
+        "answer": "By setting `logging.level` properties in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What does the `@Autowired` annotation do?",
+        "optionA": "It injects dependencies into a bean",
+        "optionB": "It defines bean lifecycle methods",
+        "optionC": "It configures bean properties",
+        "optionD": "It sets up dependency scopes",
+        "answer": "It injects dependencies into a bean",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you create a Spring Boot application with support for WebSocket?",
+        "optionA": "By including `spring-boot-starter-websocket` dependency",
+        "optionB": "By using `@EnableWebSocket` annotation",
+        "optionC": "By creating a `WebSocketConfig` class",
+        "optionD": "By defining WebSocket settings in `application.properties`",
+        "answer": "By including `spring-boot-starter-websocket` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the use of `@Entity` annotation?",
+        "optionA": "To mark a class as a JPA entity",
+        "optionB": "To define a database table",
+        "optionC": "To configure database mappings",
+        "optionD": "To create a service layer",
+        "answer": "To mark a class as a JPA entity",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you secure a Spring Boot application using Spring Security?",
+        "optionA": "By including `spring-boot-starter-security` dependency",
+        "optionB": "By using `@EnableSecurity` annotation",
+        "optionC": "By configuring security settings in `application.properties`",
+        "optionD": "By creating a `SecurityConfig` class",
+        "answer": "By including `spring-boot-starter-security` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@SpringBootApplication` annotation?",
+        "optionA": "It is a convenience annotation that combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan`",
+        "optionB": "It defines a main method for application entry",
+        "optionC": "It configures application properties",
+        "optionD": "It sets up component scanning",
+        "answer": "It is a convenience annotation that combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you use `@PathVariable` in a Spring Boot controller?",
+        "optionA": "To bind path variables to method parameters",
+        "optionB": "To configure request path mappings",
+        "optionC": "To handle query parameters",
+        "optionD": "To set up request headers",
+        "answer": "To bind path variables to method parameters",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define custom exception handling in Spring Boot?",
+        "optionA": "By using `@ControllerAdvice` and `@ExceptionHandler` annotations",
+        "optionB": "By configuring exception handling in `application.properties`",
+        "optionC": "By creating a custom `ExceptionHandler` bean",
+        "optionD": "By using `@ExceptionHandler` alone",
+        "answer": "By using `@ControllerAdvice` and `@ExceptionHandler` annotations",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you enable Swagger in a Spring Boot application?",
+        "optionA": "By including `springfox-swagger2` and `springfox-swagger-ui` dependencies",
+        "optionB": "By using `@EnableSwagger` annotation",
+        "optionC": "By configuring Swagger settings in `application.properties`",
+        "optionD": "By creating a `SwaggerConfig` class",
+        "answer": "By including `springfox-swagger2` and `springfox-swagger-ui` dependencies",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of the `@Service` annotation?",
+        "optionA": "To mark a class as a service component",
+        "optionB": "To define a repository",
+        "optionC": "To configure service methods",
+        "optionD": "To handle transactions",
+        "answer": "To mark a class as a service component",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure a Spring Boot application to use an embedded database?",
+        "optionA": "By including the appropriate `spring-boot-starter-data-` dependency",
+        "optionB": "By setting up database connection properties in `application.properties`",
+        "optionC": "By using `@EmbeddedDatabase` annotation",
+        "optionD": "By creating a `DatabaseConfig` class",
+        "answer": "By including the appropriate `spring-boot-starter-data-` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you use Spring Boot to create a REST API with a JSON payload?",
+        "optionA": "By using `@RequestBody` annotation on method parameters",
+        "optionB": "By configuring JSON converters in `application.properties`",
+        "optionC": "By defining JSON response format in `application.yml`",
+        "optionD": "By creating a `JsonConfig` class",
+        "answer": "By using `@RequestBody` annotation on method parameters",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you enable Spring Boot’s embedded Tomcat server to run on a different port?",
+        "optionA": "By setting `server.port` in `application.properties`",
+        "optionB": "By using `@PortConfig` annotation",
+        "optionC": "By defining the port in `application.yml`",
+        "optionD": "By creating a `TomcatConfig` class",
+        "answer": "By setting `server.port` in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the role of `@Repository` annotation?",
+        "optionA": "To mark a class as a Data Access Object (DAO)",
+        "optionB": "To define a service layer component",
+        "optionC": "To configure a database connection",
+        "optionD": "To set up transaction management",
+        "answer": "To mark a class as a Data Access Object (DAO)",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you use Spring Boot to handle background tasks?",
+        "optionA": "By using `@Async` and `@EnableAsync` annotations",
+        "optionB": "By configuring background tasks in `application.properties`",
+        "optionC": "By defining background tasks in `application.yml`",
+        "optionD": "By creating a `BackgroundTaskConfig` class",
+        "answer": "By using `@Async` and `@EnableAsync` annotations",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you set up a Spring Boot application to use a custom JSON serializer?",
+        "optionA": "By configuring a `Jackson2ObjectMapperBuilder` bean",
+        "optionB": "By using `@CustomJsonSerializer` annotation",
+        "optionC": "By defining JSON serialization settings in `application.properties`",
+        "optionD": "By creating a `JsonSerializerConfig` class",
+        "answer": "By configuring a `Jackson2ObjectMapperBuilder` bean",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure a Spring Boot application to use a custom error page for HTTP 404 errors?",
+        "optionA": "By creating a `404.html` file in `src/main/resources/templates`",
+        "optionB": "By using `@ErrorPage` annotation",
+        "optionC": "By configuring error pages in `application.properties`",
+        "optionD": "By creating an `ErrorPageConfig` class",
+        "answer": "By creating a `404.html` file in `src/main/resources/templates`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a custom Spring Boot banner?",
+        "optionA": "By creating a `banner.txt` file in the `resources` directory",
+        "optionB": "By using `@CustomBanner` annotation",
+        "optionC": "By defining the banner in `application.properties`",
+        "optionD": "By creating a `BannerConfig` class",
+        "answer": "By creating a `banner.txt` file in the `resources` directory",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you configure a Spring Boot application to use a custom locale resolver?",
+        "optionA": "By defining a `LocaleResolver` bean",
+        "optionB": "By using `@LocaleConfig` annotation",
+        "optionC": "By setting locale properties in `application.properties`",
+        "optionD": "By creating a `LocaleConfig` class",
+        "answer": "By defining a `LocaleResolver` bean",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@SpringBootApplication` annotation?",
+        "optionA": "It combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan` annotations",
+        "optionB": "It defines the main method for application entry",
+        "optionC": "It sets up bean configurations",
+        "optionD": "It configures component scanning",
+        "answer": "It combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan` annotations",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you create a custom Spring Boot starter?",
+        "optionA": "By creating a new project with a `spring-boot-starter-` dependency",
+        "optionB": "By using `@EnableCustomStarter` annotation",
+        "optionC": "By creating a `CustomStarter` class",
+        "optionD": "By defining starter properties in `application.properties`",
+        "answer": "By creating a new project with a `spring-boot-starter-` dependency",
+        "category": "SpringBoot"
+    }
+,
+    {
+        "question_text": "How do you configure Spring Boot to use an embedded H2 database?",
+        "optionA": "By including the `spring-boot-starter-data-jpa` and `h2` dependencies",
+        "optionB": "By using the `@EmbeddedDatabase` annotation",
+        "optionC": "By configuring H2 properties in `application.properties`",
+        "optionD": "By creating an H2 configuration class",
+        "answer": "By including the `spring-boot-starter-data-jpa` and `h2` dependencies",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@RequestMapping` in Spring Boot?",
+        "optionA": "To map HTTP requests to specific handler methods",
+        "optionB": "To configure request headers",
+        "optionC": "To handle file uploads",
+        "optionD": "To bind request parameters",
+        "answer": "To map HTTP requests to specific handler methods",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to mark a method as a request handler for HTTP GET requests?",
+        "optionA": "@GetMapping",
+        "optionB": "@PostMapping",
+        "optionC": "@RequestMapping",
+        "optionD": "@PutMapping",
+        "answer": "@GetMapping",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you exclude a Spring Boot auto-configuration class?",
+        "optionA": "By using `@SpringBootApplication(exclude = {AutoConfigurationClass.class})`",
+        "optionB": "By configuring exclusions in `application.properties`",
+        "optionC": "By using `@ExcludeAutoConfiguration` annotation",
+        "optionD": "By modifying `pom.xml` to exclude dependencies",
+        "answer": "By using `@SpringBootApplication(exclude = {AutoConfigurationClass.class})`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a custom environment property in Spring Boot?",
+        "optionA": "By adding properties to `application.properties` or `application.yml`",
+        "optionB": "By using `@CustomProperty` annotation",
+        "optionC": "By defining it in `application-custom.properties`",
+        "optionD": "By creating a `PropertyConfig` class",
+        "answer": "By adding properties to `application.properties` or `application.yml`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the role of `@Entity` annotation in Spring Boot?",
+        "optionA": "To mark a class as a JPA entity",
+        "optionB": "To define a Spring component",
+        "optionC": "To configure data source",
+        "optionD": "To set up a database schema",
+        "answer": "To mark a class as a JPA entity",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you set up Spring Boot to use a custom JSON converter?",
+        "optionA": "By configuring `WebMvcConfigurer` and overriding `configureMessageConverters`",
+        "optionB": "By using `@JsonConverter` annotation",
+        "optionC": "By creating a `CustomJsonConverter` bean",
+        "optionD": "By setting up a converter in `application.properties`",
+        "answer": "By configuring `WebMvcConfigurer` and overriding `configureMessageConverters`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a new Spring Boot profile?",
+        "optionA": "By adding `spring.profiles.active` in `application.properties`",
+        "optionB": "By using `@Profile` annotation on a class",
+        "optionC": "By creating a new profile file in `resources`",
+        "optionD": "By configuring profiles in `application.yml`",
+        "answer": "By adding `spring.profiles.active` in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to define a Spring Boot configuration class?",
+        "optionA": "@Configuration",
+        "optionB": "@Component",
+        "optionC": "@Service",
+        "optionD": "@Repository",
+        "answer": "@Configuration",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of the `@EnableAutoConfiguration` annotation?",
+        "optionA": "To enable Spring Boot's auto-configuration feature",
+        "optionB": "To configure custom beans",
+        "optionC": "To enable component scanning",
+        "optionD": "To set up application context",
+        "answer": "To enable Spring Boot's auto-configuration feature",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you disable Spring Boot’s banner?",
+        "optionA": "By setting `spring.main.banner-mode=off` in `application.properties`",
+        "optionB": "By using the `@DisableBanner` annotation",
+        "optionC": "By creating a `BannerConfig` class",
+        "optionD": "By setting `banner.enabled=false` in `application.yml`",
+        "answer": "By setting `spring.main.banner-mode=off` in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which dependency is required for integrating Spring Boot with a Redis data store?",
+        "optionA": "spring-boot-starter-data-redis",
+        "optionB": "spring-boot-starter-data-mongodb",
+        "optionC": "spring-boot-starter-data-jdbc",
+        "optionD": "spring-boot-starter-data-neo4j",
+        "answer": "spring-boot-starter-data-redis",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@Repository` annotation?",
+        "optionA": "To mark a class as a Data Access Object (DAO)",
+        "optionB": "To define a service layer component",
+        "optionC": "To set up web configuration",
+        "optionD": "To configure security settings",
+        "answer": "To mark a class as a Data Access Object (DAO)",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure custom logging in Spring Boot?",
+        "optionA": "By creating a `logback-spring.xml` file",
+        "optionB": "By setting `logging.custom` properties in `application.properties`",
+        "optionC": "By using `@LoggingConfiguration` annotation",
+        "optionD": "By defining logging properties in `log4j2.xml`",
+        "answer": "By creating a `logback-spring.xml` file",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you handle security in a Spring Boot application?",
+        "optionA": "By using `spring-boot-starter-security` dependency",
+        "optionB": "By configuring `SecurityConfig` class",
+        "optionC": "By using `@EnableSecurity` annotation",
+        "optionD": "By adding security settings to `application.properties`",
+        "answer": "By using `spring-boot-starter-security` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to define a method to handle HTTP PUT requests?",
+        "optionA": "@PutMapping",
+        "optionB": "@PostMapping",
+        "optionC": "@PatchMapping",
+        "optionD": "@DeleteMapping",
+        "answer": "@PutMapping",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you create a Spring Boot RESTful service that supports versioning?",
+        "optionA": "By using URI versioning or header versioning",
+        "optionB": "By using `@Version` annotation",
+        "optionC": "By creating multiple controllers for different versions",
+        "optionD": "By configuring versioning in `application.properties`",
+        "answer": "By using URI versioning or header versioning",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a custom exception handler for a Spring Boot REST API?",
+        "optionA": "By using `@ControllerAdvice` and `@ExceptionHandler`",
+        "optionB": "By implementing `ExceptionHandler` interface",
+        "optionC": "By using `@RestControllerExceptionHandler`",
+        "optionD": "By configuring exception handling in `application.properties`",
+        "answer": "By using `@ControllerAdvice` and `@ExceptionHandler`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@EnableScheduling` annotation?",
+        "optionA": "To enable scheduling support in Spring Boot",
+        "optionB": "To configure scheduled tasks",
+        "optionC": "To define task execution intervals",
+        "optionD": "To set up task queues",
+        "answer": "To enable scheduling support in Spring Boot",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to mark a Spring Boot service class?",
+        "optionA": "@Service",
+        "optionB": "@Component",
+        "optionC": "@Controller",
+        "optionD": "@Repository",
+        "answer": "@Service",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you enable a Spring Boot application to serve static content?",
+        "optionA": "By placing static resources in `src/main/resources/static` or `public`",
+        "optionB": "By using `@EnableStaticContent` annotation",
+        "optionC": "By configuring static resource settings in `application.properties`",
+        "optionD": "By creating a `StaticContentConfig` class",
+        "answer": "By placing static resources in `src/main/resources/static` or `public`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the role of `@Bean` annotation?",
+        "optionA": "To define a bean that is managed by Spring's application context",
+        "optionB": "To configure an application context",
+        "optionC": "To specify a component scan",
+        "optionD": "To define a service layer",
+        "answer": "To define a bean that is managed by Spring's application context",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure application properties for different environments in Spring Boot?",
+        "optionA": "By using `application-{profile}.properties` files",
+        "optionB": "By creating environment-specific beans",
+        "optionC": "By using `@Profile` annotation",
+        "optionD": "By setting up different `application.yml` files",
+        "answer": "By using `application-{profile}.properties` files",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which dependency is used for Spring Boot’s integration with JPA?",
+        "optionA": "spring-boot-starter-data-jpa",
+        "optionB": "spring-boot-starter-data-mongodb",
+        "optionC": "spring-boot-starter-data-redis",
+        "optionD": "spring-boot-starter-data-cassandra",
+        "answer": "spring-boot-starter-data-jpa",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you access Spring Boot application properties programmatically?",
+        "optionA": "By using `@Value` annotation or `Environment` object",
+        "optionB": "By using `@PropertySource` annotation",
+        "optionC": "By accessing properties from `application.properties` file directly",
+        "optionD": "By creating a `PropertiesConfig` class",
+        "answer": "By using `@Value` annotation or `Environment` object",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What does `@CrossOrigin` annotation do?",
+        "optionA": "It allows cross-origin requests to the annotated method or class",
+        "optionB": "It configures security settings for CORS",
+        "optionC": "It defines a method for handling CORS preflight requests",
+        "optionD": "It specifies allowed origins for HTTP requests",
+        "answer": "It allows cross-origin requests to the annotated method or class",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure a Spring Boot application to use a custom error page?",
+        "optionA": "By creating an `error.html` file in `src/main/resources/templates`",
+        "optionB": "By using `@CustomErrorPage` annotation",
+        "optionC": "By configuring error pages in `application.properties`",
+        "optionD": "By creating a `ErrorPageConfig` class",
+        "answer": "By creating an `error.html` file in `src/main/resources/templates`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you integrate Spring Boot with a MongoDB database?",
+        "optionA": "By including `spring-boot-starter-data-mongodb` dependency",
+        "optionB": "By using `@MongoDB` annotation",
+        "optionC": "By configuring MongoDB properties in `application.properties`",
+        "optionD": "By creating a `MongoConfig` class",
+        "answer": "By including `spring-boot-starter-data-mongodb` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@Component` annotation?",
+        "optionA": "To mark a class as a Spring component",
+        "optionB": "To define a data access object",
+        "optionC": "To set up service layer",
+        "optionD": "To configure application properties",
+        "answer": "To mark a class as a Spring component",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you test a Spring Boot application with a mock server?",
+        "optionA": "By using `@MockBean` and `@SpringBootTest` annotations",
+        "optionB": "By using `@MockServer` annotation",
+        "optionC": "By creating a mock server configuration",
+        "optionD": "By setting up mock responses in `application.properties`",
+        "answer": "By using `@MockBean` and `@SpringBootTest` annotations",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to define a Spring Boot REST API endpoint that handles HTTP DELETE requests?",
+        "optionA": "@DeleteMapping",
+        "optionB": "@PostMapping",
+        "optionC": "@GetMapping",
+        "optionD": "@PutMapping",
+        "answer": "@DeleteMapping",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the use of `@ConfigurationProperties` annotation?",
+        "optionA": "To bind external configuration properties to a Java bean",
+        "optionB": "To define configuration properties for a specific environment",
+        "optionC": "To configure beans in application context",
+        "optionD": "To set up custom property sources",
+        "answer": "To bind external configuration properties to a Java bean",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you create a Spring Boot application that can be packaged as a JAR file with an embedded server?",
+        "optionA": "By using `spring-boot-starter` and building a JAR with Maven or Gradle",
+        "optionB": "By using `@EmbeddedServer` annotation",
+        "optionC": "By creating a `JarConfig` class",
+        "optionD": "By configuring `application.properties` for JAR packaging",
+        "answer": "By using `spring-boot-starter` and building a JAR with Maven or Gradle",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the default embedded web server used by Spring Boot?",
+        "optionA": "Tomcat",
+        "optionB": "Jetty",
+        "optionC": "Undertow",
+        "optionD": "Grizzly",
+        "answer": "Tomcat",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure a Spring Boot application to use OAuth2 authentication?",
+        "optionA": "By including `spring-boot-starter-oauth2-client` dependency",
+        "optionB": "By using `@OAuth2Config` annotation",
+        "optionC": "By setting OAuth2 properties in `application.properties`",
+        "optionD": "By creating an `OAuth2Config` class",
+        "answer": "By including `spring-boot-starter-oauth2-client` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to automatically inject a bean in Spring Boot?",
+        "optionA": "@Autowired",
+        "optionB": "@Inject",
+        "optionC": "@Resource",
+        "optionD": "@Bean",
+        "answer": "@Autowired",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a Spring Boot application entry point?",
+        "optionA": "By using a `main` method annotated with `@SpringBootApplication`",
+        "optionB": "By using a `main` method with `@RunWith` annotation",
+        "optionC": "By creating a `MainConfig` class",
+        "optionD": "By defining an `ApplicationRunner` bean",
+        "answer": "By using a `main` method annotated with `@SpringBootApplication`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@SpringBootTest` annotation?",
+        "optionA": "To create an application context for integration testing",
+        "optionB": "To configure test-specific beans",
+        "optionC": "To define test cases",
+        "optionD": "To set up a test database",
+        "answer": "To create an application context for integration testing",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a custom validation annotation in Spring Boot?",
+        "optionA": "By creating a custom annotation and implementing `ConstraintValidator` interface",
+        "optionB": "By using `@Valid` annotation",
+        "optionC": "By configuring validation properties in `application.properties`",
+        "optionD": "By defining a validation bean",
+        "answer": "By creating a custom annotation and implementing `ConstraintValidator` interface",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which dependency is used for Spring Boot integration with Apache Kafka?",
+        "optionA": "spring-boot-starter-kafka",
+        "optionB": "spring-boot-starter-rabbitmq",
+        "optionC": "spring-boot-starter-amqp",
+        "optionD": "spring-boot-starter-activemq",
+        "answer": "spring-boot-starter-kafka",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you enable Spring Boot Actuator endpoints?",
+        "optionA": "By including `spring-boot-starter-actuator` dependency and configuring endpoints in `application.properties`",
+        "optionB": "By using `@EnableActuator` annotation",
+        "optionC": "By creating an `ActuatorConfig` class",
+        "optionD": "By setting up endpoints in `application.yml`",
+        "answer": "By including `spring-boot-starter-actuator` dependency and configuring endpoints in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you use `@RequestParam` in a Spring Boot controller?",
+        "optionA": "To extract query parameters from HTTP requests",
+        "optionB": "To bind path variables to method parameters",
+        "optionC": "To handle HTTP headers",
+        "optionD": "To manage request bodies",
+        "answer": "To extract query parameters from HTTP requests",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the role of `@Profile` annotation in Spring Boot?",
+        "optionA": "To define beans that are only available in specific profiles",
+        "optionB": "To set up environment-specific properties",
+        "optionC": "To enable profile-specific logging",
+        "optionD": "To configure profile-specific security settings",
+        "answer": "To define beans that are only available in specific profiles",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you set up a Spring Boot application to use a different port?",
+        "optionA": "By setting `server.port` in `application.properties`",
+        "optionB": "By using `@PortConfig` annotation",
+        "optionC": "By defining the port in `application.yml`",
+        "optionD": "By creating a `ServerConfig` class",
+        "answer": "By setting `server.port` in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you configure a Spring Boot application to use a custom error message for a specific status code?",
+        "optionA": "By defining error pages in `src/main/resources/templates`",
+        "optionB": "By using `@ErrorPage` annotation",
+        "optionC": "By configuring error handling in `application.properties`",
+        "optionD": "By creating a custom `ErrorController`",
+        "answer": "By defining error pages in `src/main/resources/templates`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to mark a Spring Boot class as a configuration component?",
+        "optionA": "@Configuration",
+        "optionB": "@Component",
+        "optionC": "@Service",
+        "optionD": "@Repository",
+        "answer": "@Configuration",
+        "category": "SpringBoot"
+    }
+,    {
+        "question_text": "What annotation is used to mark a Spring Boot application?",
+        "optionA": "@SpringBootApplication",
+        "optionB": "@SpringApplication",
+        "optionC": "@SpringBootConfig",
+        "optionD": "@SpringConfig",
+        "answer": "@SpringBootApplication",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a RESTful controller in Spring Boot?",
+        "optionA": "By using the `@RestController` annotation",
+        "optionB": "By using the `@Controller` annotation",
+        "optionC": "By using the `@Service` annotation",
+        "optionD": "By using the `@Component` annotation",
+        "answer": "@RestController",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to bind request parameters to a method in a Spring Boot controller?",
+        "optionA": "@RequestParam",
+        "optionB": "@RequestBody",
+        "optionC": "@PathVariable",
+        "optionD": "@RequestMapping",
+        "answer": "@RequestParam",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `application.properties` in a Spring Boot application?",
+        "optionA": "To configure application settings",
+        "optionB": "To define database schemas",
+        "optionC": "To manage application dependencies",
+        "optionD": "To create database migrations",
+        "answer": "To configure application settings",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you run a Spring Boot application from the command line?",
+        "optionA": "By using `java -jar application.jar`",
+        "optionB": "By using `mvn spring-boot:run`",
+        "optionC": "By using `./gradlew bootRun`",
+        "optionD": "By using `mvn install`",
+        "answer": "By using `java -jar application.jar`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to automatically inject dependencies in Spring Boot?",
+        "optionA": "@Autowired",
+        "optionB": "@Inject",
+        "optionC": "@Resource",
+        "optionD": "@Bean",
+        "answer": "@Autowired",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of the `@Component` annotation in Spring Boot?",
+        "optionA": "Marks a class as a Spring-managed component",
+        "optionB": "Defines a custom configuration class",
+        "optionC": "Registers a Spring Boot application",
+        "optionD": "Specifies a database entity",
+        "answer": "Marks a class as a Spring-managed component",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure a Spring Boot application to connect to a MySQL database?",
+        "optionA": "By setting `spring.datasource.url` in `application.properties`",
+        "optionB": "By using `@MySQLConfig` annotation",
+        "optionC": "By creating a `DataSource` bean",
+        "optionD": "By setting the database URL in the `pom.xml`",
+        "answer": "By setting `spring.datasource.url` in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which Spring Boot starter would you use for web development?",
+        "optionA": "spring-boot-starter-web",
+        "optionB": "spring-boot-starter-data-jpa",
+        "optionC": "spring-boot-starter-security",
+        "optionD": "spring-boot-starter-test",
+        "answer": "spring-boot-starter-web",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of the `@Configuration` annotation in Spring Boot?",
+        "optionA": "Indicates that a class provides Spring configuration",
+        "optionB": "Marks a class as a REST controller",
+        "optionC": "Injects dependencies into a class",
+        "optionD": "Defines an entity class",
+        "answer": "Indicates that a class provides Spring configuration",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a scheduled task in Spring Boot?",
+        "optionA": "By using the `@Scheduled` annotation",
+        "optionB": "By using the `@Task` annotation",
+        "optionC": "By implementing the `ScheduledTask` interface",
+        "optionD": "By configuring tasks in `application.properties`",
+        "answer": "By using the `@Scheduled` annotation",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to define a repository interface in Spring Boot?",
+        "optionA": "@Repository",
+        "optionB": "@Entity",
+        "optionC": "@Service",
+        "optionD": "@Component",
+        "answer": "@Repository",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you handle exception handling in Spring Boot?",
+        "optionA": "By using the `@ExceptionHandler` annotation",
+        "optionB": "By using the `@ControllerAdvice` annotation",
+        "optionC": "By using the `@Error` annotation",
+        "optionD": "By implementing the `ErrorHandler` interface",
+        "answer": "By using the `@ExceptionHandler` annotation",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which of the following is used to define a Spring Boot test?",
+        "optionA": "@SpringBootTest",
+        "optionB": "@TestConfiguration",
+        "optionC": "@Test",
+        "optionD": "@IntegrationTest",
+        "answer": "@SpringBootTest",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you customize the server port in Spring Boot?",
+        "optionA": "By setting `server.port` in `application.properties`",
+        "optionB": "By using `@ServerPort` annotation",
+        "optionC": "By configuring `server.port` in the `pom.xml`",
+        "optionD": "By creating a `ServerConfig` class",
+        "answer": "By setting `server.port` in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the use of `@Value` annotation in Spring Boot?",
+        "optionA": "To inject values from properties files into fields",
+        "optionB": "To define a bean",
+        "optionC": "To configure database connections",
+        "optionD": "To manage transactions",
+        "answer": "To inject values from properties files into fields",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which Spring Boot annotation is used to define a bean?",
+        "optionA": "@Bean",
+        "optionB": "@Component",
+        "optionC": "@Service",
+        "optionD": "@Autowired",
+        "answer": "@Bean",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you enable Spring Boot's actuator endpoints?",
+        "optionA": "By including the `spring-boot-starter-actuator` dependency",
+        "optionB": "By using the `@EnableActuator` annotation",
+        "optionC": "By configuring `management.endpoints.enabled-by-default`",
+        "optionD": "By creating a `ActuatorConfig` class",
+        "answer": "By including the `spring-boot-starter-actuator` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you handle file uploads in Spring Boot?",
+        "optionA": "By using `MultipartFile`",
+        "optionB": "By using `@RequestBody`",
+        "optionC": "By using `@PathVariable`",
+        "optionD": "By using `@RequestParam`",
+        "answer": "By using `MultipartFile`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to mark a class as a Spring service?",
+        "optionA": "@Service",
+        "optionB": "@Component",
+        "optionC": "@Repository",
+        "optionD": "@Controller",
+        "answer": "@Service",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a custom exception in Spring Boot?",
+        "optionA": "By creating a class that extends `RuntimeException`",
+        "optionB": "By using the `@CustomException` annotation",
+        "optionC": "By implementing the `Exception` interface",
+        "optionD": "By creating a class that extends `Exception`",
+        "answer": "By creating a class that extends `RuntimeException`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of the `@PathVariable` annotation?",
+        "optionA": "To extract values from URI templates",
+        "optionB": "To bind request parameters",
+        "optionC": "To handle form submissions",
+        "optionD": "To configure request headers",
+        "answer": "To extract values from URI templates",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you enable Swagger documentation for a Spring Boot application?",
+        "optionA": "By adding the `springfox-swagger2` and `springfox-swagger-ui` dependencies",
+        "optionB": "By using the `@EnableSwagger` annotation",
+        "optionC": "By configuring `swagger.properties`",
+        "optionD": "By adding `swagger-annotations` dependency",
+        "answer": "By adding the `springfox-swagger2` and `springfox-swagger-ui` dependencies",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the use of `@EnableAutoConfiguration` annotation in Spring Boot?",
+        "optionA": "To enable auto-configuration based on the dependencies present",
+        "optionB": "To configure application-specific beans",
+        "optionC": "To set up a data source",
+        "optionD": "To define application context",
+        "answer": "To enable auto-configuration based on the dependencies present",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which of the following is a default logging framework used in Spring Boot?",
+        "optionA": "Logback",
+        "optionB": "Log4j2",
+        "optionC": "SLF4J",
+        "optionD": "Java Util Logging",
+        "answer": "Logback",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you specify the active profile in a Spring Boot application?",
+        "optionA": "By setting `spring.profiles.active` in `application.properties`",
+        "optionB": "By using the `@Profile` annotation",
+        "optionC": "By defining profiles in `pom.xml`",
+        "optionD": "By setting `active.profile` in `application.yml`",
+        "answer": "By setting `spring.profiles.active` in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to define a Spring Boot test configuration?",
+        "optionA": "@TestConfiguration",
+        "optionB": "@Configuration",
+        "optionC": "@EnableTest",
+        "optionD": "@TestSetup",
+        "answer": "@TestConfiguration",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of `@DataJpaTest` annotation in Spring Boot?",
+        "optionA": "To test JPA repositories",
+        "optionB": "To test web controllers",
+        "optionC": "To configure data sources",
+        "optionD": "To test services",
+        "answer": "To test JPA repositories",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you create a Spring Boot application using Spring Initializr?",
+        "optionA": "By visiting `https://start.spring.io/`",
+        "optionB": "By using the `spring-boot-create` command",
+        "optionC": "By configuring a Maven or Gradle project manually",
+        "optionD": "By using the `spring-boot-starter` dependency",
+        "answer": "By visiting `https://start.spring.io/`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which of the following is used to provide transactional support in Spring Boot?",
+        "optionA": "@Transactional",
+        "optionB": "@Service",
+        "optionC": "@TransactionalSupport",
+        "optionD": "@Transaction",
+        "answer": "@Transactional",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What does the `@ComponentScan` annotation do?",
+        "optionA": "Configures component scanning for Spring",
+        "optionB": "Registers a new component",
+        "optionC": "Defines a bean",
+        "optionD": "Sets up application context",
+        "answer": "Configures component scanning for Spring",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you override default configuration properties in Spring Boot?",
+        "optionA": "By creating an `application-{profile}.properties` file",
+        "optionB": "By using the `@Configuration` annotation",
+        "optionC": "By modifying the `pom.xml` file",
+        "optionD": "By setting properties in `application.yml`",
+        "answer": "By creating an `application-{profile}.properties` file",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the role of `@RequestMapping` annotation?",
+        "optionA": "To map HTTP requests to handler methods",
+        "optionB": "To define RESTful endpoints",
+        "optionC": "To configure web security",
+        "optionD": "To handle file uploads",
+        "answer": "To map HTTP requests to handler methods",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you integrate Spring Boot with a message broker like RabbitMQ?",
+        "optionA": "By including the `spring-boot-starter-amqp` dependency",
+        "optionB": "By using the `@RabbitMQ` annotation",
+        "optionC": "By creating a `MessageBroker` configuration class",
+        "optionD": "By setting `rabbitmq` properties in `application.properties`",
+        "answer": "By including the `spring-boot-starter-amqp` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of the `@WebMvcTest` annotation?",
+        "optionA": "To test Spring MVC controllers",
+        "optionB": "To test application services",
+        "optionC": "To test data repositories",
+        "optionD": "To configure MVC settings",
+        "answer": "To test Spring MVC controllers",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a custom health check in Spring Boot Actuator?",
+        "optionA": "By implementing `HealthIndicator` interface",
+        "optionB": "By using `@HealthCheck` annotation",
+        "optionC": "By creating a `HealthCheck` class",
+        "optionD": "By configuring health checks in `application.properties`",
+        "answer": "By implementing `HealthIndicator` interface",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which of the following annotations is used to enable Spring Boot's caching support?",
+        "optionA": "@EnableCaching",
+        "optionB": "@Cacheable",
+        "optionC": "@CacheConfig",
+        "optionD": "@CacheSupport",
+        "answer": "@EnableCaching",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you create a Spring Boot application with an embedded web server?",
+        "optionA": "By including the `spring-boot-starter-web` dependency",
+        "optionB": "By using `@EmbeddedServer` annotation",
+        "optionC": "By setting up a `WebServer` bean",
+        "optionD": "By defining a `ServerConfig` class",
+        "answer": "By including the `spring-boot-starter-web` dependency",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the role of `@SpringBootTest` annotation?",
+        "optionA": "To create an application context for integration testing",
+        "optionB": "To configure application properties for testing",
+        "optionC": "To define test cases",
+        "optionD": "To set up data sources",
+        "answer": "To create an application context for integration testing",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you set up a custom banner in a Spring Boot application?",
+        "optionA": "By placing a `banner.txt` file in the `src/main/resources` directory",
+        "optionB": "By using the `@Banner` annotation",
+        "optionC": "By configuring `banner` properties in `application.properties`",
+        "optionD": "By creating a `BannerConfig` class",
+        "answer": "By placing a `banner.txt` file in the `src/main/resources` directory",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the default port number for a Spring Boot application?",
+        "optionA": "8080",
+        "optionB": "80",
+        "optionC": "443",
+        "optionD": "9090",
+        "answer": "8080",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you enable HTTPS in a Spring Boot application?",
+        "optionA": "By configuring `server.ssl.*` properties in `application.properties`",
+        "optionB": "By using the `@EnableSSL` annotation",
+        "optionC": "By setting up an SSL certificate in `pom.xml`",
+        "optionD": "By configuring SSL in `server.xml`",
+        "answer": "By configuring `server.ssl.*` properties in `application.properties`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the purpose of the `@Profile` annotation?",
+        "optionA": "To specify which beans are loaded based on the active profile",
+        "optionB": "To configure application profiles",
+        "optionC": "To set up database profiles",
+        "optionD": "To manage user profiles",
+        "answer": "To specify which beans are loaded based on the active profile",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a method that handles HTTP POST requests in a Spring Boot controller?",
+        "optionA": "By using `@PostMapping` annotation",
+        "optionB": "By using `@RequestMapping(method = RequestMethod.POST)`",
+        "optionC": "By using `@RequestMethod` annotation",
+        "optionD": "By using `@HttpPost` annotation",
+        "answer": "By using `@PostMapping` annotation",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the role of `@SpringBootApplication` annotation?",
+        "optionA": "It combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan` annotations",
+        "optionB": "It sets up the application context",
+        "optionC": "It defines the main application class",
+        "optionD": "It configures Spring Boot dependencies",
+        "answer": "It combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan` annotations",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you define a scheduled task in Spring Boot?",
+        "optionA": "By using the `@Scheduled` annotation",
+        "optionB": "By using the `@ScheduledTask` annotation",
+        "optionC": "By creating a `ScheduledTask` bean",
+        "optionD": "By configuring tasks in `application.yml`",
+        "answer": "By using the `@Scheduled` annotation",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure a Spring Boot application to use an external configuration file?",
+        "optionA": "By using the `--spring.config.location` command-line argument",
+        "optionB": "By setting `spring.config.file` in `application.properties`",
+        "optionC": "By using the `@Configuration` annotation",
+        "optionD": "By placing the file in the `resources` directory",
+        "answer": "By using the `--spring.config.location` command-line argument",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What does the `@Transactional` annotation do?",
+        "optionA": "It manages transactions for a method or class",
+        "optionB": "It defines a transactional data source",
+        "optionC": "It configures transaction properties",
+        "optionD": "It handles transaction logging",
+        "answer": "It manages transactions for a method or class",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you handle exceptions globally in Spring Boot?",
+        "optionA": "By using `@ControllerAdvice` and `@ExceptionHandler`",
+        "optionB": "By configuring `ErrorController`",
+        "optionC": "By using `@GlobalException`",
+        "optionD": "By creating a `GlobalError` class",
+        "answer": "By using `@ControllerAdvice` and `@ExceptionHandler`",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How can you configure CORS (Cross-Origin Resource Sharing) in a Spring Boot application?",
+        "optionA": "By creating a `CorsConfiguration` bean",
+        "optionB": "By using the `@CrossOrigin` annotation",
+        "optionC": "By setting CORS properties in `application.properties`",
+        "optionD": "By configuring CORS in `web.xml`",
+        "answer": "By creating a `CorsConfiguration` bean",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "What is the use of `@Repository` annotation in Spring Boot?",
+        "optionA": "It marks a class as a Data Access Object (DAO)",
+        "optionB": "It defines a service layer component",
+        "optionC": "It configures data sources",
+        "optionD": "It manages transactions",
+        "answer": "It marks a class as a Data Access Object (DAO)",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you create a Spring Boot application with a REST API?",
+        "optionA": "By including `spring-boot-starter-web` and defining REST controllers",
+        "optionB": "By using `spring-boot-starter-data-rest` dependency",
+        "optionC": "By creating a `RestApiConfig` class",
+        "optionD": "By setting up a RESTful service in `application.properties`",
+        "answer": "By including `spring-boot-starter-web` and defining REST controllers",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "Which annotation is used to define a Spring Boot data source?",
+        "optionA": "@ConfigurationProperties",
+        "optionB": "@DataSource",
+        "optionC": "@EnableDataSource",
+        "optionD": "@Bean",
+        "answer": "@ConfigurationProperties",
+        "category": "SpringBoot"
+    },
+    {
+        "question_text": "How do you configure a custom logging level in Spring Boot?",
+        "optionA": "By setting `logging.level.<package>=<level>` in `application.properties`",
+        "optionB": "By using `@LoggingLevel` annotation",
+        "optionC": "By configuring logging in `logback.xml`",
+        "optionD": "By setting up logging in `application.yml`",
+        "answer": "By setting `logging.level.<package>=<level>` in `application.properties`",
+        "category": "SpringBoot"
+    }
+]

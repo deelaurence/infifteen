@@ -1,0 +1,1094 @@
+[
+    {
+        "question_text": "How do you add a background color to a Container in Flutter?",
+        "optionA": "Using the color property",
+        "optionB": "Using the backgroundColor property",
+        "optionC": "Using the ContainerColor property",
+        "optionD": "Using the BoxColor property",
+        "answer": "Using the color property",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a clickable text in Flutter?",
+        "optionA": "InkWell",
+        "optionB": "GestureDetector",
+        "optionC": "ClickableText",
+        "optionD": "TapText",
+        "answer": "InkWell",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle HTTP requests in Flutter?",
+        "optionA": "Using the http package",
+        "optionB": "Using the dio package",
+        "optionC": "Using the http_client package",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a list with different types of items?",
+        "optionA": "ListView.builder",
+        "optionB": "ListView.separated",
+        "optionC": "ListView.custom",
+        "optionD": "ListView.different",
+        "answer": "ListView.custom",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a circular avatar in Flutter?",
+        "optionA": "Using the CircleAvatar widget",
+        "optionB": "Using the Avatar widget",
+        "optionC": "Using the CircularAvatar widget",
+        "optionD": "Using the RoundAvatar widget",
+        "answer": "Using the CircleAvatar widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a navigation bar at the bottom of the screen?",
+        "optionA": "BottomNavigationBar",
+        "optionB": "BottomBar",
+        "optionC": "NavigationBar",
+        "optionD": "NavBar",
+        "answer": "BottomNavigationBar",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add a custom font to a Flutter application?",
+        "optionA": "By specifying it in the pubspec.yaml file",
+        "optionB": "By using the custom_font package",
+        "optionC": "By setting the font in the main.dart file",
+        "optionD": "By importing the font in the assets directory",
+        "answer": "By specifying it in the pubspec.yaml file",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create an overlay in Flutter?",
+        "optionA": "Overlay",
+        "optionB": "OverlayWidget",
+        "optionC": "OverlayView",
+        "optionD": "OverlayLayout",
+        "answer": "Overlay",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle state in Flutter?",
+        "optionA": "Using StatefulWidget",
+        "optionB": "Using StatelessWidget",
+        "optionC": "Using setState",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a snackbar?",
+        "optionA": "SnackBar",
+        "optionB": "SnackBarWidget",
+        "optionC": "Toast",
+        "optionD": "NotificationBar",
+        "answer": "SnackBar",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a draggable scrollbar in Flutter?",
+        "optionA": "Using the DraggableScrollbar package",
+        "optionB": "Using the Scrollbar widget",
+        "optionC": "Using the DragScroll package",
+        "optionD": "Using the ScrollbarController package",
+        "answer": "Using the DraggableScrollbar package",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to display a grid of images?",
+        "optionA": "GridView",
+        "optionB": "ImageGrid",
+        "optionC": "ImageGridView",
+        "optionD": "PictureGrid",
+        "answer": "GridView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a gradient background in Flutter?",
+        "optionA": "Using the BoxDecoration property with LinearGradient",
+        "optionB": "Using the Gradient property",
+        "optionC": "Using the LinearGradient property",
+        "optionD": "Using the GradientContainer",
+        "answer": "Using the BoxDecoration property with LinearGradient",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a list with a header?",
+        "optionA": "CustomScrollView",
+        "optionB": "ListView.builder",
+        "optionC": "HeaderListView",
+        "optionD": "SectionedListView",
+        "answer": "CustomScrollView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you implement a search bar in Flutter?",
+        "optionA": "Using the SearchDelegate class",
+        "optionB": "Using the SearchBar widget",
+        "optionC": "Using the SearchWidget",
+        "optionD": "Using the SearchField widget",
+        "answer": "Using the SearchDelegate class",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a tab view in Flutter?",
+        "optionA": "TabBarView",
+        "optionB": "TabView",
+        "optionC": "TabWidget",
+        "optionD": "Tabs",
+        "answer": "TabBarView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle navigation with named routes in Flutter?",
+        "optionA": "Using the Navigator.pushNamed method",
+        "optionB": "Using the Navigator.push method",
+        "optionC": "Using the Navigator.named method",
+        "optionD": "Using the Navigator.navigateNamed method",
+        "answer": "Using the Navigator.pushNamed method",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a stepper in Flutter?",
+        "optionA": "Stepper",
+        "optionB": "StepWidget",
+        "optionC": "StepView",
+        "optionD": "StepList",
+        "answer": "Stepper",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a toast notification in Flutter?",
+        "optionA": "Using the fluttertoast package",
+        "optionB": "Using the Toast widget",
+        "optionC": "Using the Snackbar widget",
+        "optionD": "Using the AlertDialog widget",
+        "answer": "Using the fluttertoast package",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a collapsible toolbar?",
+        "optionA": "SliverAppBar",
+        "optionB": "CollapsibleToolbar",
+        "optionC": "CollapsibleAppBar",
+        "optionD": "AppBar",
+        "answer": "SliverAppBar",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a chip in Flutter?",
+        "optionA": "Using the Chip widget",
+        "optionB": "Using the Tag widget",
+        "optionC": "Using the Label widget",
+        "optionD": "Using the Badge widget",
+        "answer": "Using the Chip widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a scrollable tab bar in Flutter?",
+        "optionA": "Using the TabBar widget with isScrollable: true",
+        "optionB": "Using the ScrollableTabBar widget",
+        "optionC": "Using the TabView widget",
+        "optionD": "Using the ScrollTabBar widget",
+        "answer": "Using the TabBar widget with isScrollable: true",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a staggered grid layout?",
+        "optionA": "StaggeredGridView",
+        "optionB": "GridView",
+        "optionC": "MasonryGridView",
+        "optionD": "StaggeredView",
+        "answer": "StaggeredGridView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a hero animation in Flutter?",
+        "optionA": "Using the Hero widget",
+        "optionB": "Using the Animation widget",
+        "optionC": "Using the HeroAnimation widget",
+        "optionD": "Using the Transition widget",
+        "answer": "Using the Hero widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a tooltip in Flutter?",
+        "optionA": "Tooltip",
+        "optionB": "Hint",
+        "optionC": "Tip",
+        "optionD": "Info",
+        "answer": "Tooltip",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a custom painter in Flutter?",
+        "optionA": "By extending the CustomPainter class",
+        "optionB": "By using the CustomPaint widget",
+        "optionC": "By using the Paint class",
+        "optionD": "By extending the Painter class",
+        "answer": "By extending the CustomPainter class",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add a drawer to an AppBar in Flutter?",
+        "optionA": "Using the Drawer widget inside a Scaffold",
+        "optionB": "Using the AppBar.drawer property",
+        "optionC": "Using the AppDrawer widget",
+        "optionD": "Using the NavigationDrawer widget",
+        "answer": "Using the Drawer widget inside a Scaffold",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a progress indicator?",
+        "optionA": "CircularProgressIndicator",
+        "optionB": "ProgressBar",
+        "optionC": "LinearProgressIndicator",
+        "optionD": "LoadingIndicator",
+        "answer": "CircularProgressIndicator",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a bottom navigation bar with icons and text in Flutter?",
+        "optionA": "Using the BottomNavigationBar widget",
+        "optionB": "Using the NavigationBar widget",
+        "optionC": "Using the BottomBar widget",
+        "optionD": "Using the NavBar widget",
+        "answer": "Using the BottomNavigationBar widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a scrollable column?",
+        "optionA": "SingleChildScrollView",
+        "optionB": "ScrollView",
+        "optionC": "ScrollColumn",
+        "optionD": "ListView",
+        "answer": "SingleChildScrollView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a custom widget in Flutter?",
+        "optionA": "By creating a new class that extends StatelessWidget or StatefulWidget",
+        "optionB": "By using the CustomWidget class",
+        "optionC": "By using the Widget class",
+        "optionD": "By extending the Widget class",
+        "answer": "By creating a new class that extends StatelessWidget or StatefulWidget",
+        "category": "Flutter"
+    }
+,
+    {
+        "question_text": "What is the default programming language used in Flutter for writing applications?",
+        "optionA": "Dart",
+        "optionB": "JavaScript",
+        "optionC": "Python",
+        "optionD": "Swift",
+        "answer": "Dart",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a scrollable table?",
+        "optionA": "DataTable",
+        "optionB": "GridView",
+        "optionC": "ListView",
+        "optionD": "ScrollableTable",
+        "answer": "DataTable",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add an icon to a button in Flutter?",
+        "optionA": "Using the IconButton widget",
+        "optionB": "Using the Icon widget",
+        "optionC": "Using the Button.icon constructor",
+        "optionD": "Using the IconData class",
+        "answer": "Using the Button.icon constructor",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you debug a Flutter app?",
+        "optionA": "Using the Dart DevTools",
+        "optionB": "Using the Flutter Inspector",
+        "optionC": "Using breakpoints and logs",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a slider in Flutter?",
+        "optionA": "Slider",
+        "optionB": "RangeSlider",
+        "optionC": "SliderWidget",
+        "optionD": "RangeWidget",
+        "answer": "Slider",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you set up Firebase in a Flutter app?",
+        "optionA": "Using the firebase_core package",
+        "optionB": "Using the firebase_setup package",
+        "optionC": "Using the cloud_firestore package",
+        "optionD": "Using the firebase_options package",
+        "answer": "Using the firebase_core package",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a toggle switch?",
+        "optionA": "Switch",
+        "optionB": "ToggleButton",
+        "optionC": "SwitchButton",
+        "optionD": "ToggleSwitch",
+        "answer": "Switch",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you access native code in a Flutter app?",
+        "optionA": "Using platform channels",
+        "optionB": "Using method channels",
+        "optionC": "Using event channels",
+        "optionD": "Using code channels",
+        "answer": "Using platform channels",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you run a Flutter app on an iOS device?",
+        "optionA": "Using Xcode",
+        "optionB": "Using Android Studio",
+        "optionC": "Using Visual Studio Code",
+        "optionD": "Using IntelliJ IDEA",
+        "answer": "Using Xcode",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a text input field?",
+        "optionA": "TextField",
+        "optionB": "TextInput",
+        "optionC": "InputField",
+        "optionD": "TextWidget",
+        "answer": "TextField",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you apply animations to widgets in Flutter?",
+        "optionA": "Using the AnimatedWidget class",
+        "optionB": "Using the AnimatedContainer widget",
+        "optionC": "Using the AnimationController class",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create an expandable list?",
+        "optionA": "ExpansionPanelList",
+        "optionB": "ExpandableList",
+        "optionC": "ExpansionList",
+        "optionD": "ExpandablePanelList",
+        "answer": "ExpansionPanelList",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle touch events in Flutter?",
+        "optionA": "Using the GestureDetector widget",
+        "optionB": "Using the TouchListener widget",
+        "optionC": "Using the TouchEvents widget",
+        "optionD": "Using the TapDetector widget",
+        "answer": "Using the GestureDetector widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a checkbox in Flutter?",
+        "optionA": "Checkbox",
+        "optionB": "CheckButton",
+        "optionC": "CheckField",
+        "optionD": "CheckWidget",
+        "answer": "Checkbox",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add a video player to a Flutter app?",
+        "optionA": "Using the video_player package",
+        "optionB": "Using the video_widget package",
+        "optionC": "Using the media_player package",
+        "optionD": "Using the video package",
+        "answer": "Using the video_player package",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a dropdown menu?",
+        "optionA": "DropdownButton",
+        "optionB": "DropDown",
+        "optionC": "MenuButton",
+        "optionD": "DropButton",
+        "answer": "DropdownButton",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle errors in Flutter?",
+        "optionA": "Using try-catch blocks",
+        "optionB": "Using the ErrorWidget",
+        "optionC": "Using the FlutterError class",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a popup menu?",
+        "optionA": "PopupMenuButton",
+        "optionB": "PopupMenu",
+        "optionC": "PopupButton",
+        "optionD": "PopupWidget",
+        "answer": "PopupMenuButton",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a custom painter in Flutter?",
+        "optionA": "By extending the CustomPainter class",
+        "optionB": "By using the CustomPaint widget",
+        "optionC": "By using the Paint class",
+        "optionD": "By extending the Painter class",
+        "answer": "By extending the CustomPainter class",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create an image carousel?",
+        "optionA": "PageView",
+        "optionB": "CarouselSlider",
+        "optionC": "ImageSlider",
+        "optionD": "ImageCarousel",
+        "answer": "CarouselSlider",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a form in Flutter?",
+        "optionA": "Using the Form widget",
+        "optionB": "Using the TextField widget",
+        "optionC": "Using the FormField widget",
+        "optionD": "Using the InputForm widget",
+        "answer": "Using the Form widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a radio button?",
+        "optionA": "Radio",
+        "optionB": "RadioButton",
+        "optionC": "RadioField",
+        "optionD": "RadioWidget",
+        "answer": "Radio",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you implement push notifications in Flutter?",
+        "optionA": "Using the firebase_messaging package",
+        "optionB": "Using the push_notifications package",
+        "optionC": "Using the notifications package",
+        "optionD": "Using the flutter_notifications package",
+        "answer": "Using the firebase_messaging package",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a progress bar?",
+        "optionA": "LinearProgressIndicator",
+        "optionB": "CircularProgressIndicator",
+        "optionC": "ProgressBar",
+        "optionD": "LoadingBar",
+        "answer": "LinearProgressIndicator",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a bottom sheet in Flutter?",
+        "optionA": "Using the showModalBottomSheet function",
+        "optionB": "Using the BottomSheet widget",
+        "optionC": "Using the ModalBottomSheet widget",
+        "optionD": "Using the showBottomSheet function",
+        "answer": "Using the showModalBottomSheet function",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a tooltip?",
+        "optionA": "Tooltip",
+        "optionB": "Hint",
+        "optionC": "Tip",
+        "optionD": "Info",
+        "answer": "Tooltip",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a navigation drawer in Flutter?",
+        "optionA": "Using the Drawer widget",
+        "optionB": "Using the NavigationDrawer widget",
+        "optionC": "Using the SideDrawer widget",
+        "optionD": "Using the DrawerLayout widget",
+        "answer": "Using the Drawer widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a scaffold for the basic material design visual layout structure?",
+        "optionA": "Scaffold",
+        "optionB": "Container",
+        "optionC": "Material",
+        "optionD": "AppBar",
+        "answer": "Scaffold",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add padding to a widget in Flutter?",
+        "optionA": "Using the Padding widget",
+        "optionB": "Using the EdgeInsets class",
+        "optionC": "Using the Container widget",
+        "optionD": "Using the PaddingBox widget",
+        "answer": "Using the Padding widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a list of cards?",
+        "optionA": "ListView",
+        "optionB": "CardList",
+        "optionC": "CardView",
+        "optionD": "ListCard",
+        "answer": "ListView",
+        "category": "Flutter"
+    }
+,
+    {
+        "question_text": "Which widget is used to display an image from the internet?",
+        "optionA": "Image.network",
+        "optionB": "Image.asset",
+        "optionC": "Image.file",
+        "optionD": "Image.memory",
+        "answer": "Image.network",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle gestures in Flutter?",
+        "optionA": "Using the GestureDetector widget",
+        "optionB": "Using the Listener widget",
+        "optionC": "Using the InkWell widget",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a circular progress indicator?",
+        "optionA": "CircularProgressIndicator",
+        "optionB": "LinearProgressIndicator",
+        "optionC": "ProgressBar",
+        "optionD": "LoadingIndicator",
+        "answer": "CircularProgressIndicator",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you navigate to a new screen in Flutter?",
+        "optionA": "Using Navigator.push",
+        "optionB": "Using Navigator.pop",
+        "optionC": "Using Navigator.replace",
+        "optionD": "Using Navigator.goto",
+        "answer": "Using Navigator.push",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a floating action button?",
+        "optionA": "FloatingActionButton",
+        "optionB": "RaisedButton",
+        "optionC": "ElevatedButton",
+        "optionD": "FlatButton",
+        "answer": "FloatingActionButton",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you format dates in Flutter?",
+        "optionA": "Using the intl package",
+        "optionB": "Using the date_format package",
+        "optionC": "Using the date_utils package",
+        "optionD": "Using the datetime package",
+        "answer": "Using the intl package",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a tabbed interface?",
+        "optionA": "TabBar",
+        "optionB": "BottomNavigationBar",
+        "optionC": "Drawer",
+        "optionD": "TabView",
+        "answer": "TabBar",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you show a toast message in Flutter?",
+        "optionA": "Using the fluttertoast package",
+        "optionB": "Using the Toast widget",
+        "optionC": "Using the Snackbar widget",
+        "optionD": "Using the AlertDialog widget",
+        "answer": "Using the fluttertoast package",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a grid of tiles?",
+        "optionA": "GridView",
+        "optionB": "ListView",
+        "optionC": "Table",
+        "optionD": "Stack",
+        "answer": "GridView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you manage state across multiple widgets in Flutter?",
+        "optionA": "Using the Provider package",
+        "optionB": "Using setState",
+        "optionC": "Using InheritedWidget",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a vertical divider?",
+        "optionA": "VerticalDivider",
+        "optionB": "Divider",
+        "optionC": "SplitView",
+        "optionD": "VerticalSplit",
+        "answer": "VerticalDivider",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle long lists efficiently in Flutter?",
+        "optionA": "Using ListView.builder",
+        "optionB": "Using Column",
+        "optionC": "Using Row",
+        "optionD": "Using ListView",
+        "answer": "Using ListView.builder",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which method is used to dispose of resources in a StatefulWidget?",
+        "optionA": "dispose",
+        "optionB": "deactivate",
+        "optionC": "delete",
+        "optionD": "remove",
+        "answer": "dispose",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add a shadow to a container in Flutter?",
+        "optionA": "Using the BoxDecoration property with BoxShadow",
+        "optionB": "Using the Shadow property",
+        "optionC": "Using the Elevation property",
+        "optionD": "Using the Paint property",
+        "answer": "Using the BoxDecoration property with BoxShadow",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a stack of widgets?",
+        "optionA": "Stack",
+        "optionB": "Column",
+        "optionC": "Row",
+        "optionD": "Container",
+        "answer": "Stack",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you display a list of items in a scrollable grid?",
+        "optionA": "Using GridView.builder",
+        "optionB": "Using ListView.builder",
+        "optionC": "Using Column",
+        "optionD": "Using Row",
+        "answer": "Using GridView.builder",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a scrollable single child layout?",
+        "optionA": "SingleChildScrollView",
+        "optionB": "ListView",
+        "optionC": "GridView",
+        "optionD": "PageView",
+        "answer": "SingleChildScrollView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add a border to a container in Flutter?",
+        "optionA": "Using the BoxDecoration property with Border",
+        "optionB": "Using the Border property",
+        "optionC": "Using the Outline property",
+        "optionD": "Using the Frame property",
+        "answer": "Using the BoxDecoration property with Border",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a clickable area?",
+        "optionA": "GestureDetector",
+        "optionB": "InkWell",
+        "optionC": "Listener",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you implement localization in a Flutter app?",
+        "optionA": "Using the flutter_localizations package",
+        "optionB": "Using the intl package",
+        "optionC": "Using the localization package",
+        "optionD": "Using the l10n package",
+        "answer": "Using the flutter_localizations package",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a horizontal divider?",
+        "optionA": "Divider",
+        "optionB": "HorizontalDivider",
+        "optionC": "SplitView",
+        "optionD": "HorizontalSplit",
+        "answer": "Divider",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a responsive layout in Flutter?",
+        "optionA": "Using the LayoutBuilder widget",
+        "optionB": "Using the MediaQuery class",
+        "optionC": "Using the ResponsiveBuilder package",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to display a linear progress indicator?",
+        "optionA": "LinearProgressIndicator",
+        "optionB": "CircularProgressIndicator",
+        "optionC": "ProgressBar",
+        "optionD": "LoadingIndicator",
+        "answer": "LinearProgressIndicator",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a modal bottom sheet in Flutter?",
+        "optionA": "Using the showModalBottomSheet function",
+        "optionB": "Using the BottomSheet widget",
+        "optionC": "Using the showBottomSheet function",
+        "optionD": "Using the ModalBottomSheet widget",
+        "answer": "Using the showModalBottomSheet function",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a dismissible list item?",
+        "optionA": "Dismissible",
+        "optionB": "Swipable",
+        "optionC": "Draggable",
+        "optionD": "Removable",
+        "answer": "Dismissible",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a custom theme in Flutter?",
+        "optionA": "Using the ThemeData class",
+        "optionB": "Using the Theme class",
+        "optionC": "Using the CustomTheme class",
+        "optionD": "Using the AppTheme class",
+        "answer": "Using the ThemeData class",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to display a placeholder image?",
+        "optionA": "Placeholder",
+        "optionB": "Image",
+        "optionC": "Container",
+        "optionD": "Box",
+        "answer": "Placeholder",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle lifecycle events in a StatefulWidget?",
+        "optionA": "Using the initState and dispose methods",
+        "optionB": "Using the build method",
+        "optionC": "Using the createState method",
+        "optionD": "Using the setState method",
+        "answer": "Using the initState and dispose methods",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create an animation in Flutter?",
+        "optionA": "Using the AnimationController class",
+        "optionB": "Using the AnimatedBuilder widget",
+        "optionC": "Using the AnimatedWidget class",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a draggable item?",
+        "optionA": "Draggable",
+        "optionB": "DragTarget",
+        "optionC": "DragItem",
+        "optionD": "Movable",
+        "answer": "Draggable",
+        "category": "Flutter"
+    }
+,
+    {
+        "question_text": "How do you add a dependency in a Flutter project?",
+        "optionA": "By adding it to the `dependencies` section in the `pubspec.yaml` file",
+        "optionB": "By adding it to the `dependencies` section in the `build.gradle` file",
+        "optionC": "By adding it to the `dependencies` section in the `settings.xml` file",
+        "optionD": "By adding it to the `dependencies` section in the `AndroidManifest.xml` file",
+        "answer": "By adding it to the `dependencies` section in the `pubspec.yaml` file",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create an infinite scrolling list in Flutter?",
+        "optionA": "ListView",
+        "optionB": "GridView",
+        "optionC": "PageView",
+        "optionD": "SingleChildScrollView",
+        "answer": "ListView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle navigation in a Flutter app?",
+        "optionA": "Using the Navigator class",
+        "optionB": "Using the Route class",
+        "optionC": "Using the Page class",
+        "optionD": "Using the Navigation class",
+        "answer": "Using the Navigator class",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "What command is used to create a new Flutter project?",
+        "optionA": "flutter init",
+        "optionB": "flutter new",
+        "optionC": "flutter create",
+        "optionD": "flutter start",
+        "answer": "flutter create",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget should you use to display a large number of items in a scrolling list?",
+        "optionA": "Column",
+        "optionB": "ListView.builder",
+        "optionC": "ListView",
+        "optionD": "Row",
+        "answer": "ListView.builder",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add padding to a widget in Flutter?",
+        "optionA": "Using the Padding widget",
+        "optionB": "Using the Margin widget",
+        "optionC": "Using the Spacer widget",
+        "optionD": "Using the Align widget",
+        "answer": "Using the Padding widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a button in Flutter?",
+        "optionA": "TextButton",
+        "optionB": "FlatButton",
+        "optionC": "ElevatedButton",
+        "optionD": "RaisedButton",
+        "answer": "ElevatedButton",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you specify an image in Flutter?",
+        "optionA": "Using the Image.asset widget",
+        "optionB": "Using the Image.file widget",
+        "optionC": "Using the Image.network widget",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget would you use to create a scrollable list of widgets arranged linearly?",
+        "optionA": "GridView",
+        "optionB": "ListView",
+        "optionC": "SingleChildScrollView",
+        "optionD": "PageView",
+        "answer": "ListView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "What is the purpose of the `pubspec.yaml` file in a Flutter project?",
+        "optionA": "To configure the app's dependencies and assets",
+        "optionB": "To configure the app's routes",
+        "optionC": "To configure the app's themes",
+        "optionD": "To configure the app's database settings",
+        "answer": "To configure the app's dependencies and assets",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a new StatefulWidget in Flutter?",
+        "optionA": "Extend the StatelessWidget class",
+        "optionB": "Extend the StatefulWidget class",
+        "optionC": "Implement the Widget class",
+        "optionD": "Implement the BuildContext class",
+        "answer": "Extend the StatefulWidget class",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which method is used to update the state of a StatefulWidget?",
+        "optionA": "setState",
+        "optionB": "updateState",
+        "optionC": "refreshState",
+        "optionD": "rebuildState",
+        "answer": "setState",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a Column in Flutter?",
+        "optionA": "Using the Column widget",
+        "optionB": "Using the Row widget",
+        "optionC": "Using the ListView widget",
+        "optionD": "Using the GridView widget",
+        "answer": "Using the Column widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget would you use to create a horizontally scrollable list?",
+        "optionA": "ListView",
+        "optionB": "SingleChildScrollView",
+        "optionC": "PageView",
+        "optionD": "Row",
+        "answer": "ListView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you make a network request in Flutter?",
+        "optionA": "Using the http package",
+        "optionB": "Using the dio package",
+        "optionC": "Using the http_client package",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a drop-down list in Flutter?",
+        "optionA": "DropDownButton",
+        "optionB": "DropDownMenu",
+        "optionC": "DropdownButton",
+        "optionD": "DropMenu",
+        "answer": "DropdownButton",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle asynchronous operations in Flutter?",
+        "optionA": "Using Future and async/await",
+        "optionB": "Using Streams",
+        "optionC": "Using Callbacks",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget would you use to display a snackbar in Flutter?",
+        "optionA": "SnackBar",
+        "optionB": "Toast",
+        "optionC": "AlertDialog",
+        "optionD": "BottomSheet",
+        "answer": "SnackBar",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you create a custom widget in Flutter?",
+        "optionA": "By extending a pre-existing widget",
+        "optionB": "By using the Container widget",
+        "optionC": "By using the CustomWidget class",
+        "optionD": "By extending the StatelessWidget or StatefulWidget classes",
+        "answer": "By extending the StatelessWidget or StatefulWidget classes",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a card-like container in Flutter?",
+        "optionA": "Card",
+        "optionB": "Container",
+        "optionC": "Box",
+        "optionD": "Frame",
+        "answer": "Card",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you implement state management in Flutter?",
+        "optionA": "Using the setState method",
+        "optionB": "Using the Provider package",
+        "optionC": "Using the Riverpod package",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a scrollable grid of widgets?",
+        "optionA": "GridView",
+        "optionB": "ListView",
+        "optionC": "Table",
+        "optionD": "Wrap",
+        "answer": "GridView",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you add a bottom navigation bar in a Flutter app?",
+        "optionA": "Using the BottomNavigationBar widget",
+        "optionB": "Using the BottomAppBar widget",
+        "optionC": "Using the NavigationBar widget",
+        "optionD": "Using the BottomBar widget",
+        "answer": "Using the BottomNavigationBar widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which widget is used to create a drawer in Flutter?",
+        "optionA": "Drawer",
+        "optionB": "SideMenu",
+        "optionC": "SideDrawer",
+        "optionD": "MenuDrawer",
+        "answer": "Drawer",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you handle user input in Flutter?",
+        "optionA": "Using the TextField widget",
+        "optionB": "Using the TextInput widget",
+        "optionC": "Using the InputField widget",
+        "optionD": "Using the FormField widget",
+        "answer": "Using the TextField widget",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "What is the main function of the build method in a Flutter widget?",
+        "optionA": "To create the widget's UI",
+        "optionB": "To manage the widget's state",
+        "optionC": "To initialize the widget's properties",
+        "optionD": "To dispose of the widget's resources",
+        "answer": "To create the widget's UI",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you apply a theme to a Flutter app?",
+        "optionA": "Using the ThemeData class",
+        "optionB": "Using the AppTheme class",
+        "optionC": "Using the Theme class",
+        "optionD": "Using the MaterialTheme class",
+        "answer": "Using the ThemeData class",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you display a dialog in Flutter?",
+        "optionA": "Using the showDialog function",
+        "optionB": "Using the Dialog widget",
+        "optionC": "Using the AlertDialog widget",
+        "optionD": "All of the above",
+        "answer": "All of the above",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "Which package is commonly used for testing in Flutter?",
+        "optionA": "test",
+        "optionB": "flutter_test",
+        "optionC": "flutter_driver",
+        "optionD": "flutter_test_tools",
+        "answer": "flutter_test",
+        "category": "Flutter"
+    },
+    {
+        "question_text": "How do you perform hot reload in Flutter?",
+        "optionA": "Pressing 'r' in the terminal",
+        "optionB": "Pressing 'R' in the terminal",
+        "optionC": "Pressing 'h' in the terminal",
+        "optionD": "Pressing 'ctrl + R' in the terminal",
+        "answer": "Pressing 'r' in the terminal",
+        "category": "Flutter"
+    }
+]

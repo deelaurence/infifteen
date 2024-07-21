@@ -14,7 +14,10 @@ class Command(BaseCommand):
         # json_file_path = os.path.join(base_dir, 'json', 'javascript.json')
         # json_file_path = os.path.join(base_dir, 'json', 'sql.json')
         # json_file_path = os.path.join(base_dir, 'json', 'react.json')
-        json_file_path = os.path.join(base_dir, 'json', 'laravel.json')
+        # json_file_path = os.path.join(base_dir, 'json', 'laravel.json')
+        # json_file_path = os.path.join(base_dir, 'json', 'springboot.json')
+        # json_file_path = os.path.join(base_dir, 'json', 'django.json')
+        json_file_path = os.path.join(base_dir, 'json', 'flutter.json')
 
         # Ensure the path is correct by printing it
         self.stdout.write(self.style.WARNING(f'Loading questions from {json_file_path}'))
