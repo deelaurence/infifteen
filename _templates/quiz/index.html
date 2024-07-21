@@ -330,11 +330,7 @@
                     //When time elapses, submit the user score
                     clearInterval(interval);        
                         console.log('Submitting Quiz')
-                        setTimeout(() => {
-                            document.getElementById('hiddenSubmitButton').click()
-                            // leaderboardForm.submit();
-                        }, 2000);
-                        
+                        document.getElementById('hiddenSubmitButton').click()
                         leaderboardForm.style.display='none'   
                         selectPage(pageTwo)
                 }

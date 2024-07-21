@@ -10,7 +10,7 @@ brevo_key = config('BREVO_KEY')
 
 
 class Question(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     question_text = models.TextField()
     optionA = models.CharField(max_length=255)
     optionB = models.CharField(max_length=255)
