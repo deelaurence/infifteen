@@ -10,14 +10,14 @@
         <p class="already inline">Already have an account?<a class="underline" href="{% url 'login' %}">Login</a> </p>
         {% csrf_token %}
             <div class="mt-6">
-            <label class="" for="{{ form.name.id_for_label }}">Name</label>
+            <label class="" for="{{ form.name.id_for_label }}">First Name</label>
             <input 
                 type="text" 
                 name="{{ form.name.name }}" 
                 id="{{ form.name.id_for_label }}" 
                 class="form-control" 
                 value=""
-                placeholder="Enter your name">
+                placeholder="Enter your first name">
                 
                 <p class="error-line">{{ form.name.errors }}</p>  
             </div>
@@ -40,7 +40,7 @@
                     name="{{ form.password1.name }}" 
                     id="{{ form.password1.id_for_label }}" 
                     class="form-control" 
-                    value="loperamide"
+                    value=""
                     placeholder="Enter your password">
 
                     <p class="error-line"> {{ form.password1.errors }}</p>
@@ -52,7 +52,7 @@
                     name="{{ form.password2.name }}" 
                     id="{{ form.password2.id_for_label }}" 
                     class="form-control" 
-                    value="loperamide"
+                    value=""
                     placeholder="Enter your password again">
                     
                     <p class="error-line">{{ form.password2.errors }}</p> 
