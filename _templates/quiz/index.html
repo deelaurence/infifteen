@@ -85,8 +85,8 @@
             <div class="flex  border-b-[1px] items-center py-4 border-shade4">
                 <p class="w-8 text-xs underline ">{{ forloop.counter0|add:1 }} </p>
                 <p class="w-1/3  results-name">{{result.name}}</p>
-                <p class="w-1/3 ">{{result.category|capfirst}}</p>
-                <p class="w-1/4 ">{{result.fair_result}}</p>
+                <p class="w-1/3 results-category ">{{result.category|capfirst}}</p>
+                <p class="w-1/4 results-point ">{{result.fair_result}}</p>
             </div>
             {% endfor %}
 
@@ -134,6 +134,19 @@
     
     <script>
 
+        
+
+
+        //Embolden anything in backticks
+        document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".quiz-question, .quiz-option").forEach(function(element) {
+            element.innerHTML = element.innerHTML.replace(/`([^`]+)`/g, '<strong>$1</strong>');
+            });
+        });
+
+
+
+
         // Dom selections        
         
         let index = 0;
@@ -159,13 +172,19 @@
         let correctlyAnswered=0;
         let questionIndex=0
         let resultsName=document.querySelectorAll('.results-name')
-
+        let resultCategory = document.querySelectorAll('.results-category')
+        let resultPoint = document.querySelectorAll('.results-point')
         // If the name the user have in local storage is on the leaderboard
         // bolden it on the leaderboard list
-        resultsName.forEach((name)=>{
+        resultsName.forEach((name,index)=>{
             if(name.textContent==localStorage.getItem('name')){
+                //Bolden the name
                 name.style.fontWeight='600'
                 name.textContent=`${name.textContent}*`
+                
+                // Bolden the category and points
+                resultCategory[index].style.fontWeight='600'
+                resultPoint[index].style.fontWeight='600'
             }
         })
         
@@ -257,9 +276,7 @@
             const currentOptions = optionClasses
                 .map(getCurrentCarousel)
                 .filter(option => option); // This filters out any falsy values, including `null`, `undefined`, or `false`
-            
-                console.log(optionClasses
-                .map(getCurrentCarousel))
+    
                 currentOptions.forEach((option)=>{
                 option.addEventListener('click',(event)=>{    
                     const selectedOption = event.target;
@@ -272,8 +289,10 @@
                     const correctAnswer = event.target
                         .closest('.single-question')
                         .querySelector('.correct-answer');
-                        
-                    if (selectedOption.textContent === correctAnswer.textContent) {
+
+                    //replace backticks from the correct ANSWER because backticks have been converted
+                    //to <strong></strong> in the correct OPTION    
+                    if (selectedOption.textContent === correctAnswer.textContent.replace(/`/g, '')) {
                         selectedOption.classList.add('correct-answer')
                         //prevent multiple clicking of correct answer
                         if(nextBtnContainer.style.display == 'block'){
@@ -285,7 +304,7 @@
                     } else {
                         selectedOption.classList.add('wrong-answer')
                         currentOptions.forEach((option)=>{
-                            if(option.textContent===correctAnswer.textContent){
+                            if(option.textContent===correctAnswer.textContent.replace(/`/g, '')){
                                 option.classList.add('correct-answer')
                             }
                         })
@@ -327,12 +346,15 @@
 
                 if (--timer < 0) {
                     timer = 0;
+                    //Briefly show form
+                    leaderboardForm.style.display = 'block';
+
                     //When time elapses, submit the user score
                     clearInterval(interval);        
-                        console.log('Submitting Quiz')
-                        document.getElementById('hiddenSubmitButton').click()
-                        leaderboardForm.style.display='none'   
-                        selectPage(pageTwo)
+                    console.log('Submitting Quiz')
+                    document.getElementById('hiddenSubmitButton').click()
+                    leaderboardForm.style.display='none'   
+                    selectPage(pageTwo)
                 }
                 
                 

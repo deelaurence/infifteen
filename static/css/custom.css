@@ -19,6 +19,11 @@ nav{
     z-index: 2 !important;
 }
 
+/* A very important logic to make sure only parents of the options is 
+clickable not the inner emboldened <strong> children */
+.quiz-option * {
+    pointer-events: none;
+}
 
 .hero-text{
     /* display: none; */
