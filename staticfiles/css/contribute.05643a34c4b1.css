@@ -1,0 +1,127 @@
+:root {
+    --shade1: #212A31;
+    --shade2: #2E3944;
+    --shade3: #12E466;
+    --shade4: #748D92;
+    --shade5: #D3D9D4;
+  }
+
+.add-option-btn{
+    background-color: var(--shade2);
+    border-radius: 30px;
+    width: 66%;
+    cursor: pointer;
+}
+.choose-correct-btn{
+    background-color: var(--shade2);
+    border-radius: 30px;
+    width: 33%;
+}
+.answers-btn-group{
+    flex-direction: row;
+}
+
+
+
+.a_wrapper{
+    
+    transform: translateY(-100px);
+    transition-duration: 1s;
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+    /* display: none; */
+}
+
+.b_wrapper{
+    
+    transform: translateY(-180px);
+    transition-duration: 1s;
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+    /* display: none; */
+}
+.c_wrapper{
+    
+    transform: translateY(-240px);
+    transition-duration: 1s;
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+    /* display: none; */
+}
+.d_wrapper{
+    
+    transform: translateY(-300px);
+    transition-duration: 2s;
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+    /* display: none; */
+}
+
+
+textarea{
+    width: 100%;
+    
+    overflow: hidden;
+    resize: none; /* Prevent the user from resizing it manually */
+    height: 60px; /* Set a minimum height */
+    font-weight: 500;
+    background: var(--shade5);
+    border-bottom: .9px solid var(--shade2);
+    outline: none;
+    border-radius: 2px;
+    padding: 8px 8px;
+    
+
+}
+
+
+textarea:focus{
+    border-bottom: 3px solid var(--shade2);
+    opacity: 1;
+    outline: none;
+}
+.a_wrapper.active
+ {
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 0;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.2s;
+}
+
+.b_wrapper.activeb{
+    /* transform: translateY(-120px); */
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94)s;
+    opacity: 1;
+    z-index: 0;
+    transition-duration: 1.2s;
+}
+.c_wrapper.activec{
+    /* transform: translateY(-220px); */
+    opacity: 1;
+    z-index: 0;
+    transition-duration: .8s;
+}
+.d_wrapper.actived{
+    /* transform: translateY(-300px); */
+    opacity: 1;
+    z-index: 0;
+    transition-duration: 2ss;
+}
+
+
+#basic-dropdown{
+    background: transparent;
+    padding: 4px;
+}
+
+
+.editing-info{
+    font-size: 16px;
+    font-style: italic;
+    opacity: .7;
+}

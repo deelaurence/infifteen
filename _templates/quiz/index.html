@@ -72,26 +72,9 @@
     <!-- page two 
     Leaderboard page-->
     <div style="display: none;" class="page-two">
-        <!-- <img src="https://cdn-icons-png.flaticon.com/128/16865/16865619.png" alt="">           -->
-        <div>
-            <h2 class=" text-4xl  sm:text-6xl  md:text-8xl mb-10 md:mb-16 font-bold" >Leaderboard.</h2>
-            <div class="flex  font-semibold">
-                <p class="w-8">Rn.</p>
-                <p class="w-1/3">Name</p>
-                <p class="w-1/3">Category</p>
-                <p class="w-1/4">Points</p>
-            </div>
-            {% for result in leaderboard %}
-            <div class="flex  border-b-[1px] items-center py-4 border-shade4">
-                <p class="w-8 text-xs underline ">{{ forloop.counter0|add:1 }} </p>
-                <p class="w-1/3  results-name">{{result.name}}</p>
-                <p class="w-1/3 results-category ">{{result.category|capfirst}}</p>
-                <p class="w-1/4 results-point ">{{result.fair_result}}</p>
-            </div>
-            {% endfor %}
-
-        </div>
-        <form style="display: none;" method="post" action="{% url 'quiz-in-category' category %}" class="*:flex *:flex-col *:gap-1 *:mb-4 ">
+        <form 
+        style="position: absolute; z-index: -10; opacity: 0;"
+        method="post" action="{% url 'quiz-in-category' category %}" class="*:flex *:flex-col *:gap-1 *:mb-4 ">
             {% csrf_token %}
                 <div class="mt-6">
                     <input 
@@ -128,9 +111,29 @@
                <button type="submit" id="hiddenSubmitButton" style="display: none;"></button>
                    <!-- Include the reusable form errors template -->
                     {% include 'includes/form_errors.html' with form=form %}               
-                </form>
-                <a href="{% url 'home' %}" class="bg-shade2 w-full py-3 font-semibold text-center flex justify-center items-center mt-4 text-shade5 ">Home</a>
+        </form>
+        <div>
+            <h2 class=" text-4xl  sm:text-6xl  md:text-8xl mb-10 md:mb-16 font-bold" >Leaderboard.</h2>
+            <div class="flex  font-semibold">
+                <p class="w-8">Rn.</p>
+                <p class="w-1/3">Name</p>
+                <p class="w-1/3">Category</p>
+                <p class="w-1/4">Points</p>
+            </div>
+            {% for result in leaderboard %}
+            <div class="flex  border-b-[1px] items-center py-4 border-shade4">
+                <p class="w-8 text-xs underline ">{{ forloop.counter0|add:1 }} </p>
+                <p class="w-1/3  results-name">{{result.name}}</p>
+                <p class="w-1/3 results-category ">{{result.category|capfirst}}</p>
+                <p class="w-1/4 results-point ">{{result.fair_result}}</p>
+            </div>
+            {% endfor %}
+
+        </div>
+        
+        <a href="{% url 'home' %}" class="bg-shade2 w-full py-3 font-semibold text-center flex justify-center items-center mt-4 text-shade5 ">Home</a>
     </div>
+    <script type="module" src="../../staticfiles/js/submitting.js"></script>
     
     <script>
 
@@ -331,7 +334,6 @@
         initializeCarousel();
         updateQuestion()
 
-
         //Timer updates every second
         const startTimer = (duration, display) => {
             let timer = duration, minutes, seconds;
@@ -346,15 +348,18 @@
 
                 if (--timer < 0) {
                     timer = 0;
-                    //Briefly show form
-                    leaderboardForm.style.display = 'block';
-
+                    
                     //When time elapses, submit the user score
-                    clearInterval(interval);        
-                    console.log('Submitting Quiz')
-                    document.getElementById('hiddenSubmitButton').click()
-                    leaderboardForm.style.display='none'   
-                    selectPage(pageTwo)
+                    clearInterval(interval);
+                    try {
+                        console.log('Submitting Quiz')
+                        console.log(leaderboardForm)
+                        document.getElementById('hiddenSubmitButton').click()
+                           
+                        selectPage(pageTwo) 
+                    } catch (error) {
+                        console.log(error)
+                    }        
                 }
                 
                 
@@ -362,7 +367,7 @@
         };
             
         //The time
-        const fifteenMinutes = 60 * 1;
+        const fifteenMinutes = 60 * .15;
         
 
         //Extract names coming from backend
