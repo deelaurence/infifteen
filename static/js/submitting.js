@@ -26,3 +26,21 @@ hyperLinks.forEach((element)=>{
 
 
 
+function onBackButtonEvent(event) {
+     // Prevent the default action
+    loader.classList.remove('loader-cont')
+    console.log("Back button was pressed!");
+    // You can add any other logic you need here
+}
+
+// Listen for the popstate event
+window.addEventListener('popstate', onBackButtonEvent);
+
+// Add a history entry to ensure the back button can be pressed
+history.pushState(null, null, location.href);
+
+// Optional: Handle page refresh or close
+window.addEventListener('beforeunload', (event) => {
+    // loader.classList.remove('loader-cont') 
+    console.log("Page is being closed or refreshed!");
+});
