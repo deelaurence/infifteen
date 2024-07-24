@@ -9,7 +9,7 @@
         "category": "SpringBoot"
     },
     {
-        "question_text": "How do you specify a Spring Boot application’s main class?",
+        "question_text": "How do you specify a Spring Boot application's main class?",
         "optionA": "By using the `@SpringBootApplication` annotation",
         "optionB": "By setting `mainClass` in `application.properties`",
         "optionC": "By creating a `MainClass` with `@Application` annotation",
