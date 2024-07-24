@@ -286,6 +286,7 @@ nav{
 
 /* HTML: <div class="loader"></div> */
 .wobble {
+    opacity: 0.8;
     width: 120px;
     height: 60px;
     padding: 10px;
@@ -293,20 +294,20 @@ nav{
     display: flex;
     justify-content: space-between;
     background: var(--shade5);
-    filter: blur(5px) contrast(10) ;
+    filter: blur(5px) contrast(10);
     mix-blend-mode: darken;
   }
   .wobble:before,
   .wobble:after {
     content: "";
     width: 40px;
-    border-radius: 50%;
-    background: var(--shade2);
-    animation: l3 1s infinite alternate;
+    border-radius: 40%;
+    background: #0d0e0edb;
+    animation: l3 1.5s infinite alternate;
   }
   .wobble:after {
     --s:-1;
   }
   @keyframes l3{
-    90%,100% {transform: translate(calc(var(--s,1)*30px))}
+    90%,100% {transform: translate(calc(var(--s,1)*40px))}
   }
