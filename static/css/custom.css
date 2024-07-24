@@ -19,6 +19,10 @@ nav{
     z-index: 2 !important;
 }
 
+.content{
+    padding-top: 140px;
+}
+
 /* A very important logic to make sure only parents of the options is 
 clickable not the inner emboldened <strong> children */
 .quiz-option * {
@@ -36,6 +40,9 @@ clickable not the inner emboldened <strong> children */
 .hero-text1{
     font-size: 5rem;
     line-height: 4rem;
+    border-bottom: solid 2px var(--shade4);
+    /* border-left: solid 2px var(--shade4); */
+    /* border-right: solid 2px var(--shade4); */
     font-weight: 700;
     color: var(--shade2);
 }
