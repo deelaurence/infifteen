@@ -54,7 +54,9 @@
             case 1:
                 optionAWrapper.classList.add('active');
                 optionAWrapper.style.transform = "translateY(0px)"
-                optionA.focus()
+                setTimeout(() => {
+                    optionA.focus()
+                }, 1000);
                 break;
             case 2:
                 optionAWrapper.style.transform = "translateY(80px)"
