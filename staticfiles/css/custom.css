@@ -40,11 +40,20 @@ clickable not the inner emboldened <strong> children */
 .hero-text1{
     font-size: 5rem;
     line-height: 4rem;
-    border-bottom: solid 2px var(--shade4);
+    /* border-bottom: solid 2px var(--shade4); */
     /* border-left: solid 2px var(--shade4); */
     /* border-right: solid 2px var(--shade4); */
     font-weight: 700;
     color: var(--shade2);
+}
+
+.under_line{
+    text-decoration: underline;
+    text-underline-offset: 0.4px;
+    text-decoration-skip:none !important;
+    text-decoration-thickness: 1.8px;
+    text-decoration-color: var(--shade4);
+
 }
 
 .hero-text2{
