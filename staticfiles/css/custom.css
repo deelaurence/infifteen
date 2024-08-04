@@ -49,8 +49,8 @@ clickable not the inner emboldened <strong> children */
 
 .under_line{
     text-decoration: underline;
-    text-underline-offset: 0.4px;
-    text-decoration-skip:none !important;
+    text-underline-offset: 0px;
+    text-decoration-skip-ink: none !important;
     text-decoration-thickness: 1.8px;
     text-decoration-color: var(--shade4);
 
